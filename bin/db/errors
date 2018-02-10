@@ -1,0 +1,46 @@
+#
+# Table structure for table 'comments'
+#
+CREATE TABLE comments (
+  Id int(11) DEFAULT 0 NOT NULL,
+  CommentDate int(11) DEFAULT 0 NOT NULL,
+  Commenter varchar(13) DEFAULT '' NOT NULL,
+  Comment text NOT NULL,
+  KEY Id (Id)
+);
+
+#
+# Table structure for table 'errors'
+#
+CREATE TABLE errors (
+  Id int(11) DEFAULT 0 NOT NULL auto_increment,
+  DirEntryDate int(11) DEFAULT 0 NOT NULL,
+  EntryDate int(11) DEFAULT 0 NOT NULL,
+  FixDate int(11),
+  Directory varchar(150) DEFAULT '' NOT NULL,
+  Filename varchar(100) DEFAULT '' NOT NULL,
+  Category enum('ROOM','OBJECT','RITUAL','SPELL','HELP','COMMAND','GENERAL') DEFAULT 'ROOM' NOT NULL,
+  Type enum('TYPO','BUG','IDEA') DEFAULT 'BUG' NOT NULL,
+  Name varchar(255) DEFAULT '',
+  Reporter varchar(13) DEFAULT '' NOT NULL,
+  Fixer varchar(13),
+  Status enum('OPEN','FIXING','CONSIDERING','DENIED','FIXED') DEFAULT 'OPEN' NOT NULL,
+  Report text,
+  Runtime text,
+  PRIMARY KEY (Id),
+  KEY Type (Type),
+  KEY Status (Status),
+  KEY Filename (Filename),
+  KEY Directory (Directory)
+);
+
+
+# Table structure for table 'forwards'
+#
+CREATE TABLE forwards (
+  Id int(11) DEFAULT 0 NOT NULL,
+  ForwardDate int(11) DEFAULT 0 NOT NULL,
+  Forwarder varchar(13) DEFAULT '' NOT NULL,
+  OldDirectory varchar(150) DEFAULT '' NOT NULL,
+  KEY Id (Id)
+);

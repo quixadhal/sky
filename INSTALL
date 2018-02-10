@@ -1,0 +1,29 @@
+1) cd fluffos-2.9-ds2.04
+2) ./configure skylib
+3) make
+4) make install
+5) cd ../bin
+6) vi config
+
+Change the following:
+
+name
+mudlib directory
+binary directory
+external_port_1
+
+7) ./driver ./config &
+8) telnet localhost 8000
+
+or whatever the port number is you specified
+
+9) Follow the instruction in the file called README starting
+at number 2.
+
+
+A note on databases:
+The original Skylib 1.8 assumed you had a database going.
+This bundle does not make that assumption. To use your
+computer's database, modify fluffos-2.9-ds2.02/local_options
+to enable the DB package, and please know what you are
+doing if you choose to try this. 

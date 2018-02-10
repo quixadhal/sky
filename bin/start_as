@@ -1,0 +1,9 @@
+#!/bin/bash
+
+PWD=/home/user/skylib1.8/bin/
+
+if [ -f ${PWD}/info ]; then
+  . ${PWD}/info
+  fi
+
+${BIND}addr_server ${APRT} >> ${ADDF} 2>> ${ADDF} &

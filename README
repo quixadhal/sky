@@ -1,0 +1,102 @@
+                 How to get this mudlib up and running:
+                 --------------------------------------
+
+Firstly, you need to follow the instructions.  You also need to have a
+modicum of skill in doing the task required, we are not going to hold your
+hand through this or wipe your bottom if you stuff up but we will do our
+best to explain the process of getting this mudlib up and running.
+
+    1. The Driver:
+       - If using Microsoft Windows, follow the instructions in INSTALL-windows.txt
+       - Otherwise, follow the instructions in INSTALL
+
+    2. Setting up the Mudlib.
+       Once you have compiled the driver you can run it.  Ideally you want
+       to have two windows open, one to run the driver in and the other
+       to telnet to the port its running on.  Its up to you but I find
+       that if something errors, I can just Ctrl-C the driver process and
+       and fix it and then restart the driver.
+
+       - Before running the driver modify any mudlib options you want in
+         /secure/include/global/customise.h including admin email
+         for intermud and login screens. The settings for database
+	 access and similar are defined in /secure/include/config.h
+	 You should also modify your port numbers for FTP,
+         HTTP etc. in /secure/include/network.h.  It is important
+         to note that you should have an empty port one under your FTP
+         port (e.g. 7302 for ftp and 7301 free).
+
+       - To run the driver, you need to specify the path of the config
+         to it.
+
+         e.g. 'driver config' assuming your config file and the driver
+              binary are in the same directory.
+
+       - Ideally if you want to run the address server too, you want to
+         give it the port to run on which is the same as the port
+         specified for it in the config file, the address_server converts
+         ip numbers to ip addresses.  It is possible to run the mud without
+         the address server.
+
+       - Once you are happy that the mud is running smoothly use
+         ./start_mud to start the mud which starts the address_server
+         and the driver as well as a script that will restart the
+         mud when it has been shutdown from inside the mud.
+
+    3. Logging in for the first time.
+       To save the hassle of hacking save files and all, a default
+       character of admin level have been added.
+
+       - login :    default
+       - password : password
+
+       NOTE: Note that before you put the mud on the net, you will
+             want to demote or at least change the password of this
+             character.  Don't blame us for your stupidity in this
+             regard.  The best way would be to log in with another
+	     character, promote them with "securitytool", and put
+	     them in the "admin" domain, effectively making them
+	     an admin.  After that it is safe to demote "default".
+
+    4. MYSQL Databases.
+       A few things in the mud are built to use mysql databases,
+       namely the map handler, and errors database.
+       - To turn on the database efuns, you need to turn on PACKAGE_DB
+         in local_options, and of course, have mysql along with the
+	 header files installed on the host.
+       - The system uses the databases 'clusters' and 'errors' by
+         default. If you choose to use other names for these databases,
+	 do not forget to update the settings in /secure/include/config.h
+	 Once the database is setup you must set up the tables.
+         The table definitions are in the /bin/db directory.
+       - To create the databases:
+         mysqladmin create database clusters
+         mysqladmin create database errors
+         cd $(bindir)/db
+         mysql errors < errors
+         mysql clusters < clusters
+
+    5. Documentation.
+       Most of the files in the mudlib have embedded documentation in them,
+       which is extracted from the actual files by the autodoc handler,
+       which creates a separate save file for each of the docs, which are
+       then used by the help command.  However, to keep the size of the
+       mudlib down, we have deleted the extracted documentation, but left
+       the file names in the handler, which means that it will take a
+       couple of days for the handler to recreate the documentation for
+       the whole lib.  To force the handler to create documentation for a
+       file already in the handler, use 'autodoc <filename>', or
+       'autodocadd <filename>' to add a file into the list of files the
+       handler should keep track of.  To remove a file from the handler,
+       use 'autodocrm <filename>'.
+       For an overview of the documentation syntax, please read
+       'help autodoc handler'.
+
+That's about it, as you can see you need to have a modicum of knowledge
+to set up the mudlib.  If you have any problems with the mudlib,
+suggestions, and/or comments please contact:
+
+Sandoz, sandoz@divided-sky.com
+
+Divided Sky - telnet://divided-sky.com:7300
+              http://www.divided-sky.com

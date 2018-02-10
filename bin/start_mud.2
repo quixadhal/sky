@@ -1,0 +1,29 @@
+#!/bin/bash
+
+PWD=/home/user/skylib1.8/bin/
+
+if [ -f ${PWD}/info ]; then
+  . ${PWD}/info
+  fi
+
+while( true ) do
+  if [ -f ${ELOG} ]; then
+    if [ -f ${ELOG}.old ]; then
+      rm ${ELOG}.old
+      fi
+    mv ${ELOG} ${ELOG}.old
+    fi
+
+  if [ -f ${DLOG} ]; then
+    if [ -f ${DLOG}.old ]; then
+      rm ${DLOG}.old
+      fi
+    mv ${DLOG} ${DLOG}.old
+    fi
+
+  if [ -f ${CORE} ]; then
+    rm ${CORE}
+    fi
+
+  ${BIND}driver ${BIND}config;
+done;

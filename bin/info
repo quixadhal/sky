@@ -1,0 +1,16 @@
+HOME=/home/user/skylib1.8/
+BIND=${HOME}bin/
+
+# Used by 'backup_mud'
+MUDLIBD=mudlib/
+BACKUPD=backup/
+
+# Used by 'start_as' 
+ADDF=${HOME}${MUDLIBD}/log/ADDRESS_SERVER
+APRT=8004
+
+# Used by 'start_mud.2'
+CORE=${HOME}mudlib/core
+ELOG=${HOME}mudlib/log/driver.log
+DLOG=${HOME}mudlib/log/debug.log
+

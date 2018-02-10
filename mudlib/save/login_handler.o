@@ -1,0 +1,2 @@
+#/handlers/login_handler.c
+_static_login_calls (["all":({(/"/d/playtesters/handlers/login_calls","do_login_calls",/),}),])

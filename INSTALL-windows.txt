@@ -1,0 +1,35 @@
+If at any point you have problems with these directions, post the 
+exact problem and errors on http://lpmuds.net/forum
+
+How to install Skylib for windows:
+
+1) Uncompress this package and move/rename the folder so that the folders like bin and mudlib
+   are in c:\skylib
+
+2) Use wordpad to edit c:\skylib\bin\config.win32 and change the mudname
+
+3) Double-click on c:\skylib\win32\mud.bat
+
+4) telnet to localhost 8000
+
+5) Login using the following information:
+
+       - login :    default
+       - password : password
+
+       NOTE: Note that before you put the mud on the net, you will
+             want to demote or at least change the password of this
+             character.  The best way would be to log in with another
+	     character, promote them with "securitytool", and put
+	     them in the "admin" domain, effectively making them
+	     an admin.  After that it is safe to demote "default".
+
+       If you do not follow the instructions above, the chances 
+       are good that someone else will log in and take over your mud.
+
+6) Review the information in the README, read the docs, play with your
+   new mud, and have fun! If you have problems, post them in the Skylib
+   area of http://lpmuds.net/forum
+
+Note: The Windows port is experimental and does not support databases, 
+external commands, nor compressed data.

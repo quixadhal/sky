@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PWD=/home/user/skylib1.8/bin/
+
+if [ -f ${PWD}/info ]; then
+  . ${PWD}/info
+  fi
+
+${BIND}start_as
+${BIND}start_mud.2 &
+

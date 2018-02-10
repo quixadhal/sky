@@ -1,0 +1,25 @@
+.\"returns the natural logarithm of a float
+.DT
+log
+$MUDNAME$ driver help
+log
+
+.SH Name
+.SI 5
+log() - returns the natural logarithm of a float
+.EI
+
+.SH Synopsis
+.SI 5
+float log( float f );
+.EI
+
+.SH Description
+.SP 5 5
+Returns the natural logarithm of its argument, `f'.  `f' must be positive.
+.EP
+
+.SH See also
+.SI 5
+exp(), pow(), sqrt()
+.EI
