@@ -7,18 +7,18 @@
 ###############################################################################
 
 # name of this mud
-name : Skylib FluffOS
+name : Seattle-sky
 
 # the address server is an external program that lets the mud translate
 # internet names to numbers (and vice versa).  select an unused port.
 address server ip : localhost
-address server port : 8004
+address server port : 4800
 
 # absolute pathname of mudlib
-mudlib directory : /mud/skylib/mudlib/
+mudlib directory : /home/quixadhal/sky/lib/
 
 # absolute pathname of driver/config dir
-binary directory : /mud/skylib/bin/
+binary directory : /home/quixadhal/sky/bin/
 
 # debug.log and author/domain stats are stored here
 log directory : /log
@@ -120,7 +120,7 @@ default fail message : What?
 default error message :
 
 # the external ports we support
-external_port_1 : telnet 8000
+external_port_1 : telnet 7800
 
 # The external programs we allow to be run.
 external_cmd_1 : /usr/bin/rlog
