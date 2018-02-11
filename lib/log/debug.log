@@ -8,3 +8,6 @@ Loading preloaded files ...
 Initializations complete.
 
 Accepting connections on port 7800.
+******** FATAL ERROR: Process interrupted
+FluffOS driver attempting to exit gracefully.
+crash() in master called successfully.  Aborting.

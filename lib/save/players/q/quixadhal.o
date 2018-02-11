@@ -68,7 +68,7 @@ saved_co_ords 0
 last_pos "/room/tavern"
 starts ({})
 _family_name (/0,({}),0,({"mr","miss","mrs","ms",}),0,({}),/)
-time_on -805701
+time_on -806868
 channel_silenced 0
 all_silenced 0
 max_deaths 100
@@ -77,7 +77,7 @@ refresh_time 0
 start_time 1320054531
 creator 1
 deaths 0
-last_log_on 1518159505
+last_log_on 1518344718
 no_logins 30
 activity_counter 0
 last_on_from "localhost (127.0.0.1)"
