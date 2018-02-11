@@ -1,0 +1,39 @@
+.DT
+do_attack_checks
+$MUDNAME$ Creator Help
+do_attack_checks
+
+.SH Name
+.SP 5 5
+do_attack_checks -  This method does all the checks required for any aggressive commands.
+.EP
+
+.SH Syntax
+.SI 5
+object * do_attack_checks(object * things,
+int attack)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^things%^RESET%^ - the things to test
+%^BOLD%^attack%^RESET%^ - if this is 0, then combat will not be
+initiated, if 1, then the things that pass the checks
+will be attacked
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/health.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method does all the checks required for any
+aggressive commands.  If the attack argument is 0,
+then combat will not be initiated, if 1, then the
+targets will be attacked.
+.EP
+

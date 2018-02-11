@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["add_chat_history":({({"void",}),({({"string",}),"channel",({"string",}),"start",({"string",}),"mess",}),(["main":({"Keep a mesage from a specified line on the chat stick.",}),"param":({"channel the channel being stored","start the start string (name)","mess the message being stored",}),]),}),"save_me":({({"void",}),({}),([]),}),"query_chat_history":({({"mixed","*",}),({({"string",}),"channel",}),(["main":({"Returns the current chat channel history. The array contains arrays ofthree elemnts each.,   In each array the first element is thestart, the second the mssage and thwe third the time.<p><code>({  .. ({ start, mess, time }), ({ start, mess, time }), .. })</code>",}),"param":({"channel the channel to get the history of",}),"return":({"an array of the chat channel history.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Save the current state. ",}),])
+define_docs (["MAX_HIS":([]),"SAVE":([]),"HISTORY_TIME":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/history.c"
+last_changed 1013935013

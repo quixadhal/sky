@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_name":({({"string",}),({}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"restart":({({"void",}),({({"object",}),"thing",({"mixed",}),"args",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect protects an object by causing damage to anyone (except the warder) if they try to steal it.  It has a classification of \"ritual.object.warded\".<p>Args are: ({ duration, damage, warder's name })   Note that the first argument is no longer used, and wards don't disappear after a time.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"ritual.object.warded",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/ward.c"
+last_changed 984361859

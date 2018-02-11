@@ -1,0 +1,32 @@
+.DT
+query_place
+$MUDNAME$ Creator Help
+query_place
+
+.SH Name
+.SP 5 5
+query_place -  This method queries the place associated with the cheque.
+.EP
+
+.SH Syntax
+.SI 5
+string query_place()
+.EI
+
+.SH Returns
+.SI 5
+the place associated with the cheque
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/cheque.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries the place associated with the cheque.
+.EP
+

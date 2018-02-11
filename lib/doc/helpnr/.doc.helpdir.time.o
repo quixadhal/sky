@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,4,"%^BOLD%^time","Seattle-sky player help","time%^RESET%^","",8,"Name",7,5,"time - show the current Seattle-sky time","",8,"Syntax",7,5,"time","",8,"Description",3,5,5,"Gives the current time and date on Seattle-sky, and the real life time and date at the location where Seattle-sky's machine is sited. ","",8,"Examples",7,5,"> timeOn Seattle-sky, it is 11:28am, Wednesday 13th January.","",8,"See also",3,5,5,"calendar ","",})
+nroffed_file_name "/doc/helpdir/time"
+modified_time 1517727891

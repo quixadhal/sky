@@ -1,0 +1,37 @@
+.DT
+valid_crime
+$MUDNAME$ Creator Help
+valid_crime
+
+.SH Name
+.SP 5 5
+valid_crime -  This method if the crime type is valid.
+.EP
+
+.SH Syntax
+.SI 5
+int valid_crime(int type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the crime type to check
+.EI
+
+.SH Returns
+.SI 5
+1 if the crime type is valid, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method if the crime type is valid.
+.EP
+

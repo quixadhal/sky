@@ -1,0 +1,33 @@
+.DT
+query_max_hair
+$MUDNAME$ Creator Help
+query_max_hair
+
+.SH Name
+.SP 5 5
+query_max_hair -  This methods queries the max amount of hair this type of skin can have.
+.EP
+
+.SH Syntax
+.SI 5
+int query_max_hair()
+.EI
+
+.SH Returns
+.SI 5
+the max amount hair the skin can have
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This methods queries the max amount of hair this type of
+skin can have.
+.EP
+

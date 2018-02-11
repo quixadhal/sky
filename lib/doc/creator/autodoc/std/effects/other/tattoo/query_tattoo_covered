@@ -1,0 +1,40 @@
+.DT
+query_tattoo_covered
+$MUDNAME$ Creator Help
+query_tattoo_covered
+
+.SH Name
+.SP 5 5
+query_tattoo_covered -  This method scans through a player's clothes/armour and checks whether or not a tattoo area is visible.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_tattoo_covered(object player,
+string part)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player to check
+%^BOLD%^part%^RESET%^ - the bodypart to check
+.EI
+
+.SH Returns
+.SI 5
+the objects covering the tattoo, or 0 if visible
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/other/tattoo.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method scans through a player's clothes/armour and checks
+whether or not a tattoo area is visible.
+.EP
+

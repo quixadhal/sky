@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"time1",({"int",}),"time2",}),([]),}),"random_misery_two":({({"string",}),({}),([]),}),"misery":({({"void",}),({({"object",}),"player",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"random_misery":({({"string",}),({}),([]),}),"query_classification":({({"string",}),({}),([]),}),"random_misery_three":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["PLAYER":([]),"CLASS":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/pandoras_box.c"
+last_changed 962122399

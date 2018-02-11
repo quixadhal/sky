@@ -1,0 +1,32 @@
+.DT
+query_race_ob
+$MUDNAME$ Creator Help
+query_race_ob
+
+.SH Name
+.SP 5 5
+query_race_ob -  This method returns the corpse's race object.
+.EP
+
+.SH Syntax
+.SI 5
+string query_race_ob()
+.EI
+
+.SH Returns
+.SI 5
+the race object
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the corpse's race object.
+.EP
+

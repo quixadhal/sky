@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits (["/std/npc/npc_intelligent":({}),])
+define_docs ([])
+includes (["/include/npc/goals.h":962122463,"/include/npc/plan.h":962122463,])
+class_docs ([])
+file_name "/std/npc/test_npc.c"
+last_changed 1200761934

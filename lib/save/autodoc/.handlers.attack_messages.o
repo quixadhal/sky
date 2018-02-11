@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_message":({({"class","message_data",}),({({"int",}),"dam",({"string",}),"type",({"object",}),"him",({"object",}),"me",({"string",}),"name",({"object",}),"wep",({"string",}),"area",}),(["main":({"This method gets the attack messages for the weapon attacks.If an attack with the specified name doesn't exist in theweapon, it will look for the message in the handler.",}),"param":({"dam the damage of the attack","type the attack type ( either sharp, pierce or blunt )","him the target of the attack","me the attacker","name the attack name","wep the weapon attacked with",}),"return":({"a class of three elements - attacker, defender and others",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["changed":({"Changed to use the new format.- Sandoz, 04th August 2001.",}),"main":({"This handles the standard messages for the given damage types:   blunt, sharp, pierce, fire.There are also subtypes:   blunt - hands, feet, tail, hoof, wrestle, bash (pommel), pound.   sharp - claws, chew, slice, chop.   pierce - bite, beak, stab, horns, tusks.",}),"author":({"pinkfish",}),])
+define_docs ([])
+includes (["/include/combat.h":1056792172,])
+class_docs ([])
+file_name "/handlers/attack_messages.c"
+last_changed 1059683031

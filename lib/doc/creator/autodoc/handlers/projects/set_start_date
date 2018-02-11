@@ -1,0 +1,43 @@
+.DT
+set_start_date
+$MUDNAME$ Creator Help
+set_start_date
+
+.SH Name
+.SP 5 5
+set_start_date -  Set the date a project was started or assigned to a creator.
+.EP
+
+.SH Syntax
+.SI 5
+int set_start_date(string domain,
+int pid,
+int date)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+%^BOLD%^date%^RESET%^ - The start date.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Set the date a project was started or assigned to a creator.
+
+.EP
+

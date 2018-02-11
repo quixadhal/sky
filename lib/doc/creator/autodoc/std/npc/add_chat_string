@@ -1,0 +1,41 @@
+.DT
+add_chat_string
+$MUDNAME$ Creator Help
+add_chat_string
+
+.SH Name
+.SP 5 5
+add_chat_string -  This method adds an array of chats or a single chat string into the current list of chat strings.
+.EP
+
+.SH Syntax
+.SI 5
+varargs void add_chat_string(mixed weight,
+mixed chat)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^weight%^RESET%^ - the weight of the chat, or an array of weights and chats
+%^BOLD%^chat%^RESET%^ - the new chat string
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds an array of chats or a single chat string into
+the current list of chat strings.  See load_chat() for a longer
+description of the chat string.
+.EP
+
+.SH See also
+.SP 5 5
+load_chat(), remove_chat_string()
+
+.EP
+

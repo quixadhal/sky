@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["reminder_mess":({({"void",}),({({"object",}),"player",({"mixed","*",}),"arg",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"curse.magic.social\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"curse.magic.social",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/npc/unsocial_effect.c"
+last_changed 962122405

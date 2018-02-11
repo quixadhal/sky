@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_write":({({"int",}),({({"string",}),"path",({"mixed",}),"euid",({"string",}),"func",}),([]),}),"query_write_stats":({({"mapping",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["WRITE_FILE_STATS":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_write.c"
+last_changed 998744950

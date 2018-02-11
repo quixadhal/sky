@@ -1,0 +1,32 @@
+.DT
+query_old_enough_to_save
+$MUDNAME$ Creator Help
+query_old_enough_to_save
+
+.SH Name
+.SP 5 5
+query_old_enough_to_save -  This method queries whether or not we are old enough to be saved.
+.EP
+
+.SH Syntax
+.SI 5
+nomask int query_old_enough_to_save()
+.EI
+
+.SH Returns
+.SI 5
+1 if we are old enough to save, 0 if too young
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether or not we are old enough to be saved.
+.EP
+

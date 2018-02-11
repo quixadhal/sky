@@ -1,0 +1,37 @@
+.DT
+create_badge
+$MUDNAME$ Creator Help
+create_badge
+
+.SH Name
+.SP 5 5
+create_badge -  This method creates a PT badge and moves it to the target player.
+.EP
+
+.SH Syntax
+.SI 5
+int create_badge(string player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player to create a badge for
+.EI
+
+.SH Returns
+.SI 5
+1 if successful, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method creates a PT badge and moves it to the target player.
+.EP
+

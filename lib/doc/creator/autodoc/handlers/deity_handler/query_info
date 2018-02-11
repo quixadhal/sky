@@ -1,0 +1,39 @@
+.DT
+query_info
+$MUDNAME$ Creator Help
+query_info
+
+.SH Name
+.SP 5 5
+query_info -  This method returns information about the deity.
+.EP
+
+.SH Syntax
+.SI 5
+string query_info(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity to get information on
+.EI
+
+.SH Returns
+.SI 5
+information about the deity
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns information about the deity.  This is used
+in the finger information and when querying about joining the
+clergy.
+.EP
+

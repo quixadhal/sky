@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"healing.basic\".<p>The only effect argument is \"amount\", an integer.",}),"see":({"help::effects",}),"classification":({"healing.basic",}),])
+define_docs (["TICK":([]),"MSG_TICK":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/basic_healing.c"
+last_changed 962122404

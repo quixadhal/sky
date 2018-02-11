@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_spell":({({"mixed",}),({({"string",}),"name",}),(["main":({"This method returns the specified spell's spell object and function",}),"param":({"name the name of the spell to get the data for",}),"return":({"the spell object and function",}),]),}),"remove_spell":({({"int",}),({({"string",}),"name",}),(["main":({"This method removes a spell from the spells mapping of a living object",}),"param":({"name the name of the spell to remove",}),"return":({"always returns 1",}),]),}),"add_spell":({({"int",}),({({"string",}),"name",({"mixed",}),"ob",({"mixed",}),"func",}),(["main":({"This method adds a spell to a living object's known spells mapping",}),"param":({"name the name of the spell that can be used to access thespell while casting","ob the actual spell object","func a spell function (unused?)",}),"example":({"player->add_spell(\"Ethereal Light\", \"/obj/spells/ethereal_light\");",}),"return":({"1 if the spell was added successfully, 0 if not",}),]),}),"query_spells":({({"mixed",}),({}),(["main":({"This method returns the spells mapping of the living object.",}),"return":({"the spells mapping",}),]),}),"help_spell":({({"string",}),({({"string",}),"str",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes (["/include/spells.h":989621550,])
+class_docs ([])
+file_name "/std/living/spells.c"
+last_changed 1011267803

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_apothecarial_effect":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"healing.basic\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"healing.basic",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/oak_wand_healing.c"
+last_changed 1000718631

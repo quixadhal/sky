@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["UDP_PING_A":([]),"UDP_WARNING":([]),"UDP_BOARD_Q":([]),"UDP_GWIZMSG":([]),"UDP_STARTUP":([]),"PING_Q":([]),"MAX_RETRYS":([]),"MUDLIST_UDP":([]),"UDP_GFINGER_A":([]),"NETMAIL_D":([]),"UDP_LOCATE_Q":([]),"UDP_AFFIRMATION_A":([]),"UDP_MAIL_Q":([]),"UDP_MUDLIST_A":([]),"UDP_SUPPORT_Q":([]),"UDP_RWHO_A":([]),"UDP_PING_Q":([]),"UDP_SHUTDOWN":([]),"PING_A":([]),"UDP_PATH":([]),"UDP_GFINGER_Q":([]),"NAMESERVER_CD":([]),"UDP_LOCATE_A":([]),"UDP_GTELL":([]),"UDP_MAIL_A":([]),"UDP_MUDLIST_Q":([]),"UDP_SUPPORT_A":([]),"UDP_NO_CONTACT":([]),"UDP_RWHO_Q":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/udp.h"
+last_changed 962429079

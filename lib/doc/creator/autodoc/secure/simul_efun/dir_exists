@@ -1,0 +1,42 @@
+.DT
+dir_exists
+$MUDNAME$ Creator Help
+dir_exists
+
+.SH Name
+.SP 5 5
+dir_exists -  This method returns true if the directory str exists.
+.EP
+
+.SH Syntax
+.SI 5
+int dir_exists(string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the directory path to test
+.EI
+
+.SH Returns
+.SI 5
+1 if the directory exists
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns true if the directory str exists.
+.EP
+
+.SH See also
+.SP 5 5
+file_exists, file_size
+
+.EP
+

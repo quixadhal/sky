@@ -1,0 +1,40 @@
+.DT
+set_gender
+$MUDNAME$ Creator Help
+set_gender
+
+.SH Name
+.SP 5 5
+set_gender -  This method sets the gender of the deity.
+.EP
+
+.SH Syntax
+.SI 5
+void set_gender(string deity,
+int number)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity name
+%^BOLD%^number%^RESET%^ - the gender to set the deity to
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the gender of the deity.  The gender is the same
+as used elsehwere in the game.  0 for neuter, 1 for male and 2 for female.
+.EP
+
+.SH See also
+.SP 5 5
+/std/living/gender.c
+.EP
+

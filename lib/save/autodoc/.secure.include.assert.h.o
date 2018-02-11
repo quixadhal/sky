@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["assert(x)":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/assert.h"
+last_changed 1028338965

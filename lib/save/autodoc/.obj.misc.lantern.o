@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["being_sold":({({"void",}),({}),([]),}),"do_not_sell":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/basic/condition":({}),"/std/basic/holdable":({}),"/std/object":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["FUEL_PER_TICK":([]),"BASE_COST":([]),"BASE_WEIGHT":([]),"BRIGHTNESS":([]),"MAX_FUEL":([]),])
+includes (["/include/move_failures.h":962428284,"/include/fuel_handler.h":962428284,])
+class_docs ([])
+file_name "/obj/misc/lantern.c"
+last_changed 1019273696

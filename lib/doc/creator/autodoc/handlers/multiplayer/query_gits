@@ -1,0 +1,32 @@
+.DT
+query_gits
+$MUDNAME$ Creator Help
+query_gits
+
+.SH Name
+.SP 5 5
+query_gits -  Returns the current list of suspected multi players
+.EP
+
+.SH Syntax
+.SI 5
+string * query_gits()
+.EI
+
+.SH Returns
+.SI 5
+the list of multi players
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/multiplayer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of suspected multi players
+.EP
+

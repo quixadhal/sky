@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_list":({({"int",}),({}),(["main":({"The main entrance to the list stuff command.",}),"return":({"1 on success, 0 on failure",}),]),}),"remove_service":({({"int",}),({({"string",}),"service",}),(["main":({"This method removes a service.",}),"param":({"string service to be removed",}),"return":({"1 on successful removal, 0 on failure",}),]),}),"set_busy":({({"void",}),({}),([]),}),"add_service":({({"varargs","int",}),({({"string",}),"service",({"string",}),"browse_info",({"string",}),"func",({"int",}),"cost",({"string","*",}),"aliases",}),(["main":({"This method adds a service to the list of services on offer.",}),"param":({"service the name of the service","cost what it costs","the function which controls","*aliases an array of aliases for this service.",}),"return":({"1 on success, 0 on failure",}),]),}),"reset_busy":({({"void",}),({}),([]),}),"do_request":({({"int",}),({({"mixed",}),"indirect_obs",({"string",}),"dir_match",({"string",}),"indir_match",({"string","*",}),"words",}),(["main":({"The main entrance to the buy things command.",}),"return":({"1 on success, 0 on failure",}),]),}),"do_browse":({({"int",}),({({"mixed",}),"indirect_obs",({"string",}),"dir_match",({"string",}),"indir_match",({"string","*",}),"words",}),(["main":({"The main entrance to the browse for things command.",}),"return":({"1 on success, 0 on failure",}),]),}),"check_busy":({({"varargs","int",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits (["/std/npc":({}),])
+main_docs (["main":({"The service provider object.  It is designed to be similar tothe peddler object, only instead of selling objects, it sellsservices instead.",}),"author":({"FurciferMarch 2000",}),])
+define_docs (["ALIASES":([]),"FUNCTION":([]),"BROWSE":([]),"COST":([]),"SERVICE":([]),])
+includes (["/include/move_failures.h":962428284,"/include/armoury.h":962428284,"/include/money.h":1049974076,])
+class_docs ([])
+file_name "/obj/service_provider.c"
+last_changed 984229200

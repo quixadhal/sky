@@ -1,0 +1,39 @@
+.DT
+pound_break
+$MUDNAME$ Creator Help
+pound_break
+
+.SH Name
+.SP 5 5
+pound_break -  This is a callback function used by the 'pound' command.
+.EP
+
+.SH Syntax
+.SI 5
+void pound_break(object player,
+object target,
+object weapon,
+int damage)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the attacking player
+%^BOLD%^target%^RESET%^ - the target of the attack
+%^BOLD%^weapon%^RESET%^ - the weapon attacked with
+%^BOLD%^damage%^RESET%^ - the damage done to the target
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/attack_func.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This is a callback function used by the 'pound' command.
+It breaks limbs.
+.EP
+

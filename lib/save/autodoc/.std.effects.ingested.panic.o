@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["diminish":({({"int",}),({({"int",}),"x",({"int",}),"x_max",({"int",}),"y_max",}),([]),}),"run_like_l":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"witch.curse.panic\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"witch.curse.panic",}),])
+define_docs (["MAX_STRENGTH":([]),"MAX_DURATION":([]),"MIN_STRENGTH":([]),"RUN_CHANCE":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/panic.c"
+last_changed 962122404

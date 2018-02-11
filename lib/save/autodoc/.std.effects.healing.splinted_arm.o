@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.damage.arm.splinted\".<p>To add a splint to a limb, pass add_effect() ({ limb, time })  limb: (string) \"left\" or \"right\"  time: (int) (optional) seconds until limb is healed.  Defaults        to 45 minutes (!)To heal a limb prematurely, pass add_effect() ({ limb, time, 1 })  limb: (string) \"left\" or \"right\"  time: (int) seconds until limb is healed - usually 0NB: healing a broken limb does not remove the splint effect from    the patient.To remove a splint, pass add_effect ({ limb, time, 2 })  limb: (string) \"left\" or \"right\"  time: (int) seconds until limb is healed - usually 0NB: removing a splint from an unhealed limb adds the broken arm    effect to the patient.The following args are returned by beginning and merge:  [0] left arm splinted  ?  1 : 0  [1] left arm healed    ?  1 : 0  [2] right arm splinted ?  1 : 0  [3] right arm healed   ?  1 : 0NB: the splint effect is indefinite and is not removed when the    limb underneath heals.<p>This effect has a shadow associated with it, but it isn't used. :)",}),"see":({"help::effects",}),"classification":({"body.damage.arm.splinted",}),])
+define_docs (["HEAL":([]),"BREAK_EFF":([]),"REMOVE":([]),"SHADOW":([]),"CLASS":([]),"DEF_TIME":([]),"THIS_EFF":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/healing/splinted_arm.c"
+last_changed 962122406

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits (["/std/room/basic_room":({"nosave",}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["SAVE_FILE":([]),])
+includes (["/include/terrain.h":962428284,"/secure/include/config.h":1121841204,])
+class_docs ([])
+file_name "/handlers/terrain_things/logroom.c"
+last_changed 1037975317

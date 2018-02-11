@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["WEATHER":([]),])
+includes ([])
+class_docs ([])
+file_name "/include/weather.h"
+last_changed 986801087

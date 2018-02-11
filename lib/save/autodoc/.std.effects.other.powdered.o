@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classificationof \"body.look.powered\".<p>",}),"author":({"Shaggy",}),"see":({"help::effects",}),"classification":({"body.look.powdered",}),])
+define_docs (["TO":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/powdered.c"
+last_changed 962122399

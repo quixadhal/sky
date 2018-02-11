@@ -1,0 +1,33 @@
+.DT
+query_dirs_count
+$MUDNAME$ Creator Help
+query_dirs_count
+
+.SH Name
+.SP 5 5
+query_dirs_count -  This method returns the error counts for all the directories in the list of directories to watch.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_dirs_count(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator to get the dir count for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the error counts for all the directories in the
+list of directories to watch.
+.EP
+

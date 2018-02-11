@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["calc_extra_look":({({"string",}),({}),(["main":({"This method creates the extra long strings based on the current listof objects to use an extra_look on.  The function extra_look() iscalled on every object with TO passed in as the first (and only)parameter.  If the result is non-zero it is added onto the output.In case of function pointers, the function pointer will be evaluatedwith TO as the argument.",}),"return":({"the extra look string",}),]),}),"remove_extra_look":({({"void",}),({({"object",}),"ob",}),(["main":({"This method removes an object from the list of extra look objects.This will only work for objects and string, function pointerscannot be removed from the extra look list.",}),"see":({"calc_extra_look()","add_extra_look()",}),"param":({"ob the object to remove",}),]),}),"query_extra_look_list":({({"mixed",}),({}),(["main":({"This method returns the current list of objects to be used forthe extra look list.",}),"see":({"add_extra_look()","remove_extra_look()","calc_extra_look()",}),"return":({"the array of extra look objects",}),]),}),"add_extra_look":({({"void",}),({({"mixed",}),"add",}),(["main":({"This method adds an object or function pointer into the list ofextra look objects/functions.  When using function pointers,remember that you cannot use remove_extra_look() to remove them.",}),"see":({"calc_extra_look()","remove_extra_look()",}),"param":({"add the object or function to add",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["changed":({"Added the ability to use function pointers.- Sandoz, 2002.",}),"main":({"Handles adding bits to the long description of objects.",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/basic/extra_look.c"
+last_changed 1036667220

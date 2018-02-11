@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["TCRE(XXX,YYY)":([]),"m_sizeof(map)":([]),"REPORT_BASE":([]),"SPEECH_BASE":([]),"slice_array(a,b,c)":([]),"nosave":([]),"m_values(map)":([]),"POSITION_BASE":([]),"CHANNEL_BASE":([]),"LOGIN_OBJ":([]),"m_indices(map)":([]),"CREATOR_OBJ":([]),"WWW_BASE":([]),"ERRORS_BASE":([]),"PLAYER_OBJ":([]),"protected":([]),"mappingp(x)":([]),"COMMAND_BASE":([]),])
+includes (["/secure/include/global/standard.h":1091322916,"/secure/include/global/properties.h":1021539464,"/secure/include/global/handlers.h":1109975413,"/secure/include/global/directories.h":1059752297,"/secure/include/global/rooms.h":1036577632,"/secure/include/global/npcs.h":1054049522,"/secure/include/global/customise.h":1320053809,"/secure/include/global/objects.h":1059224497,"/secure/include/global/shops.h":1051454737,])
+class_docs ([])
+file_name "/secure/include/global.h"
+last_changed 1028092053

@@ -1,0 +1,45 @@
+.DT
+auto_mail
+$MUDNAME$ Creator Help
+auto_mail
+
+.SH Name
+.SP 5 5
+auto_mail -  Allows people to send mail automaticly from the player in question.
+.EP
+
+.SH Syntax
+.SI 5
+void auto_mail(string to,
+string from,
+string sub,
+string cc,
+string body,
+int send_inter,
+string only_to)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^to%^RESET%^ - who the mail is to
+%^BOLD%^from%^RESET%^ - who the mail is from
+%^BOLD%^cc%^RESET%^ - the people to carbon copy
+%^BOLD%^body%^RESET%^ - the body of the message
+%^BOLD%^send_inter%^RESET%^ - should be send it ove the inter mud system?
+%^BOLD%^only_to%^RESET%^ - ignore the cc fields
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/auto_mailer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Allows people to send mail automaticly from the player in question.
+Thus allows mail to be sent on someone being promoted to creator
+and stuff.
+.EP
+

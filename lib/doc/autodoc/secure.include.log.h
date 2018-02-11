@@ -1,0 +1,38 @@
+.DT
+log.h
+$MUDNAME$ autodoc help
+log.h
+
+.SH Defines
+.SI 3
+* %^BOLD%^ERROR_LOG%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^LOG_FILE%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^PLAYER_ERROR_LOG%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^SMART_LOG%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^TEMP_FORWARD_LIST%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^TEMP_MAIL_LIST%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^WWW_TEMP_FORWARD_LIST%^RESET%^
+.EI
+
+.SI 3
+* %^BOLD%^WWW_TEMP_MAIL_LIST%^RESET%^
+.EI
+

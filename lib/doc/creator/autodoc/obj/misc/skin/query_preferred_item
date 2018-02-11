@@ -1,0 +1,33 @@
+.DT
+query_preferred_item
+$MUDNAME$ Creator Help
+query_preferred_item
+
+.SH Name
+.SP 5 5
+query_preferred_item -  This method returns the preferred cloting item to be made out of the skin based on its softness.
+.EP
+
+.SH Syntax
+.SI 5
+string query_preferred_item()
+.EI
+
+.SH Returns
+.SI 5
+the preferred clothing item
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the preferred cloting item to be
+made out of the skin based on its softness.
+.EP
+

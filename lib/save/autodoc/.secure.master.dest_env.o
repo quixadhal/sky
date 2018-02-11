@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["destruct_environment_of":({({"void",}),({({"object",}),"ob",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/dest_env.c"
+last_changed 1200761934

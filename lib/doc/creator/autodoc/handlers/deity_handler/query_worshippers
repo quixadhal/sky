@@ -1,0 +1,37 @@
+.DT
+query_worshippers
+$MUDNAME$ Creator Help
+query_worshippers
+
+.SH Name
+.SP 5 5
+query_worshippers -  This method returns the names of all worshippers.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_worshippers(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity to query
+.EI
+
+.SH Returns
+.SI 5
+the worshippers array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the names of all worshippers.
+.EP
+

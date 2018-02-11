@@ -1,0 +1,28 @@
+.DT
+shutdown
+$MUDNAME$ Creator Help
+shutdown
+
+.SH Name
+.SP 5 5
+shutdown -  This method initiates intermud shutdown.
+.EP
+
+.SH Syntax
+.SI 5
+int shutdown()
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method initiates intermud shutdown.
+It disconnects all channels etc.
+
+.EP
+

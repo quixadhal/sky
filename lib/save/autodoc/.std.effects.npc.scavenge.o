@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"npc.given\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"npc.given",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/npc/path.h":962122405,"/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/npc/scavenge.c"
+last_changed 962122405

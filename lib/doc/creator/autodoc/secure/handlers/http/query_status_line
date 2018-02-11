@@ -1,0 +1,32 @@
+.DT
+query_status_line
+$MUDNAME$ Creator Help
+query_status_line
+
+.SH Name
+.SP 5 5
+query_status_line -  This method returns extra information about a http error.
+.EP
+
+.SH Syntax
+.SI 5
+string query_status_line(int err)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^err%^RESET%^ - the error to get more info on
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/http.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns extra information about a http error.
+.EP
+

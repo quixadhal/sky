@@ -1,0 +1,32 @@
+.DT
+query_race_name
+$MUDNAME$ Creator Help
+query_race_name
+
+.SH Name
+.SP 5 5
+query_race_name -  This method returns the corpse's race name.
+.EP
+
+.SH Syntax
+.SI 5
+string query_race_name()
+.EI
+
+.SH Returns
+.SI 5
+the race name
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the corpse's race name.
+.EP
+

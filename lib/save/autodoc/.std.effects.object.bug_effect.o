@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["create_bug":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.bug\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"object.bug",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/bug_effect.c"
+last_changed 984361859

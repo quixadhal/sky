@@ -1,0 +1,34 @@
+.DT
+do_the_sell
+$MUDNAME$ Creator Help
+do_the_sell
+
+.SH Name
+.SP 5 5
+do_the_sell -  This method sells everything the npc currently has and is not marked with the property "start equipment".
+.EP
+
+.SH Syntax
+.SI 5
+void do_the_sell(object player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the players whose inventory is to be sold
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/npc/goto_destination.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sells everything the npc currently has and is not
+marked with the property "start equipment".  This can be called from
+outside the effect to sell things.
+.EP
+

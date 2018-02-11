@@ -1,0 +1,42 @@
+.DT
+item_data
+$MUDNAME$ creator help
+item_data
+
+.SH Name
+.SP 5 5
+item_data -  This class stores all the data for a specific armoury item.
+.EP
+
+.SH Definition
+.SI 5
+class item_data {
+string file;
+object * recycled;
+int hits;
+int misses;
+int flags;
+}
+
+.EI
+
+.SH Members
+.SI 5
+%^BOLD%^file%^RESET%^ - the file name of the item
+%^BOLD%^recycled%^RESET%^ - the recycled objects
+%^BOLD%^hits%^RESET%^ - recycle hits
+%^BOLD%^misses%^RESET%^ - recycle misses
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This class stores all the data for a specific armoury item.
+.EP
+

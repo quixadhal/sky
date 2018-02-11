@@ -1,0 +1,33 @@
+.DT
+remove_gossip
+$MUDNAME$ Creator Help
+remove_gossip
+
+.SH Name
+.SP 5 5
+remove_gossip -  This method removes all gossips with the specified gossip string from the gossip array.
+.EP
+
+.SH Syntax
+.SI 5
+void remove_gossip(string match)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^match%^RESET%^ - the string to remove
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/gossip_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes all gossips with the specified
+gossip string from the gossip array.
+.EP
+

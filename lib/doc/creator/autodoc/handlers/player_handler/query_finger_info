@@ -1,0 +1,39 @@
+.DT
+query_finger_info
+$MUDNAME$ Creator Help
+query_finger_info
+
+.SH Name
+.SP 5 5
+query_finger_info -  This method returns all the info needed for a player's finger.
+.EP
+
+.SH Syntax
+.SI 5
+class finger_info query_finger_info(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the player to get the data for
+.EI
+
+.SH Returns
+.SI 5
+the player info for the player
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/player_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all the info needed for a player's finger.
+If the player is online, the updated values will be gotten
+straight from the player object.
+.EP
+

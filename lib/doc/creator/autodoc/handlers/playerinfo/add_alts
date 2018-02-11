@@ -1,0 +1,42 @@
+.DT
+add_alts
+$MUDNAME$ Creator Help
+add_alts
+
+.SH Name
+.SP 5 5
+add_alts -  Add an alt character name to this player's dossier.
+.EP
+
+.SH Syntax
+.SI 5
+string add_alts(object creator,
+string player,
+string * alts)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the name of the player
+%^BOLD%^alts%^RESET%^ - the names of the alt characters to add
+.EI
+
+.SH Returns
+.SI 5
+a string describing the outcome of the function call
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playerinfo.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Add an alt character name to this player's dossier. This function succeeds
+if both characters are not "main", or only one if them is "main". Both
+players will have their dossiers modified.
+.EP
+

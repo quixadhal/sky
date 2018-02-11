@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["effect_heart_beat":({({"int",}),({({"object",}),"player",({"int",}),"hbnum",({"mixed",}),"arg",({"int",}),"id",}),([]),}),"query_secs_between_hb":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"disease.infection.general.flu\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"disease.infection.general.flu",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/std/effects/disease/path.h":962122406,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/flu.c"
+last_changed 962122405

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_read":({({"int",}),({({"int",}),"num",}),([]),}),"the_date":({({"string",}),({({"int",}),"i",}),([]),}),"mark_mine":({({"void",}),({({"mixed","*",}),"stuff",({"mapping",}),"news_rc",}),([]),}),"do_followup":({({"int",}),({({"int",}),"num",}),([]),}),"end_of_mail_close":({({"void",}),({({"string",}),"str",}),([]),}),"add_commands":({({"void",}),({}),([]),}),"query_plural":({({"string",}),({}),([]),}),"query_post_to":({({"string",}),({}),([]),}),"short":({({"string",}),({({"int",}),"dark",}),([]),}),"do_close":({({"int",}),({({"int",}),"num",}),([]),}),"end_of_close":({({"void",}),({({"string",}),"str",}),([]),}),"end_of_thing":({({"void",}),({({"string",}),"body",}),([]),}),"set_board_name":({({"void",}),({({"string",}),"str",}),([]),}),"do_read_new":({({"int",}),({}),([]),}),"query_new_messages":({({"int",}),({}),([]),}),"do_reply":({({"int",}),({({"int",}),"num",}),([]),}),"do_eat":({({"int",}),({({"int",}),"num",}),([]),}),"set_datafile":({({"void",}),({({"string",}),"str",}),([]),}),"do_subjects":({({"int",}),({}),([]),}),"do_post":({({"int",}),({({"string",}),"str",}),([]),}),"set_post_to":({({"void",}),({({"string",}),"val",}),([]),}),"include_post":({({"void",}),({({"string",}),"str",({"int",}),"num",({"mixed","*",}),"stuff",}),([]),}),"do_read_next":({({"int",}),({}),([]),}),"do_close1":({({"int",}),({({"string",}),"str",}),([]),}),"long":({({"string",}),({({"string",}),"str",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes (["/include/board.h":1027323664,"/include/mail.h":999081362,])
+class_docs (["info_written":({0,({({"subject",({"string",}),}),({"note_num",({"int",}),}),}),([]),}),])
+file_name "/obj/misc/board.c"
+last_changed 1011280608

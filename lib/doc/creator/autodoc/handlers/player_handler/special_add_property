@@ -1,0 +1,30 @@
+.DT
+special_add_property
+$MUDNAME$ Creator Help
+special_add_property
+
+.SH Name
+.SP 5 5
+special_add_property -  This method updates the cached properties, it's called by /secure/login.
+.EP
+
+.SH Syntax
+.SI 5
+void special_add_property(string player,
+string prop,
+mixed value)
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/player_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method updates the cached properties, it's called by
+/secure/login.
+
+.EP
+

@@ -1,0 +1,55 @@
+.DT
+add_read_mess
+$MUDNAME$ Creator Help
+add_read_mess
+
+.SH Name
+.SP 5 5
+add_read_mess -  This method adds a new read message onto the object.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string add_read_mess(string str,
+string type,
+string lang,
+int size)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the text of the message
+%^BOLD%^type%^RESET%^ - the type of the message
+%^BOLD%^lang%^RESET%^ - the language the message is in
+%^BOLD%^size%^RESET%^ - the size of the message
+.EI
+
+.SH Returns
+.SI 5
+the text that was successfully written onto the object
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/read_desc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a new read message onto the object.
+
+
+The str bit is the actual string to add, it is the message which will get printed. The type is the type of the writing, like "spidery writing" or "charcoal based letters".  The language is the language in which it is written and the size is the size of the letters (standard handwriting should be of size 1). The size is used to see if the writing can fit on the page. 
+
+If no language is given, the default is "common".  If no type is given, then no type bit is printed and if no size is specified then a size of 1 is the default. 
+
+This also adjusts the size of stuff on the object.  If too much is attempted to be written on the object, the remainder will be cut off.
+.EP
+
+.SH See also
+.SP 5 5
+query_read_mess(), set_max_size(), /handlers/language->query_language_size(), /handlers/language->squidge_text()
+
+.EP
+

@@ -1,0 +1,28 @@
+.DT
+inform_reconnect_game
+$MUDNAME$ Creator Help
+inform_reconnect_game
+
+.SH Name
+.SP 5 5
+inform_reconnect_game -  This method is called to inform people that someone has just reconnected.
+.EP
+
+.SH Syntax
+.SI 5
+void inform_reconnect_game()
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/start_position.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called to inform people that someone
+has just reconnected.
+
+.EP
+

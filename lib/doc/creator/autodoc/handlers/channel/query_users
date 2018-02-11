@@ -1,0 +1,32 @@
+.DT
+query_users
+$MUDNAME$ Creator Help
+query_users
+
+.SH Name
+.SP 5 5
+query_users -  This method returns the list of users for the specified channel.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_users(string channel)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^channel%^RESET%^ - the channel to get the users list for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/channel.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the list of users for the specified channel.
+.EP
+

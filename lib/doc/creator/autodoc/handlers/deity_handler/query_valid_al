@@ -1,0 +1,39 @@
+.DT
+query_valid_al
+$MUDNAME$ Creator Help
+query_valid_al
+
+.SH Name
+.SP 5 5
+query_valid_al -  This method determines if the alignment is valid for the deity.
+.EP
+
+.SH Syntax
+.SI 5
+int query_valid_al(string deity,
+int number)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity to check
+%^BOLD%^number%^RESET%^ - the alignment to check
+.EI
+
+.SH Returns
+.SI 5
+0 if it is valid, 1 if above upper_al, -1 if lower than lower_al
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method determines if the alignment is valid for the deity.
+.EP
+

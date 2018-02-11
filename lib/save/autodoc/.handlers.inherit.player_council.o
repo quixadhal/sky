@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["add_rule_ammendment":({({"int",}),({({"string",}),"area",({"int",}),"rule_no",({"string",}),"ammendement",({"string",}),"creator",}),(["main":({"This method adds in a request to ammend a rule.",}),"param":({"area the area to put the ammendment in","rule_no the rule to ammend","ammendment the ammendment text","creator the person doing the ammendment",}),]),}),"add_move_rule_type":({({"int",}),({({"string",}),"area",({"int",}),"rule_no",({"int",}),"type",({"string",}),"creator",}),(["main":({"This method puts up a request to move a rule from one type to another.",}),"param":({"area the area to do the move in","rule_no the rule number to move","type the type to move the rule to","creator the creator of this request",}),"return":({"1 on success, 0 on failure",}),]),}),"add_new_rule_for_voting":({({"int",}),({({"string",}),"area",({"int",}),"type",({"string",}),"creator",({"string",}),"text",}),(["main":({"This method puts a new rule up for voting.  It is first placed intothe hands of the magistrates, then into the hands of the players.",}),"param":({"area the area for the rule to be voted on in","type the type of the rules","text the text associated with the new rule",}),"return":({"1 on success, 0 on failure",}),]),}),])
+protected_functions ([])
+inherits (["/handlers/inherit/nomic_rules":({}),"/handlers/inherit/citizens":({}),])
+main_docs (["main":({"This handler is for the control of player houses.",}),"started":({"Fri Jun 23 22:50:02 PDT 2000",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes (["/include/nomic_system.h":962428284,])
+class_docs ([])
+file_name "/handlers/inherit/player_council.c"
+last_changed 962428385

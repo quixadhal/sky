@@ -1,0 +1,32 @@
+.DT
+query_armour_class
+$MUDNAME$ Creator Help
+query_armour_class
+
+.SH Name
+.SP 5 5
+query_armour_class -  This method returns the whole armour class mapping.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_armour_class()
+.EI
+
+.SH Returns
+.SI 5
+the whole armour class mapping
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/armour_logic.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the whole armour class mapping.
+.EP
+

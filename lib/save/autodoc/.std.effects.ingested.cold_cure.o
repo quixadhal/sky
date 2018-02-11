@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["cure_cold":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"",}),"index":({"cold_cureThis is a cold cure effect.<p>Argument 0 (int): An integer specifying the strength of the medicine",}),"see":({"help::effects",}),])
+define_docs (["COLD_DISEASE":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/cold_cure.c"
+last_changed 962122404

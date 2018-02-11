@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_link":({({"int",}),({({"string",}),"from",({"string",}),"to",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_link.c"
+last_changed 998745033

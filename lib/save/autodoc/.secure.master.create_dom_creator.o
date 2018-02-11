@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["eligible_creator":({({"int",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/quest_handler.h":962428284,])
+class_docs ([])
+file_name "/secure/master/create_dom_creator.c"
+last_changed 998744921

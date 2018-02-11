@@ -1,0 +1,31 @@
+.DT
+query_hold_required
+$MUDNAME$ Creator Help
+query_hold_required
+
+.SH Name
+.SP 5 5
+query_hold_required - 
+.EP
+
+.SH Syntax
+.SI 5
+int query_hold_required()
+.EI
+
+.SH Returns
+.SI 5
+number of hands required to hold object when lit
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/lightable.c
+.EI
+
+.SH Description
+.SP 5 5
+
+.EP
+

@@ -1,0 +1,43 @@
+.DT
+set_target_date
+$MUDNAME$ Creator Help
+set_target_date
+
+.SH Name
+.SP 5 5
+set_target_date -  Set the target completion date for a project.
+.EP
+
+.SH Syntax
+.SI 5
+int set_target_date(string domain,
+int pid,
+int date)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The project id (this must be unique within a domain).
+%^BOLD%^date%^RESET%^ - The target completion date.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Set the target completion date for a project.
+
+.EP
+

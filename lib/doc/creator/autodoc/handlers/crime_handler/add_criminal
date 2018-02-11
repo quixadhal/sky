@@ -1,0 +1,52 @@
+.DT
+add_criminal
+$MUDNAME$ Creator Help
+add_criminal
+
+.SH Name
+.SP 5 5
+add_criminal -  This method adds a player into the criminals array
+.EP
+
+.SH Syntax
+.SI 5
+int add_criminal(string place_name,
+mixed player,
+int type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to add the criminal in
+%^BOLD%^player%^RESET%^ - the name or object of the player to add
+%^BOLD%^type%^RESET%^ - the type of offense.  They have been defined as follows -
+       VANDALISM  1 - vandalism
+       THEFT      2 - stealing
+       SHOPLIFT   3 - shoplifting
+       SLAUGHTER  4 - killing innocents
+       RESIST     5 - resisting arrest
+       GUARDKILL  6 - guard killing
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully added, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a player into the criminals array
+.EP
+
+.SH See also
+.SP 5 5
+"/include/crime.h"
+
+.EP
+

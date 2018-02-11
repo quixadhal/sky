@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["pound_break":({({"void",}),({({"object",}),"player",({"object",}),"target",({"object",}),"weapon",({"int",}),"damage",}),(["main":({"This is a callback function used by the 'pound' command.It breaks limbs.",}),"param":({"player the attacking player","target the target of the attack","weapon the weapon attacked with","damage the damage done to the target",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This handler contains special attack callback functions forfighting commands and general combat action functions thatcan be used to make NPCs use special attacks.",}),"author":({"Sandoz, 30th August 2001",}),])
+define_docs (["TACTICS":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/attack_func.c"
+last_changed 1056294294

@@ -1,0 +1,38 @@
+.DT
+get_door
+$MUDNAME$ Creator Help
+get_door
+
+.SH Name
+.SP 5 5
+get_door -  This method gets a recycled door from the handler, or clones a new one, if needed.
+.EP
+
+.SH Syntax
+.SI 5
+object get_door()
+.EI
+
+.SH Returns
+.SI 5
+a door object
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/room_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method gets a recycled door from the handler,
+or clones a new one, if needed.  This is used by rooms.
+.EP
+
+.SH See also
+.SP 5 5
+recycle_door()
+
+.EP
+

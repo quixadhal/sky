@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["wretch":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),"restart":({({"int",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.poison\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"body.poison",}),])
+define_docs (["SHADOWS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/poisons/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/poisons/spider_venom.c"
+last_changed 1009430601

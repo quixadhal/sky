@@ -1,0 +1,28 @@
+.DT
+person_removing_item
+$MUDNAME$ Creator Help
+person_removing_item
+
+.SH Name
+.SP 5 5
+person_removing_item -  This is called when the gloves are removed.
+.EP
+
+.SH Syntax
+.SI 5
+void person_removing_item(object item,
+object player)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/attached/iron_grip.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This is called when the gloves are removed..
+
+.EP
+

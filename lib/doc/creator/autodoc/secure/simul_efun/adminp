@@ -1,0 +1,42 @@
+.DT
+adminp
+$MUDNAME$ Creator Help
+adminp
+
+.SH Name
+.SP 5 5
+adminp -  This method returns whether or not the given player is an admin.
+.EP
+
+.SH Syntax
+.SI 5
+int adminp(mixed person)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^person%^RESET%^ - the player to test
+.EI
+
+.SH Returns
+.SI 5
+whether or not the player is an admin
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not the given player is an admin.
+.EP
+
+.SH See also
+.SP 5 5
+lordp, seniorp, creatorp, liaisonp, playtesterp
+
+.EP
+

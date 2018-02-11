@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["adjust_hp":({({"void",}),({({"int",}),"number",({"object",}),"attacker",}),([]),}),"setup_shadow":({({"void",}),({({"object",}),"player",}),([]),}),"query_property":({({"mixed",}),({({"string",}),"str",}),([]),}),"dest_shadow":({({"void",}),({}),([]),}),"attack_by":({({"int",}),({({"object",}),"ob",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["CREATOR":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/octagon_shadow.c"
+last_changed 979736400

@@ -1,0 +1,38 @@
+.DT
+query_project
+$MUDNAME$ Creator Help
+query_project
+
+.SH Name
+.SP 5 5
+query_project -  This method returns the project to use in the player's finger, even when they are off line.
+.EP
+
+.SH Syntax
+.SI 5
+string query_project(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the player
+.EI
+
+.SH Returns
+.SI 5
+the project or 0, if none
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/player_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the project to use in the player's finger,
+even when they are off line.
+.EP
+

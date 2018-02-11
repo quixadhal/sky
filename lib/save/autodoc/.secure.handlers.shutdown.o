@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["dec_shutdown":({({"void",}),({}),([]),}),"abort_shutdown":({({"int",}),({}),([]),}),"init_shutdown":({({"int",}),({({"int",}),"minutes",({"int",}),"flag",}),([]),}),"query_shutdown":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Coded By Rhaje@Phoenix/Nameless Sorrows from scratch.New Shutdown Object. Some ideas were taken from RoD/Suvangi,but no code was nicked in the process. Basic format wasripped from Discworld.Cleaned & tidied up by Donky.Cleaned up by Galileo; 1-4-99Reworked for Divided Sky - Shaydz 12-03-01",}),])
+define_docs (["FINAL_MESSAGE":([]),"REBOOT_TIME":([]),"ABORT_MESSAGE":([]),"INIT_MESSAGE":([]),])
+includes (["/secure/include/socket_errors.h":1200761934,"/secure/include/config.h":1121841204,"/secure/include/network.h":1027443840,])
+class_docs ([])
+file_name "/secure/handlers/shutdown.c"
+last_changed 1054110507

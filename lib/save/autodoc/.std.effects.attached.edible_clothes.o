@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",({"object","*",}),"edible",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mudlib.clothing.edible\".<p>There are no arguments to this effect.<p>This effect has a shadow associated with it.",}),"author":({"Terano/Pinkfish",}),"see":({"help::effects",}),"classification":({"mudlib.clothing.edible",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/edible_clothes.c"
+last_changed 962122403

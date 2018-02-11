@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_force":({({"int",}),({({"object","*",}),"in_dir",({"string",}),"direct",({"string",}),"indirect",({"mixed",}),"args",({"string",}),"format",}),([]),}),"do_transport":({({"int",}),({({"object","*",}),"in_dir",({"string",}),"direct",({"string",}),"indirect",({"mixed",}),"args",({"string",}),"format",}),([]),}),"exit_fun":({({"int",}),({({"string",}),"str",({"object",}),"ob",({"string",}),"special_mess",}),([]),}),"enter_fun":({({"int",}),({({"string",}),"str",({"object",}),"ob",({"string",}),"special_mess",}),([]),}),"do_remove":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs (["CREATOR":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/transporter.c"
+last_changed 979736400

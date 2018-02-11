@@ -1,0 +1,32 @@
+.DT
+query_clothing
+$MUDNAME$ Creator Help
+query_clothing
+
+.SH Name
+.SP 5 5
+query_clothing -  Returns the current list of known clothing.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_clothing()
+.EI
+
+.SH Returns
+.SI 5
+the clothing array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known clothing.
+.EP
+

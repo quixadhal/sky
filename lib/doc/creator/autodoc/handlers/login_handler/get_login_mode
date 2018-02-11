@@ -1,0 +1,38 @@
+.DT
+get_login_mode
+$MUDNAME$ Creator Help
+get_login_mode
+
+.SH Name
+.SP 5 5
+get_login_mode -  This method returns a description for the specified restriction level in a string.
+.EP
+
+.SH Syntax
+.SI 5
+string get_login_mode(int lvl)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^lvl%^RESET%^ - the restriction level to return a description for
+.EI
+
+.SH Returns
+.SI 5
+a string describing the restriction level
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns a description for the specified restriction
+level in a string.
+.EP
+

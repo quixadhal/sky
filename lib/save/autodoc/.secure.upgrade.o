@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["new_player":({({"int",}),({({"object",}),"old",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/upgrade.c"
+last_changed 1000768118

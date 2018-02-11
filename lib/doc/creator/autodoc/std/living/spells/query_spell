@@ -1,0 +1,37 @@
+.DT
+query_spell
+$MUDNAME$ Creator Help
+query_spell
+
+.SH Name
+.SP 5 5
+query_spell -  This method returns the specified spell's spell object and function
+.EP
+
+.SH Syntax
+.SI 5
+mixed query_spell(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the spell to get the data for
+.EI
+
+.SH Returns
+.SI 5
+the spell object and function
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/spells.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the specified spell's spell object and function
+.EP
+

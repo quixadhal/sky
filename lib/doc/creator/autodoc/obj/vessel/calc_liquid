@@ -1,0 +1,27 @@
+.DT
+calc_liquid
+$MUDNAME$ Creator Help
+calc_liquid
+
+.SH Name
+.SP 5 5
+calc_liquid -  This method determines if we have any liquids inside us at all.
+.EP
+
+.SH Syntax
+.SI 5
+void calc_liquid()
+.EI
+
+.SH Defined in
+.SI 5
+/obj/vessel.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method determines if we have any liquids inside us at all.
+
+.EP
+

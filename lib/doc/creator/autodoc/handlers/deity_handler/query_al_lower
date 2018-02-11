@@ -1,0 +1,38 @@
+.DT
+query_al_lower
+$MUDNAME$ Creator Help
+query_al_lower
+
+.SH Name
+.SP 5 5
+query_al_lower -  This method returns the lower alignment limit for the given deity.
+.EP
+
+.SH Syntax
+.SI 5
+int query_al_lower(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity to query
+.EI
+
+.SH Returns
+.SI 5
+the lower alignment limit
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the lower alignment limit for the
+given deity.
+.EP
+

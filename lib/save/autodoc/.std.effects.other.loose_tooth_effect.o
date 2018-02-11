@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect is used in a quest in the Dwarf bread museum.  Simulatesa loose tooth that will be knocked out elsewhere.  Added from eatingdwarf bread.<p>The effect does not time out.  The argument is an integer of how many'stages' to advance the looseness of the tooth.  If arg is -1, effectwill end with a tooth dropping out if old arg was over 5.<p>",}),"author":({"Wonko",}),"see":({"help::effects",}),"classification":({"body.loose.tooth",}),])
+define_docs (["AUDIENCE":([]),"PLYROBJE":([]),"PLYRPRON":([]),"PLYRPOSS":([]),"TO":([]),"PLYRNAME":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/loose_tooth_effect.c"
+last_changed 962122399

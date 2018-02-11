@@ -1,0 +1,27 @@
+.DT
+get_htell_func
+$MUDNAME$ Creator Help
+get_htell_func
+
+.SH Name
+.SP 5 5
+get_htell_func -  Return function pointer for do_tell_his, for history tell only.
+.EP
+
+.SH Syntax
+.SI 5
+function get_htell_func()
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Return function pointer for do_tell_his, for history tell only.
+
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_transmute":({({"string",}),({({"string",}),"str",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/curses/chef_mangle.c"
+last_changed 1000718721

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["OBJECT":([]),"BUFFER":([]),"ARRAY":([]),"STRING":([]),"INT":([]),"CLASS":([]),"FLOAT":([]),"FUNCTION":([]),"MAPPING":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/type.h"
+last_changed 1200761934

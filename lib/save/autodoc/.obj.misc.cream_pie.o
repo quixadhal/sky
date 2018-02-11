@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_smear":({({"int",}),({({"object","*",}),"obs",}),([]),}),"do_run_smear":({({"int",}),({({"object","*",}),"obs",({"string",}),"direc",}),([]),}),"do_chuck":({({"int",}),({({"object","*",}),"obs",}),([]),}),])
+protected_functions ([])
+inherits (["/obj/food":({}),])
+define_docs ([])
+includes (["/include/room.h":1117801855,])
+class_docs ([])
+file_name "/obj/misc/cream_pie.c"
+last_changed 979736400

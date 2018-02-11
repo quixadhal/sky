@@ -1,0 +1,37 @@
+.DT
+get_files_recursive
+$MUDNAME$ Creator Help
+get_files_recursive
+
+.SH Name
+.SP 5 5
+get_files_recursive -  This method returns all the files (or directories if the dirs flag is 1) in the subdirectories of the specified path.
+.EP
+
+.SH Syntax
+.SI 5
+string * get_files_recursive(string path,
+int dirs)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^path%^RESET%^ - the path to get the files for
+%^BOLD%^dirs%^RESET%^ - set to 1 to get all subdirs, instead of files
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/path.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all the files (or directories if the dirs
+flag is 1) in the subdirectories of the specified path.
+If the dirs flag is set to anything higher than 1, then both
+files and directories will be returned.
+.EP
+

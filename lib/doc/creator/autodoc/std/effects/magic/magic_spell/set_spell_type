@@ -1,0 +1,31 @@
+.DT
+set_spell_type
+$MUDNAME$ Creator Help
+set_spell_type
+
+.SH Name
+.SP 5 5
+set_spell_type - 
+.EP
+
+.SH Syntax
+.SI 5
+void set_spell_type(string n_type)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+.EP
+
+.SH See also
+.SP 5 5
+query_spell_type
+
+.EP
+

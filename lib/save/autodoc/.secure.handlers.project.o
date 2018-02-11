@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["add_project":({({"int",}),({({"string",}),"creator",({"string",}),"dom",({"string",}),"proj",}),([]),}),"save_me":({({"void",}),({}),([]),}),"query_projects":({({"mixed",}),({({"string",}),"str",}),([]),}),"clear_project":({({"int",}),({({"string",}),"str",}),([]),}),"load_me":({({"void",}),({}),([]),}),"remove_project":({({"int",}),({({"string",}),"creator",({"string",}),"dom",({"string",}),"proj",}),([]),}),"query_project":({({"int",}),({({"string",}),"creator",({"string",}),"dom",({"string",}),"proj",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["SAVE_FILE":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/handlers/project.c"
+last_changed 1200761934

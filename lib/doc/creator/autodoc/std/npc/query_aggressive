@@ -1,0 +1,43 @@
+.DT
+query_aggressive
+$MUDNAME$ Creator Help
+query_aggressive
+
+.SH Name
+.SP 5 5
+query_aggressive -  This method returns the current aggressive level of the NPC.
+.EP
+
+.SH Syntax
+.SI 5
+int query_aggressive()
+.EI
+
+.SH Returns
+.SI 5
+the aggressive level of the NPC
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current aggressive level of the NPC.
+If the aggressive is set to 1, then the NPC will attack all players
+that enter its environment.  If the aggressive is set to 2 then
+the NPC will attack everything (including other NPCs).
+
+
+See the function start_attack() for information about things you can do to stop an aggressive NPC from attacking things.
+.EP
+
+.SH See also
+.SP 5 5
+set_aggressive(), start_attack()
+
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_poison":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"query_name":({({"string",}),({}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"amount1",({"int",}),"amount2",}),([]),}),"beginning":({({"int",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/basic":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"poison.hp\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"poison.hp",}),])
+define_docs (["SHADOWS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/poisons/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/poisons/poison_gas.c"
+last_changed 962122405

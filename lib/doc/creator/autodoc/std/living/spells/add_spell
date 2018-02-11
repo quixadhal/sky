@@ -1,0 +1,47 @@
+.DT
+add_spell
+$MUDNAME$ Creator Help
+add_spell
+
+.SH Name
+.SP 5 5
+add_spell -  This method adds a spell to a living object's known spells mapping
+.EP
+
+.SH Syntax
+.SI 5
+int add_spell(string name,
+mixed ob,
+mixed func)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the spell that can be used to access the
+spell while casting
+%^BOLD%^ob%^RESET%^ - the actual spell object
+%^BOLD%^func%^RESET%^ - a spell function (unused?)
+.EI
+
+.SH Returns
+.SI 5
+1 if the spell was added successfully, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/spells.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a spell to a living object's known spells mapping
+.EP
+
+.SH Example 1
+.SI 5
+player->add_spell("Ethereal Light", "/obj/spells/ethereal_light");
+
+.EI
+

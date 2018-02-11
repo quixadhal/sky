@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs (["client":({0,({({"Descriptor",({"int",}),}),({"Blocking",({"int",}),}),({"Buffer",({"mixed","*",}),}),({"Closed",({"int",}),}),}),([]),}),])
+file_name "/secure/include/client.h"
+last_changed 962429079

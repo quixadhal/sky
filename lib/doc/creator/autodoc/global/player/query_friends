@@ -1,0 +1,32 @@
+.DT
+query_friends
+$MUDNAME$ Creator Help
+query_friends
+
+.SH Name
+.SP 5 5
+query_friends -  This method returns the array of our friends.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_friends()
+.EI
+
+.SH Returns
+.SI 5
+our friends array
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the array of our friends.
+.EP
+

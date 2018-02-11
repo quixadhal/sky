@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["disease_action":({({"void",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"id",}),([]),}),"disease_worse":({({"void",}),({({"object",}),"player",}),([]),}),"extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"disease_better":({({"void",}),({({"object",}),"player",}),([]),}),"disease_start":({({"void",}),({({"object",}),"player",({"int",}),"arg",}),([]),}),"restart":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/disease/simple_disease":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"misc.curse.smurf\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"misc.curse.smurf",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/brokenarm.c"
+last_changed 1200761934

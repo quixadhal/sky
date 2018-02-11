@@ -1,0 +1,47 @@
+.DT
+all_channels
+$MUDNAME$ Creator Help
+all_channels
+
+.SH Name
+.SP 5 5
+all_channels -  This method is used to determine which talker channels can use.
+.EP
+
+.SH Syntax
+.SI 5
+string * all_channels(object player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player's channel list to generate
+.EI
+
+.SH Returns
+.SI 5
+an array of channel names. (string *)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/talker.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used to determine which talker channels can use.
+It also caches the data so that it only has to be recalculated
+once.
+
+
+
+.EP
+
+.SH See also
+.SP 5 5
+clear_cache(), query_channel_cache()
+
+.EP
+

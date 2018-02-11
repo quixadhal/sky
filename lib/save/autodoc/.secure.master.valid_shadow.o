@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_shadow":({({"int",}),({({"object",}),"ob",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_shadow.c"
+last_changed 998744955

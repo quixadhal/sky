@@ -1,0 +1,29 @@
+.DT
+driver_version
+$MUDNAME$ Creator Help
+driver_version
+
+.SH Name
+.SP 5 5
+driver_version -  This method is called slighty after the login time.
+.EP
+
+.SH Syntax
+.SI 5
+int driver_version()
+.EI
+
+.SH Defined in
+.SI 5
+/global/creator/wiz_info_comm.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called slighty after the login time.
+It checks to see if the driver version has changed and
+notifies the creator.
+
+.EP
+

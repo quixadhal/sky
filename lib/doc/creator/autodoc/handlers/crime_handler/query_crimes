@@ -1,0 +1,40 @@
+.DT
+query_crimes
+$MUDNAME$ Creator Help
+query_crimes
+
+.SH Name
+.SP 5 5
+query_crimes -  This method returns the types of crimes the person has committed
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_crimes(string place_name,
+mixed player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to get the crimes for
+the player in
+%^BOLD%^player%^RESET%^ - the name or object of the player to check
+.EI
+
+.SH Returns
+.SI 5
+the types of crimes the player has committed
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the types of crimes the person has committed
+.EP
+

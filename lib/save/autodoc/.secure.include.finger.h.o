@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs (["finger_info":({0,({({"gender",({"int",}),}),({"age",({"int",}),}),({"last",({"int",}),}),({"start_time",({"int",}),}),({"real_name",({"string",}),}),({"email",({"string",}),}),({"icq",({"string",}),}),({"homepage",({"string",}),}),({"birthday",({"string",}),}),({"location",({"string",}),}),({"home_dir",({"string",}),}),({"last_on_from",({"string",}),}),({"project",({"string",}),}),({"plan",({"string",}),}),}),([]),}),])
+file_name "/secure/include/finger.h"
+last_changed 1021758198

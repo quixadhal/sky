@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_remove":({({"int",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"enum",({"int",}),"bonus",}),([]),}),"sap_brains":({({"void",}),({({"object",}),"player",}),([]),}),"soul_reactions":({({"void",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"sid",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"player.is.stoned\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"player.is.stoned",}),])
+define_docs (["CURE":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/hemp.c"
+last_changed 962122405

@@ -1,0 +1,39 @@
+.DT
+query_darkness
+$MUDNAME$ Creator Help
+query_darkness
+
+.SH Name
+.SP 5 5
+query_darkness -  This method returns percentage of light.
+.EP
+
+.SH Syntax
+.SI 5
+int query_darkness(object env)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^the%^RESET%^ - room
+.EI
+
+.SH Returns
+.SI 5
+a percentage
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/weather.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns percentage of light.
+It should be dependant on the base amount of light, day or night time
+and cloud cover.
+.EP
+

@@ -1,0 +1,37 @@
+.DT
+members_of
+$MUDNAME$ Creator Help
+members_of
+
+.SH Name
+.SP 5 5
+members_of -  This function returns all the members of a group.
+.EP
+
+.SH Syntax
+.SI 5
+object * members_of(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the group
+.EI
+
+.SH Returns
+.SI 5
+an object * of the members
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/group_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function returns all the members of a group.
+.EP
+

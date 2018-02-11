@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_press":({({"int",}),({}),([]),}),"do_turn":({({"int",}),({({"mixed",}),"indirect_obs",({"string",}),"indir_match",({"string",}),"dir_match",({"mixed","*",}),"args",({"string",}),"pattern",}),([]),}),"query_dynamic_auto_load":({({"mapping",}),({}),([]),}),"do_switch":({({"int",}),({({"mixed",}),"indirect_obs",({"string",}),"indir_match",({"string",}),"dir_match",({"mixed","*",}),"args",({"string",}),"pattern",}),([]),}),"extra_look":({({"string",}),({}),([]),}),"set_state":({({"void",}),({({"int",}),"new_state",}),([]),}),"do_flick":({({"int",}),({}),([]),}),"do_push":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/objects/held":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes (["/include/move_failures.h":962428284,])
+class_docs ([])
+file_name "/obj/misc/boring_stick.c"
+last_changed 1029118634

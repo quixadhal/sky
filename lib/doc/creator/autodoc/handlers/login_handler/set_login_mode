@@ -1,0 +1,46 @@
+.DT
+set_login_mode
+$MUDNAME$ Creator Help
+set_login_mode
+
+.SH Name
+.SP 5 5
+set_login_mode -  This method sets the restriction level for loggin in.
+.EP
+
+.SH Syntax
+.SI 5
+int set_login_mode(int lvl)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^lvl%^RESET%^ - the restriction level
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the restriction level for loggin in.
+This can be used to restrict access to the mud at three levels.
+0 - unrestricted
+1 - restricted to playtesters
+2 - restricted to creators
+.EP
+
+.SH See also
+.SP 5 5
+query_login_mode()
+
+.EP
+

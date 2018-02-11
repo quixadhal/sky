@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["calc_personal_temp":({({"int",}),({({"object",}),"player",}),([]),}),"shiver":({({"void",}),({({"object",}),"player",({"int",}),"temperature",({"int",}),"id",}),([]),}),"extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"stat_adjusts":({({"void",}),({({"object",}),"player",({"int",}),"temperature",({"int",}),"id",}),([]),}),"restart":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classification of \"disease.hypothermia\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"disease.hypothermia",}),])
+define_docs (["DEBUG":([]),"COMFORTABLE":([]),"DEATH":([]),])
+includes (["/include/effect.h":962428284,"/include/clothing.h":962428284,"/include/weather.h":986801087,])
+class_docs ([])
+file_name "/std/effects/disease/general_hypothermia.c"
+last_changed 962122405

@@ -1,0 +1,39 @@
+.DT
+random_al
+$MUDNAME$ Creator Help
+random_al
+
+.SH Name
+.SP 5 5
+random_al -  This method returns a random alignment between the limits for the given deity.
+.EP
+
+.SH Syntax
+.SI 5
+int random_al(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+.EI
+
+.SH Returns
+.SI 5
+a random valid alignment
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns a random alignment between the limits for the
+given deity.  This is used by NPCs to set themselves up
+with a correct alignment for their deity.
+.EP
+

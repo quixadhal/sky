@@ -1,0 +1,45 @@
+.DT
+set_progress
+$MUDNAME$ Creator Help
+set_progress
+
+.SH Name
+.SP 5 5
+set_progress -  Set the progress for far for a project.
+.EP
+
+.SH Syntax
+.SI 5
+int set_progress(string domain,
+int pid,
+string progress)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+%^BOLD%^date%^RESET%^ - The progress so far.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Set the progress for far for a project. This may be a date, a percentage
+completion or even an estimate of work left, which it is will be determined
+by the creator and/or lord.
+
+.EP
+

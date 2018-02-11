@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["crash":({({"void",}),({({"string",}),"crash_mess",({"object",}),"command_giver",({"object",}),"current_object",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/crash.c"
+last_changed 1058893044

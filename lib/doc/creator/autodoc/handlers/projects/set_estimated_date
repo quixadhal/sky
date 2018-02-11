@@ -1,0 +1,43 @@
+.DT
+set_estimated_date
+$MUDNAME$ Creator Help
+set_estimated_date
+
+.SH Name
+.SP 5 5
+set_estimated_date -  Set the currently estimated completion date for a project.
+.EP
+
+.SH Syntax
+.SI 5
+int set_estimated_date(string domain,
+int pid,
+int date)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+%^BOLD%^date%^RESET%^ - The estimated completion date.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Set the currently estimated completion date for a project.
+
+.EP
+

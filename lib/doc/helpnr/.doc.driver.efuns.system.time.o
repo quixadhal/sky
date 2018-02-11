@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,4,"%^BOLD%^time","Seattle-sky driver help","time%^RESET%^","",8,"Name",7,5,"time() - return the number of seconds since January 1, 1970","",8,"Synopsis",7,5,"int time( void );","",8,"Description",3,5,5,"Return the number of seconds since midnight (GMT) January 1, 1970. ","",8,"See also",7,5,"ctime(), localtime(), time_expression(), uptime()","",})
+nroffed_file_name "/doc/driver/efuns/system/time"
+modified_time 1517727780

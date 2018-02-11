@@ -1,0 +1,37 @@
+.DT
+query_rumours
+$MUDNAME$ Creator Help
+query_rumours
+
+.SH Name
+.SP 5 5
+query_rumours -  This method returns all of the current rumours.
+.EP
+
+.SH Syntax
+.SI 5
+class gossip_data * query_rumours()
+.EI
+
+.SH Returns
+.SI 5
+an array of rumour classes
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/gossip_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all of the current rumours.
+.EP
+
+.SH See also
+.SP 5 5
+query_random_gossip()
+
+.EP
+

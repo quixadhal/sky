@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["who_line":({({"string",}),({({"object",}),"ob",({"int",}),"cre",({"int",}),"width",}),(["main":({"This method returns the line used for each player in the whocommand.",}),"param":({"ob the player to show","cre are we a cre","width the width of the line",}),"return":({"the who line",}),]),}),"filter_users":({({"object","*",}),({({"object","*",}),"tarr",({"string",}),"name",({"int",}),"no_cres",}),([]),}),"who_string":({({"string",}),({({"int",}),"width",({"int",}),"cre",({"int",}),"verbose",({"string",}),"name",}),(["main":({"This method returns the string used in the who command.",}),"return":({"the line for the who line",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is used by the other who commands to do the object mappingto figure out who to include in the list.",}),"param":({"tarr the array to get the filtered list from","name the name of the guilds to filter on","no_cres do not include any creators",}),"return":({"the array of filtered objects",}),])
+define_docs ([])
+includes (["/include/player.h":1036911799,"/include/time.h":1049465667,"/include/clubs.h":1050407666,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/handlers/who.c"
+last_changed 1121692836

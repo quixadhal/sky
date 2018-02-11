@@ -1,0 +1,32 @@
+.DT
+query_deities
+$MUDNAME$ Creator Help
+query_deities
+
+.SH Name
+.SP 5 5
+query_deities -  This method returns the names of all deities currently in the handler.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_deities()
+.EI
+
+.SH Returns
+.SI 5
+all the deity names
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the names of all deities currently in the handler.
+.EP
+

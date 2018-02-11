@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["logged_on_times":({({"void",}),({({"int",}),"num",}),(["main":({"Gives out the login gifts and anything else that should be done ona certain login number.",}),"param":({"num the number of logins",}),]),}),"start_player":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method is called when a player first starts on the mud.  It givesout all of the newbie equipment and stuff.",}),])
+define_docs (["TORCH":([]),])
+includes ([])
+class_docs ([])
+file_name "/global/player/newbie_junk.c"
+last_changed 1054469488

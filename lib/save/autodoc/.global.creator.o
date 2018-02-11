@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_creator":({({"int",}),({}),(["main":({"This method tells us if the object is a creator or not.",}),"return":({"1 if the object is a creator, 0 if not.",}),]),}),"receive_snoop":({({"void",}),({({"string",}),"bing",}),(["main":({"This method is used by the snoop efun to allow creator to seewhat other players are doing.",}),"param":({"bing the message to receive",}),]),}),])
+protected_functions (["do_qsnoop":({({"int",}),({({"object","*",}),"obs",}),(["main":({"This method is used to do a quiet snoop on a player.",}),"param":({"str the player to snoop",}),"return":({"1 on success, 0 on failure",}),]),}),"clean_up_files":({({"int",}),({({"string",}),"word",}),(["main":({"This method forces the clean up of certain file son thebulk deleter.  This cleans up all the files associated withthe given player.",}),"param":({"word the name of the player to clean up",}),"return":({"1 on success, 0 on failure",}),]),}),"bulk_delete":({({"int",}),({({"string",}),"word",}),(["main":({"This method forces a bulk delete on a certain letter.This letter will then be checked to see if any ofthose players have timed out and should be deleted.",}),"param":({"word the letter to bulk delete",}),"return":({"0 on falure and 1 on success",}),]),}),])
+inherits (["/global/creator/wiz_file_comm":({}),])
+main_docs (["main":({"This is the creator player object.  It gives the creators thebonus extra commands needed by happy creators.",}),"author":({"Pinkfish",}),"see":({"/global/player.c",}),])
+define_docs ([])
+includes (["/include/command.h":1010295178,"/include/player_handler.h":962428284,"/secure/include/rank.h":981679203,"/secure/include/login_handler.h":962429079,])
+class_docs ([])
+file_name "/global/creator.c"
+last_changed 1094122504

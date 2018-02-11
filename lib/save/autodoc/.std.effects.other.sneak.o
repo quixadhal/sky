@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",}),([]),}),"decrease_points":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"covert.sneaking\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"covert.sneaking",}),])
+define_docs (["COST_PER_ROUND":([]),"SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/sneak.c"
+last_changed 995686900

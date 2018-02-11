@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_table_name":({({"void",}),({({"string",}),"word",}),([]),}),"generate_list":({({"string",}),({({"mixed","*",}),"args",}),([]),}),"convert_age":({({"string",}),({({"int",}),"number",}),([]),}),"query_table_name":({({"string",}),({}),([]),}),"long":({({"string",}),({({"string",}),"words",({"int",}),"number",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes (["/include/top_ten_tables.h":962428284,])
+class_docs ([])
+file_name "/obj/misc/top_ten_tables.c"
+last_changed 979736400

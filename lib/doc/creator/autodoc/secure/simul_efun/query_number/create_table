@@ -1,0 +1,52 @@
+.DT
+create_table
+$MUDNAME$ Creator Help
+create_table
+
+.SH Name
+.SP 5 5
+create_table -  This method creates a nice table from the input array.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string create_table(string * title,
+string * names,
+int cap_flag)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^title%^RESET%^ - a two element array containing the title of
+the table, and the singular name for an array element
+%^BOLD%^names%^RESET%^ - the array to make the table out of
+%^BOLD%^cap_flag%^RESET%^ - 1 to capitalize and sort the array, 2 to
+capitalize without sorting
+.EI
+
+.SH Returns
+.SI 5
+a nice table
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/query_number.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method creates a nice table from the input array.
+To control whether or not the results should be sorted or
+capitalized, set the cap_flag to 1 to sort and capitalize,
+or to 2 to only capitalize the array.
+.EP
+
+.SH Example 1
+.SI 5
+write( create_table( ({"Creators", "creator"}),
+       DOMAIN_H->query_creators(), 1 )+"\n");
+
+.EI
+

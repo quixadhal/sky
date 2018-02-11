@@ -1,0 +1,36 @@
+.DT
+query_time
+$MUDNAME$ Creator Help
+query_time
+
+.SH Name
+.SP 5 5
+query_time - 
+.EP
+
+.SH Syntax
+.SI 5
+int query_time()
+.EI
+
+.SH Returns
+.SI 5
+The raw time in seconds per spell stage, I think.
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+.EP
+
+.SH See also
+.SP 5 5
+set_time, scale_time
+
+.EP
+

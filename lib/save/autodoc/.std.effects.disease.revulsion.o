@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",}),([]),}),"start":({({"void",}),({({"object",}),"player",}),([]),}),"extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"old_arg",({"int",}),"new_arg",}),([]),}),"vomiting":({({"void",}),({({"object",}),"player",}),([]),}),"restart":({({"void",}),({({"object",}),"player",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"duration",}),([]),}),"query_classification":({({"string",}),({}),([]),}),"new_vomit":({({"void",}),({({"object",}),"player",}),([]),}),"feel_rough":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["ROOMVOMIT":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/revulsion.c"
+last_changed 993237421

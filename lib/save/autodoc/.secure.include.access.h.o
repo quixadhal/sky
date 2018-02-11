@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["GRANT_MASK":([]),"ACCESS":([]),"ERROR":([]),"DEFAULT":([]),"ACCESS_REASON":([]),"SUSPEND_REASON":([]),"LOCK_MASK":([]),"PERM_NAMES":([]),"READ_MASK":([]),"NO_NEW":([]),"NO_ACCESS":([]),"ACCESS_TIMEOUT":([]),"WRITE_MASK":([]),"ACCESS_LEVEL":([]),"SUSPEND_TIME":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/access.h"
+last_changed 970974412

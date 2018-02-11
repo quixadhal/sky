@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Turns the player into a smurf.  The classification of this effect isis \"misc.curse.smurf\".<p>If a time is specifed then this is how long the effect lasts.If no time is specifed then the effect is never removed.<p>This effect has a shadow associated with it.",}),"example":({"// Give them the curse for 6 minutesadd_effect(\"/std/effects/curses/smurf\", 360);","// Give them the curse forever!add_effect(\"/std/effects/curse/smurf\");",}),"classification":({"misc.curse.smurf",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/curses/smurf.c"
+last_changed 962122407

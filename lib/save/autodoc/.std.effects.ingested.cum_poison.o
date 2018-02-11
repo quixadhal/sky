@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["deplete":({({"void",}),({({"object",}),"player",({"class","arg_info",}),"arg",({"int",}),"id",}),([]),}),"start_wretching":({({"void",}),({({"object",}),"player",({"class","arg_info",}),"arg",({"int",}),"id",}),([]),}),"wretch":({({"void",}),({({"object",}),"player",({"class","arg_info",}),"arg",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.poison\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"body.poison",}),])
+define_docs (["HP_PCT":([]),"DEPLETION_TIME":([]),"DEPLETION_AMT":([]),"SHADOWS":([]),"PATH":([]),"IDLE_TIME":([]),"MIN_TIME":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/ingested/path.h":962122405,])
+class_docs (["arg_info":({0,({({"min_time",({"int",}),}),({"depletion_time",({"int",}),}),({"depletion_amt",({"int",}),}),({"idle_time",({"int",}),}),({"hp_pct",({"int",}),}),({"msg_flag",({"int",}),}),({"time_left",({"int",}),}),}),([]),}),])
+file_name "/std/effects/ingested/cum_poison.c"
+last_changed 962122405

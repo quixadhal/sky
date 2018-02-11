@@ -1,0 +1,37 @@
+.DT
+stop_fight
+$MUDNAME$ Creator Help
+stop_fight
+
+.SH Name
+.SP 5 5
+stop_fight -  This method stops the creature from attacking another creature.
+.EP
+
+.SH Syntax
+.SI 5
+void stop_fight(object thing)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^thing%^RESET%^ - the creature to stop attacking
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method stops the creature from attacking another creature.
+.EP
+
+.SH See also
+.SP 5 5
+stop_all_fight()
+
+.EP
+

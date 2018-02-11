@@ -1,0 +1,37 @@
+.DT
+choice
+$MUDNAME$ Creator Help
+choice
+
+.SH Name
+.SP 5 5
+choice -  This method returns a random member of the specified array.
+.EP
+
+.SH Syntax
+.SI 5
+mixed choice(mixed options)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^options%^RESET%^ - the array to return a random member from
+.EI
+
+.SH Returns
+.SI 5
+a random member of the specified array
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/modified_efuns.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns a random member of the specified array.
+.EP
+

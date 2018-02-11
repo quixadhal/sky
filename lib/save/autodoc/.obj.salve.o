@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_dynamic_auto_load":({({"mapping",}),({}),([]),}),"do_apply":({({"int",}),({({"object","*",}),"indir",({"string",}),"dir_s",({"string",}),"indir_s",({"mixed","*",}),"args",}),([]),}),"remove_apply_effect":({({"void",}),({({"string",}),"word",}),([]),}),"being_joined_by":({({"void",}),({({"object",}),"thing",}),([]),}),"query_apply_effects":({({"mapping",}),({}),([]),}),"stats":({({"mixed","*",}),({}),([]),}),"add_apply_effect":({({"int",}),({({"string",}),"word",({"int",}),"number",}),([]),}),"init_dynamic_arg":({({"void",}),({({"mapping",}),"map",}),([]),}),"query_static_auto_load":({({"mapping",}),({}),([]),}),"set_apply_effects":({({"void",}),({({"mapping",}),"map",}),([]),}),])
+protected_functions ([])
+inherits (["/obj/food":({}),])
+define_docs ([])
+includes (["/include/drinks.h":962428284,])
+class_docs ([])
+file_name "/obj/salve.c"
+last_changed 1032764263

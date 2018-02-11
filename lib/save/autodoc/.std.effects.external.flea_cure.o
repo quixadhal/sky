@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["smell_string":({({"string",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"kill_flea":({({"void",}),({({"object",}),"player",}),([]),}),"cleanse":({({"int",}),({({"object",}),"thing",({"int",}),"bonus",}),([]),}),"make_smell":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.smell.insecticide\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"body.smell.insecticide",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/external/flea_cure.c"
+last_changed 962122406

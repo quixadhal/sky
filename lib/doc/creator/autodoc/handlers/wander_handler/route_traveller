@@ -1,0 +1,32 @@
+.DT
+route_traveller
+$MUDNAME$ creator help
+route_traveller
+
+.SH Name
+.SP 5 5
+route_traveller -  This class stores the data for a single NPC that is following a route.
+.EP
+
+.SH Definition
+.SI 5
+class route_traveller {
+int movetime;
+int delay;
+string dest;
+}
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/wander_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This class stores the data for a single NPC that is following a route.
+
+.EP
+

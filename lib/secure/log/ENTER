@@ -1,0 +1,44 @@
+Oct 31 05:38:01 [Enter] default         127.0.0.1
+Oct 31 05:38:33 [Exit]  default        
+Oct 31 05:39:04 [Enter] default         127.0.0.1
+Oct 31 05:48:51 [Enter] quixadhal       127.0.0.1
+Oct 31 05:50:28 [Exit]  quixadhal      
+Oct 31 05:50:36 [Enter] quixadhal       127.0.0.1
+Oct 31 05:50:49 [Exit]  quixadhal      
+Oct 31 05:50:53 [Exit]  default        
+Feb  1 17:18:19 [Enter] default         localhost
+Feb  1 17:21:29 [Enter] quixadhal       localhost
+Feb  1 18:28:04 [Exit]  default        
+Feb  1 19:24:22 [Exit]  quixadhal      
+Feb  1 19:25:28 [Enter] quixadhal       localhost
+Feb  1 19:29:51 [Enter] quixadhal       localhost
+Feb  1 19:31:57 [Enter] quixadhal       localhost
+Feb  1 20:31:17 [Exit]  quixadhal      
+Feb  1 20:33:08 [Enter] quixadhal       localhost
+Feb  1 20:36:37 [Enter] quixadhal       localhost
+Feb  2 11:11:52 [Exit]  quixadhal      
+Feb  2 11:12:01 [Enter] quixadhal       localhost
+Feb  2 11:24:02 [Enter] quixadhal       localhost
+Feb  2 15:19:01 [Enter] quixadhal       localhost
+Feb  2 17:25:21 [Enter] quixadhal       localhost
+Feb  2 17:37:49 [Enter] quixadhal       localhost
+Feb  2 17:40:55 [Enter] quixadhal       localhost
+Feb  2 23:54:01 [Exit]  quixadhal      
+Feb  2 23:54:17 [Enter] quixadhal       localhost
+Feb  3 00:13:15 [Enter] quixadhal       localhost
+Feb  3 00:17:47 [Exit]  quixadhal      
+Feb  3 00:17:56 [Enter] quixadhal       localhost
+Feb  3 00:19:03 [Enter] quixadhal       localhost
+Feb  3 15:26:22 [Enter] quixadhal       localhost
+Feb  4 12:25:24 [Enter] quixadhal       localhost
+Feb  7 21:34:11 [Exit]  quixadhal      
+Feb  7 21:34:22 [Enter] quixadhal       localhost
+Feb  7 21:35:13 [Enter] quixadhal       localhost
+Feb  7 21:50:05 [Enter] quixadhal       localhost
+Feb  7 21:54:07 [Enter] quixadhal       localhost
+Feb  7 22:51:09 [Enter] quixadhal       localhost
+Feb  7 23:20:32 [Enter] quixadhal       localhost
+Feb  7 23:56:59 [Enter] quixadhal       localhost
+Feb  7 23:59:54 [Enter] quixadhal       localhost
+Feb  8 01:07:49 [Enter] quixadhal       localhost
+Feb  8 22:58:25 [Enter] quixadhal       localhost

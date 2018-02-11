@@ -1,0 +1,32 @@
+.DT
+note
+$MUDNAME$ creator help
+note
+
+.SH Name
+.SP 5 5
+note -  This class is used to store notes about a given project.
+.EP
+
+.SH Definition
+.SI 5
+class note {
+string author;
+int date;
+string contents;
+}
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This class is used to store notes about a given project.
+
+.EP
+

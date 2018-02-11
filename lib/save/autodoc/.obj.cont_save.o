@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_remove":({({"int",}),({({"object",}),"thing",({"int",}),"flag",({"mixed",}),"dest",}),([]),}),"query_save_file":({({"string",}),({}),([]),}),"do_load":({({"varargs","void",}),({({"object",}),"thing",}),([]),}),"set_save_file":({({"varargs","void",}),({({"string",}),"file",({"object",}),"thing",}),([]),}),"do_save":({({"void",}),({}),([]),}),"check_euid":({({"void",}),({}),([]),}),"test_add":({({"int",}),({({"object",}),"ob",({"int",}),"flag",}),([]),}),])
+protected_functions ([])
+inherits (["/obj/baggage":({}),])
+main_docs (["main":({"This method returns the current save file for the object.",}),"return":({"the current save file",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/obj/cont_save.c"
+last_changed 1021541859

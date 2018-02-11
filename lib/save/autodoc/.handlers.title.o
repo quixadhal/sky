@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_magic_title":({({"string",}),({({"object",}),"player",({"int",}),"level",}),([]),}),"query_faith_title":({({"string",}),({({"object",}),"player",({"int",}),"level",}),([]),}),"query_main_skill":({({"string",}),({({"object",}),"player",}),([]),}),"query_title":({({"string",}),({({"object",}),"player",}),([]),}),"query_fighting_title":({({"string",}),({({"object",}),"player",({"int",}),"level",}),([]),}),"query_crafts_title":({({"string",}),({({"object",}),"player",({"int",}),"level",}),([]),}),"query_title_adjective":({({"string",}),({({"int",}),"level",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["SKILLS":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/title.c"
+last_changed 1015817999

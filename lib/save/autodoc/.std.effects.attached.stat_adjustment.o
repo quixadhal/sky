@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["update_adjustments":({({"void",}),({({"object",}),"player",({"class","stat_class",}),"arg",}),(["main":({"This method adjusts bonuses on the player based on the currentset of stats and things.",}),"param":({"player the player to update the stats on","arg",}),]),}),"remove_stat_adjustment_ob":({({"void",}),({({"object",}),"player",({"object",}),"ob",}),(["main":({"This method is called to remove the stat adjusts for the specifiedid.",}),"param":({"player the player to remove the adjustments","ob the object to remove the stats",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mudlib.clothing.stat\".<p>The argument to this effect should be a mapping with the set ofstat adjustments for the item and the item doing the adjusting.ie: ({ ob, ([ \"str\" : 1, \"dex\" : -1 ]) })<p>If you add the effect with the same object twice, the new set ofstat adjustments overrides the old ones.",}),"author":({"Pinkfish",}),"see":({"help::effects",}),"classification":({"mudlib.clothing.stat",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs (["stat_class":({0,({({"current_adjustments",({"mapping",}),}),({"obs",({"object","*",}),}),({"adjs",({"mapping","*",}),}),({"me",({"object",}),}),}),([]),}),])
+file_name "/std/effects/attached/stat_adjustment.c"
+last_changed 1046411540

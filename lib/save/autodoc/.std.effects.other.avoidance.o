@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["reduce_avoidance":({({"void",}),({({"object",}),"player",({"mapping",}),"arg",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect makes an NPC avoid certain people.It can be used to make NPCs run from certain playersif they attack the NPC or similar.The first argument to the effect is the name of theplayer to avoid, the second is the time to keepavoiding the player.",}),"example":({"add_effect(\"/std/effects/other/avoidance\",                  ({ player->query_name(), 600 }) );",}),])
+define_docs (["PLAYER":([]),"SHADOWS":([]),"PATH":([]),"TIME":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/avoidance.c"
+last_changed 1012318336

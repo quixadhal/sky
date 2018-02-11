@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits (["/std/object":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/menu.c"
+last_changed 1027210315

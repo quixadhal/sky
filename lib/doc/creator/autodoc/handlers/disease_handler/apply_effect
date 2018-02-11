@@ -1,0 +1,30 @@
+.DT
+apply_effect
+$MUDNAME$ Creator Help
+apply_effect
+
+.SH Name
+.SP 5 5
+apply_effect -  This method can catch diseases that need specific syntaxes to be activated.
+.EP
+
+.SH Syntax
+.SI 5
+void apply_effect(object player,
+string effect,
+int severity)
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/disease_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method can catch diseases that need specific syntaxes to be
+activated. If the disease isn't listed, it is just applied normally.
+
+.EP
+

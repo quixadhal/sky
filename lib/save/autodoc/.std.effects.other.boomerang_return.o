@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skeleton docs.  This effecthas a classification of \"body.arm.boomerang\".<p>Describe the arguments in here.<p>",}),"see":({"help::effects",}),"classification":({"body.arm.boomerang",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/boomerang_return.c"
+last_changed 962122399

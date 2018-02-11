@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["check_breakages":({({"void",}),({}),(["main":({"This method checks to see if any of the things contained in thecontainer should be broken.",}),"see":({"/std/container->add_weight()",}),]),}),"setup_baggage":({({"void",}),({({"int",}),"number",}),(["main":({"This method sets up the condition of the baggage.",}),"see":({"setup clothing()","setup_armour()",}),]),}),"ensure_open":({({"int",}),({}),(["main":({"This method returns true if the object is open and prints a messageabout the open status of the object.",}),"return":({"1 if it is open, 0 if not",}),]),}),])
+protected_functions ([])
+inherits (["/std/basic/close_lock_container":({}),"/std/basic/holdable":({}),"/std/basic/condition":({}),"/std/container":({}),])
+main_docs (["main":({"Copied from /obj/container.c.  The idea is to remove theliquid and potion-space stuff, since it's not needed for chestsand sacks.",}),"author":({"Jeremy, Pinkfish, Ember",}),"see":({"/obj/vessel.c",}),])
+define_docs ([])
+includes (["/include/move_failures.h":962428284,])
+class_docs ([])
+file_name "/obj/baggage.c"
+last_changed 1059389100

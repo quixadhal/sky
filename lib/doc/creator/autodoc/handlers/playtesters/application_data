@@ -1,0 +1,45 @@
+.DT
+application_data
+$MUDNAME$ creator help
+application_data
+
+.SH Name
+.SP 5 5
+application_data -  This the class is used to store playtester application data.
+.EP
+
+.SH Definition
+.SI 5
+class application_data {
+string name;
+string why;
+string areas;
+string vouches;
+string muds;
+int time;
+}
+
+.EI
+
+.SH Members
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the applicant
+%^BOLD%^why%^RESET%^ - why they want to apply
+%^BOLD%^areas%^RESET%^ - the areas of the mud they would like to see developed
+%^BOLD%^vouches%^RESET%^ - their vouches
+%^BOLD%^muds%^RESET%^ - the muds they have played at
+%^BOLD%^time%^RESET%^ - the time they applied at
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This the class is used to store playtester application data.
+.EP
+

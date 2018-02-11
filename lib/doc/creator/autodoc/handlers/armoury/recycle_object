@@ -1,0 +1,39 @@
+.DT
+recycle_object
+$MUDNAME$ Creator Help
+recycle_object
+
+.SH Name
+.SP 5 5
+recycle_object -  This method recycles a suitable object.
+.EP
+
+.SH Syntax
+.SI 5
+int recycle_object(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object to try to recycle
+.EI
+
+.SH Returns
+.SI 5
+1 if recycled successfully, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method recycles a suitable object.
+It will call reload_object() on it, and make it available for
+requesting from the armoury.
+.EP
+

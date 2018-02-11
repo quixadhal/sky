@@ -1,0 +1,32 @@
+.DT
+delete_move_after
+$MUDNAME$ Creator Help
+delete_move_after
+
+.SH Name
+.SP 5 5
+delete_move_after -  This method makes an NPC to stop wandering.
+.EP
+
+.SH Syntax
+.SI 5
+void delete_move_after(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the NPC to stop wandering
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/wander_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method makes an NPC to stop wandering.
+.EP
+

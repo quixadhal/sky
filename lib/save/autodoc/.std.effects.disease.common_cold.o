@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["disease_action":({({"void",}),({({"object",}),"player",({"int",}),"arg",}),([]),}),"disease_end":({({"void",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"sid",}),([]),}),"disease_start":({({"int",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"sid",}),([]),}),"sap_strength":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/disease/simple_disease":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/common_cold.c"
+last_changed 1056960590

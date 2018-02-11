@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"object",}),"item",}),([]),}),"merge_effect":({({"object",}),({({"object",}),"player",({"object",}),"old_item",({"object",}),"new_item",}),([]),}),"person_removing_item":({({"void",}),({({"object",}),"item",({"object",}),"player",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"object",}),"item",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/knuckle-duster.c"
+last_changed 984361859

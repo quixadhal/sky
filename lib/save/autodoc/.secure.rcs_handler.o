@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_non_creators":({({"mapping",}),({}),([]),}),"remove_lock":({({"void",}),({({"mixed",}),"cre",({"string",}),"file",}),([]),}),"query_locks":({({"string","*",}),({({"mixed",}),"cre",}),([]),}),"add_lock":({({"void",}),({({"mixed",}),"cre",({"string",}),"file",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Return a mapping of non-creators who have files locked and which filesthose people have locked.",}),])
+define_docs (["SAVE_FILE":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/rcs_handler.c"
+last_changed 1021623484

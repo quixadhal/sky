@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_tattoo_covered":({({"object","*",}),({({"object",}),"player",({"string",}),"part",}),(["main":({"This method scans through a player's clothes/armour and checkswhether or not a tattoo area is visible.",}),"param":({"player the player to check","part the bodypart to check",}),"return":({"the objects covering the tattoo, or 0 if visible",}),]),}),"query_tattooables":({({"string","*",}),({}),(["main":({"This method returns an array of all tattooable bodyparts.",}),"return":({"an array of all tattooable bodyparts",}),]),}),"expand_tattooable":({({"string",}),({({"string",}),"bodypart",({"string",}),"replace",}),(["main":({"This method returns the full tattoo area description and does the $pexpansion on it.",}),"param":({"bodypart the bodypart to get the full description for","replace what to expand the $p to",}),]),}),"query_tattooable":({({"int",}),({({"string",}),"part",}),(["main":({"This method queries whether or not the specified bodypart istattooable or not.",}),"param":({"part the name of the bodypart",}),"return":({"1 if the bodypart is tattooable, 0 if not",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["changed":({"Rewritten partly - Sandoz, 18/10/2002.",}),"main":({"This is the effect skelton docs.  This effecthas a classification of \"body.tattoo\".<p>This effect takes an array of two members as the argument,the first member of which is the name of the bodypart onto whichto add the tattoo, and the second member is the message to add.",}),"author":({"Aksu in July 1997",}),"see":({"help::effects",}),"classification":({"body.tattoo",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs (["tattoo_area":({0,({({"full",({"string",}),}),({"area",({"string",}),}),}),([]),}),])
+file_name "/std/effects/other/tattoo.c"
+last_changed 1050593975

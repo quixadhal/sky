@@ -1,0 +1,37 @@
+.DT
+query_immune
+$MUDNAME$ Creator Help
+query_immune
+
+.SH Name
+.SP 5 5
+query_immune -  This method returns the types of attacks that this thing is immune to.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_immune()
+.EI
+
+.SH Returns
+.SI 5
+the list of attacks this thing is immune to
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/armour.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the types of attacks that this thing is immune to.
+.EP
+
+.SH See also
+.SP 5 5
+add_immune(), remove_immune()
+
+.EP
+

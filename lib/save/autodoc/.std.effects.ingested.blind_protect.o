@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"time1",({"int",}),"time2",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"beginning":({({"int",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/blind_protect.c"
+last_changed 962122404

@@ -1,0 +1,36 @@
+.DT
+query_shadows
+$MUDNAME$ Creator Help
+query_shadows
+
+.SH Name
+.SP 5 5
+query_shadows -  This method returns all the objects that are shadowing the input object.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_shadows(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object to get the shadows list for
+.EI
+
+.SH Returns
+.SI 5
+the objects shadowing us, or 0 if none are found
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/modified_efuns.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all the objects that are shadowing the input object.
+.EP
+

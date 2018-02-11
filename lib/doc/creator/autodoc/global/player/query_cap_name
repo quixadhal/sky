@@ -1,0 +1,32 @@
+.DT
+query_cap_name
+$MUDNAME$ Creator Help
+query_cap_name
+
+.SH Name
+.SP 5 5
+query_cap_name -  This method returns the current capitalised name of the player.
+.EP
+
+.SH Syntax
+.SI 5
+nomask string query_cap_name()
+.EI
+
+.SH Returns
+.SI 5
+the capitalised name
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current capitalised name of the player.
+.EP
+

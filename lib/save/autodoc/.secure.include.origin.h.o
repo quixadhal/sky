@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["ORIGIN_DRIVER":([]),"ORIGIN_BACKEND":([]),"ORIGIN_FUNCTIONAL":([]),"ORIGIN_CALL_OTHER":([]),"ORIGIN_CALL_OUT":([]),"ORIGIN_SIMUL_EFUN":([]),"ORIGIN_LOCAL":([]),"ORIGIN_FUNCTION_POINTER":([]),"ORIGIN_EFUN":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/origin.h"
+last_changed 962429079

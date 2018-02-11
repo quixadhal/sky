@@ -1,0 +1,39 @@
+.DT
+query_controlled_list
+$MUDNAME$ Creator Help
+query_controlled_list
+
+.SH Name
+.SP 5 5
+query_controlled_list -  This method returns whether or not this is a controlled list.
+.EP
+
+.SH Syntax
+.SI 5
+int query_controlled_list(string list)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^list%^RESET%^ - the list to check
+.EI
+
+.SH Returns
+.SI 5
+1 if this is a controlled list, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/mail_track.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not this is a controlled list.
+It is possibly to add/remove members only from controlled lists,
+ie. not domain or project lists.
+.EP
+

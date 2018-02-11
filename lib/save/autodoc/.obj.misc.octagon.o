@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["wear_remove":({({"void",}),({({"object",}),"ob",}),([]),}),])
+protected_functions ([])
+inherits (["/obj/armour":({}),])
+define_docs (["PATH":([]),"CREATOR":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/octagon.c"
+last_changed 1000716228

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Theft Handler",}),"author":({"ShaydzStarted - 7/05/2001 7:35PM",}),"change":({"Added some Calarien specific things - Sandoz, May 2002.",}),])
+define_docs ([])
+includes (["/include/crime.h":1117725834,])
+class_docs ([])
+file_name "/handlers/theft_handler.c"
+last_changed 1119271105

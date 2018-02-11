@@ -1,0 +1,32 @@
+.DT
+query_tanned
+$MUDNAME$ Creator Help
+query_tanned
+
+.SH Name
+.SP 5 5
+query_tanned -  This method returns if the skin is tanned or not.
+.EP
+
+.SH Syntax
+.SI 5
+int query_tanned()
+.EI
+
+.SH Returns
+.SI 5
+1 if the skin is tanned, 0 if not tanned
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns if the skin is tanned or not.
+.EP
+

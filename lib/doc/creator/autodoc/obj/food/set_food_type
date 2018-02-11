@@ -1,0 +1,37 @@
+.DT
+set_food_type
+$MUDNAME$ Creator Help
+set_food_type
+
+.SH Name
+.SP 5 5
+set_food_type -  This sets which type the food is, for the disease handler.
+.EP
+
+.SH Syntax
+.SI 5
+void set_food_type(string type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the food type to set
+.EI
+
+.SH Defined in
+.SI 5
+/obj/food.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This sets which type the food is, for the disease handler.
+.EP
+
+.SH See also
+.SP 5 5
+query_food_type()
+
+.EP
+

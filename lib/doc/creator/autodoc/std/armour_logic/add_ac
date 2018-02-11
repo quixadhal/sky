@@ -1,0 +1,75 @@
+.DT
+add_ac
+$MUDNAME$ Creator Help
+add_ac
+
+.SH Name
+.SP 5 5
+add_ac -  This method makes an object to have an armour class against a certain type of damage.
+.EP
+
+.SH Syntax
+.SI 5
+int add_ac(string name,
+string type,
+mixed a_c)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the armour class to add
+%^BOLD%^type%^RESET%^ - the type of damage to protect against
+%^BOLD%^a_c%^RESET%^ - the actual armour class
+.EI
+
+.SH Returns
+.SI 5
+1 if the new armour class was successfully added, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/armour_logic.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method makes an object to have an armour class against a
+certain type of damage.  It is used when you want to give an object
+(usually armour) the ability to protect against a specific type of
+damage.
+The first of the three arguments to the function is the name of
+the armour class to add.  This can be anything, but please use
+something meaningful.
+The second argument is the attack type to protect against,
+usually "sharp", "blunt", "pierce" or similar.
+The third argument is the actual armour class.  The higher this is,
+the better protection the armour will provide.  If the argument is
+a number, the AC will be random( number ).  In case of a 1 element
+array, the AC will be that element.  With a 2 element array, the AC
+will be the 1st element + random( 2nd element ).  With a 3 element
+array, it will be 1st + 2nd D 3rd.
+.EP
+
+.SH Example 1
+.SI 5
+add_ac("standard_blunt", "blunt", 50 );
+.EI
+
+.SH Example 2
+.SI 5
+add_ac("standard_pierce", "pierce", ({ 50 }) );
+.EI
+
+.SH Example 3
+.SI 5
+add_ac("standard_sharp", "sharp", ({ 25, 50 }) );
+.EI
+
+.SH Example 4
+.SI 5
+add_ac("fire", "fire", ({ 20, 4, 10 }) );
+.EI
+

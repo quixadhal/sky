@@ -1,0 +1,27 @@
+.DT
+query_routes
+$MUDNAME$ Creator Help
+query_routes
+
+.SH Name
+.SP 5 5
+query_routes -  The method returns the raw routes mapping.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_routes()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+The method returns the raw routes mapping.
+
+.EP
+

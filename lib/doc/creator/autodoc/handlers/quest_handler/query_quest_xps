@@ -1,0 +1,37 @@
+.DT
+query_quest_xps
+$MUDNAME$ Creator Help
+query_quest_xps
+
+.SH Name
+.SP 5 5
+query_quest_xps -  This method returns the xp rewards of all the quests.
+.EP
+
+.SH Syntax
+.SI 5
+int * query_quest_xps()
+.EI
+
+.SH Returns
+.SI 5
+the levels of all the quests
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/quest_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the xp rewards of all the quests.
+.EP
+
+.SH See also
+.SP 5 5
+add_quest(), delete_quest()
+
+.EP
+

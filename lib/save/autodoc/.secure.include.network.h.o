@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["SERVER":([]),"SERVICES_D":([]),"STREAM":([]),"PORT_OOB":([]),"PORT_MUD":([]),"DATAGRAM_BINARY":([]),"STREAM_BINARY":([]),"PORT_HTTP":([]),"PORT_FTPAUTH":([]),"INTERMUD_D":([]),"CLIENT":([]),"__NETWORK_H":([]),"OOB_D":([]),"PORT_FTP":([]),"MUD":([]),"DATAGRAM":([]),])
+includes (["/secure/include/socket_errors.h":1200761934,])
+class_docs ([])
+file_name "/secure/include/network.h"
+last_changed 1027443840

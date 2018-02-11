@@ -1,0 +1,27 @@
+.DT
+do_list_apps
+$MUDNAME$ Creator Help
+do_list_apps
+
+.SH Name
+.SP 5 5
+do_list_apps -  This method prints the list of pending applications.
+.EP
+
+.SH Syntax
+.SI 5
+int do_list_apps()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints the list of pending applications.
+
+.EP
+

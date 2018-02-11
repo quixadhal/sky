@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"merge_effect":({({"void",}),({({"object",}),"player",({"mixed",}),"oldarg",({"mixed",}),"newarg",({"int",}),"id",}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["CLASS":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/party-hat.c"
+last_changed 962122399

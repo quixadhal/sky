@@ -1,0 +1,27 @@
+.DT
+query_pt_data
+$MUDNAME$ Creator Help
+query_pt_data
+
+.SH Name
+.SP 5 5
+query_pt_data -  Returns the raw playtester data for processing!
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_pt_data(string name)
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the raw playtester data for processing!
+
+.EP
+

@@ -1,0 +1,32 @@
+.DT
+query_scraped
+$MUDNAME$ Creator Help
+query_scraped
+
+.SH Name
+.SP 5 5
+query_scraped -  This method queries if the skin has been successfully scraped.
+.EP
+
+.SH Syntax
+.SI 5
+int query_scraped()
+.EI
+
+.SH Returns
+.SI 5
+1 if the skin has been successfully scraped, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries if the skin has been successfully scraped.
+.EP
+

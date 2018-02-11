@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Makes the players hair fall out.The classification of this effect is \"misc.curse.ridcullian\".<p>The argument specifies how long the hair loss will last.",}),"example":({"// Give them the curse for 5 minutesadd_effect(\"/std/effects/curse/ridcullian\", 300);",}),"classification":({"misc.curse.ridcullian",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/curses/ridcullian_curse.c"
+last_changed 962122406

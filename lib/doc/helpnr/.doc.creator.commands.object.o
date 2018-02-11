@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,6,"%^BOLD%^object","Shadowlord-sky creator help","object%^RESET%^","",8,"Name",7,5,"object - displays or sets obvars","",8,"Syntax",7,5,"objectobject obvar=<object>","",8,"Root Abbreviation",7,5,"ob*","",8,"Description",3,5,5,"Object is used to either display all your current obvar settings or to  directly assign an obvar to an object. ","",8,"Examples",7,5,"objectobj temp=fish in meob rm=(zellski)","",8,"See also",3,5,5,"clone, call, wiz_present ","",})
+nroffed_file_name "/doc/creator/commands/object"
+modified_time 1517551603

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_remove":({({"int",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"enum",({"int",}),"bonus",}),([]),}),"knurd_behaviour":({({"void",}),({({"object",}),"person",({"int","*",}),"extent",}),([]),}),"counter":({({"int",}),({({"object",}),"person",({"int",}),"bonus",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.knurd\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"body.knurd",}),])
+define_docs ([])
+includes (["/include/player.h":1036911799,"/include/move_failures.h":962428284,"/include/effect.h":962428284,"/include/drinks.h":962428284,"/include/living.h":962428284,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/std/effects/ingested/knurd.c"
+last_changed 962122404

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["handle_xp":({({"varargs","void",}),({({"object",}),"person",({"int",}),"amount",({"int",}),"success",({"string",}),"cmd",}),(["main":({"This function will give out xp to the player, based on theamount of gps used, the last time the command was used bythe player and if the command was successful or not.",}),"param":({"person the player using the command","amount the amount of gps used","success wether or not the command was successful","cmd the name of the command, if this is 0,previous_object() will be used.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"XP handler - hands out command xp based on the time thecommand was last used and the cost of the command.",}),"author":({"Sandoz",}),])
+define_docs (["GAP_TIME":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/xp_handler.c"
+last_changed 1009981787

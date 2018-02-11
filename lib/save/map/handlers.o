@@ -1,0 +1,9 @@
+#/handlers/map_helper.c
+shorts (["armoury":"the Armoury",])
+movezones (["armoury":({"nowhere",}),])
+changetimes (["armoury":1200080889,])
+clusters ([])
+map ([])
+coords ([])
+sizes (["armoury":({25,25,25,}),])
+directory "handlers"

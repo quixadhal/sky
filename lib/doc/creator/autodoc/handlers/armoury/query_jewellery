@@ -1,0 +1,32 @@
+.DT
+query_jewellery
+$MUDNAME$ Creator Help
+query_jewellery
+
+.SH Name
+.SP 5 5
+query_jewellery -  Returns the current list of known jewelley.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_jewellery()
+.EI
+
+.SH Returns
+.SI 5
+the jewellery array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known jewelley.
+.EP
+

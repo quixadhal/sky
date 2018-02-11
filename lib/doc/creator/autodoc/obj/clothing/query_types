@@ -1,0 +1,38 @@
+.DT
+query_types
+$MUDNAME$ Creator Help
+query_types
+
+.SH Name
+.SP 5 5
+query_types -  This method returns the types of weapons that can be sheathed in the scabbard.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_types()
+.EI
+
+.SH Returns
+.SI 5
+the types that can be sheathed
+.EI
+
+.SH Defined in
+.SI 5
+/obj/clothing.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the types of weapons that can be
+sheathed in the scabbard.
+.EP
+
+.SH See also
+.SP 5 5
+query_scabbard(), query_clothing(), set_types(), set_no_weapons_allowed(), query_no_weapons_allowed(), set_clothing_scabbard(), test_type_ok()
+
+.EP
+

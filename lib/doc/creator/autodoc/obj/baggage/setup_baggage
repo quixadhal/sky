@@ -1,0 +1,32 @@
+.DT
+setup_baggage
+$MUDNAME$ Creator Help
+setup_baggage
+
+.SH Name
+.SP 5 5
+setup_baggage -  This method sets up the condition of the baggage.
+.EP
+
+.SH Syntax
+.SI 5
+void setup_baggage(int number)
+.EI
+
+.SH Defined in
+.SI 5
+/obj/baggage.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets up the condition of the baggage.
+.EP
+
+.SH See also
+.SP 5 5
+setup clothing(), setup_armour()
+
+.EP
+

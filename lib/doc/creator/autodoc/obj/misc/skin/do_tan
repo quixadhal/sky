@@ -1,0 +1,35 @@
+.DT
+do_tan
+$MUDNAME$ Creator Help
+do_tan
+
+.SH Name
+.SP 5 5
+do_tan -  This method is called when the skin is being tanned.
+.EP
+
+.SH Syntax
+.SI 5
+int do_tan()
+.EI
+
+.SH Returns
+.SI 5
+1 if the tanning was successful, 0 if the skin
+cannot be tanned or has already been tanned
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called when the skin is being tanned.
+It stops the decay of the skin and changes its short
+and extra look.
+.EP
+

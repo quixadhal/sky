@@ -1,0 +1,32 @@
+.DT
+init_data
+$MUDNAME$ Creator Help
+init_data
+
+.SH Name
+.SP 5 5
+init_data -  This method initialises the data for a particular creator.
+.EP
+
+.SH Syntax
+.SI 5
+void init_data(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator name to get the data for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method initialises the data for a particular creator.
+.EP
+

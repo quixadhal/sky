@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_worn":({({"void",}),({({"object",}),"player",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"old_state",({"int",}),"new_state",}),([]),}),"query_classification":({({"string",}),({}),([]),}),"end":({({"void",}),({({"object",}),"player",}),([]),}),"test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"messages":({({"void",}),({({"object",}),"person",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/lag_ring.c"
+last_changed 984361859

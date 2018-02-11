@@ -1,0 +1,33 @@
+.DT
+new_talker_args
+$MUDNAME$ Creator Help
+new_talker_args
+
+.SH Name
+.SP 5 5
+new_talker_args -  This method returns the "default" effect arguments.
+.EP
+
+.SH Syntax
+.SI 5
+class talker_args new_talker_args()
+.EI
+
+.SH Returns
+.SI 5
+a talker_args class containing "new" arguments.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/talker.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the "default" effect arguments. They are used
+if the existing ones are invalid (or old).
+.EP
+

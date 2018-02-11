@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["beginning":({({"int",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"sid",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["CURE":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/nausea.c"
+last_changed 1016983117

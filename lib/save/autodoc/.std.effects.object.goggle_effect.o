@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"merge_effect":({({"void",}),({({"object",}),"player",({"int",}),"time1",({"int",}),"time2",}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/object/path.h":984361859,])
+class_docs ([])
+file_name "/std/effects/object/goggle_effect.c"
+last_changed 984361859

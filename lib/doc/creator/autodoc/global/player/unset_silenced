@@ -1,0 +1,32 @@
+.DT
+unset_silenced
+$MUDNAME$ Creator Help
+unset_silenced
+
+.SH Name
+.SP 5 5
+unset_silenced -  This method removes the silencing from the player.
+.EP
+
+.SH Syntax
+.SI 5
+int unset_silenced()
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes the silencing from the player.
+.EP
+

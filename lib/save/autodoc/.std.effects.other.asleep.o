@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["SHADOW":([]),"CLASS":([]),])
+includes (["/include/effect.h":962428284,"/include/living.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/asleep.c"
+last_changed 962122399

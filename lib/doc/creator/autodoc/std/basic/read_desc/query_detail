@@ -1,0 +1,37 @@
+.DT
+query_detail
+$MUDNAME$ Creator Help
+query_detail
+
+.SH Name
+.SP 5 5
+query_detail -  This method returns the current value of the detail for an item.
+.EP
+
+.SH Syntax
+.SI 5
+string query_detail(string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the detail to get
+.EI
+
+.SH Returns
+.SI 5
+the detail for an item
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/read_desc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current value of the detail for an item.
+.EP
+

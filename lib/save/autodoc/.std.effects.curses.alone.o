@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Make the player feel they are alone on the disc.  The classification of thiseffect is \"misc.curse.alone\".<p>The argument to the effect does nothing at all.  The effectcan only be removed by a call to remove effect.  It does nottime out.<p>This effect has a shadow associated with it.",}),"example":({"add_effect(\"/std/effects/curses/alone\");",}),"classification":({"misc.curse.alone",}),])
+define_docs (["ITEMS":([]),"SHADOWS":([]),"EFFECTS":([]),"BASIS":([]),"NPCS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/curses/path.h":962122407,])
+class_docs ([])
+file_name "/std/effects/curses/alone.c"
+last_changed 962122407

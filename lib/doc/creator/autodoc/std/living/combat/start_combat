@@ -1,0 +1,32 @@
+.DT
+start_combat
+$MUDNAME$ Creator Help
+start_combat
+
+.SH Name
+.SP 5 5
+start_combat -  This method makes us actually attack someone.
+.EP
+
+.SH Syntax
+.SI 5
+void start_combat(object thing)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^thing%^RESET%^ - the creature we want to attack
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method makes us actually attack someone.
+.EP
+

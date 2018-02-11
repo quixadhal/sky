@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["stats":({({"mixed",}),({}),([]),}),"apply_effect":({({"void",}),({({"object",}),"player",({"string",}),"effect",({"int",}),"severity",}),(["main":({"This method can catch diseases that need specific syntaxes to beactivated. If the disease isn't listed, it is just applied normally.",}),]),}),"choose_disease":({({"string",}),({}),(["main":({"This method calculates a mapping of the chances for each particulardisease occuring.It then chooses the actual disease.",}),]),}),"consume_food":({({"void",}),({({"object",}),"player",({"int",}),"decomposition",({"int",}),"weight",({"string",}),"type",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"",}),"ignore":({"yes",}),])
+define_docs (["PREDEFINED_TYPES":([]),"ALL_DISEASES":([]),])
+includes (["/include/diseases.h":983677817,])
+class_docs ([])
+file_name "/handlers/disease_handler.c"
+last_changed 1002080986

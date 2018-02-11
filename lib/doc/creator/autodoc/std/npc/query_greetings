@@ -1,0 +1,33 @@
+.DT
+query_greetings
+$MUDNAME$ Creator Help
+query_greetings
+
+.SH Name
+.SP 5 5
+query_greetings -  This method queries the greetings of the NPC, if there are any set.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_greetings()
+.EI
+
+.SH Returns
+.SI 5
+the greetings array
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries the greetings of the NPC,
+if there are any set.
+.EP
+

@@ -1,0 +1,27 @@
+.DT
+set_invis
+$MUDNAME$ Creator Help
+set_invis
+
+.SH Name
+.SP 5 5
+set_invis -  This method is used to set invisibility internally.
+.EP
+
+.SH Syntax
+.SI 5
+nomask int set_invis(int level)
+.EI
+
+.SH Defined in
+.SI 5
+/global/creator/wiz_file_comm.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used to set invisibility internally.
+
+.EP
+

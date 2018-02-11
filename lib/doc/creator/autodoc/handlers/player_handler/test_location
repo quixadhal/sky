@@ -1,0 +1,37 @@
+.DT
+test_location
+$MUDNAME$ Creator Help
+test_location
+
+.SH Name
+.SP 5 5
+test_location -  This method returns the player's location.
+.EP
+
+.SH Syntax
+.SI 5
+string test_location(string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the name of the user
+.EI
+
+.SH Returns
+.SI 5
+the player's location
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/player_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the player's location.
+.EP
+

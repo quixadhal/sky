@@ -1,0 +1,39 @@
+.DT
+query_criminal
+$MUDNAME$ Creator Help
+query_criminal
+
+.SH Name
+.SP 5 5
+query_criminal -  This method checks if the player is a criminal
+.EP
+
+.SH Syntax
+.SI 5
+int query_criminal(string place_name,
+mixed player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to check
+%^BOLD%^player%^RESET%^ - the name or object of the player to check
+.EI
+
+.SH Returns
+.SI 5
+1 if they're a criminal, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks if the player is a criminal
+.EP
+

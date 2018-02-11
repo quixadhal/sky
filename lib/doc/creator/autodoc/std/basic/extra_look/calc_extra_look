@@ -1,0 +1,37 @@
+.DT
+calc_extra_look
+$MUDNAME$ Creator Help
+calc_extra_look
+
+.SH Name
+.SP 5 5
+calc_extra_look -  This method creates the extra long strings based on the current list of objects to use an extra_look on.
+.EP
+
+.SH Syntax
+.SI 5
+string calc_extra_look()
+.EI
+
+.SH Returns
+.SI 5
+the extra look string
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/extra_look.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method creates the extra long strings based on the current list
+of objects to use an extra_look on.  The function extra_look() is
+called on every object with TO passed in as the first (and only)
+parameter.  If the result is non-zero it is added onto the output.
+In case of function pointers, the function pointer will be evaluated
+with TO as the argument.
+.EP
+

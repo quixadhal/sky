@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["diminish":({({"int",}),({({"int",}),"x",({"int",}),"x_max",({"int",}),"y_max",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"potion.perception\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"potion.perception",}),])
+define_docs (["MAX_EFFECT":([]),"SHADOWS":([]),"PATH":([]),"MAX_STRENGTH":([]),"MAX_DURATION":([]),"MIN_STRENGTH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/ingested/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/ingested/perception.c"
+last_changed 962122404

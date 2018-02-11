@@ -1,0 +1,37 @@
+.DT
+test_add_read_mess
+$MUDNAME$ Creator Help
+test_add_read_mess
+
+.SH Name
+.SP 5 5
+test_add_read_mess -  This method queries whether or not the specified text fits on this object.
+.EP
+
+.SH Syntax
+.SI 5
+int test_add_read_mess(string str,
+string type,
+string lang,
+int size)
+.EI
+
+.SH Returns
+.SI 5
+1 if the text fits on the object, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/read_desc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether or not the specified text
+fits on this object.  The arguments to this function are
+identical to those of add_read_mess().
+.EP
+

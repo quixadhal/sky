@@ -1,0 +1,288 @@
+--------------------
+Thu Feb  8 22:56:27 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 1799954
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0);",}),
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",
+    (array) ({0,8,9,10,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0);",}),
+    (array) ({0,8,9,10,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 9,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0)",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0)"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  8 22:56:30 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (int) 1799948
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0));",}),
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));",
+    (array) ({0,8,9,10,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0));",}),
+    (array) ({0,8,9,10,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 9,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0));"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0))",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0))"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.

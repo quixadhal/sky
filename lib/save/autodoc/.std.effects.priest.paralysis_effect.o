@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"priest.paralysis\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"priest.paralysis",}),])
+define_docs (["SHADOWS":([]),])
+includes (["/std/effects/priest/path.h":962122407,"/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/priest/paralysis_effect.c"
+last_changed 962122407

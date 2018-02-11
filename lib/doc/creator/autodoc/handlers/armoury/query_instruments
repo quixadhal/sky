@@ -1,0 +1,32 @@
+.DT
+query_instruments
+$MUDNAME$ Creator Help
+query_instruments
+
+.SH Name
+.SP 5 5
+query_instruments -  Returns the current list of known musical instruments.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_instruments()
+.EI
+
+.SH Returns
+.SI 5
+the musical instruments array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known musical instruments.
+.EP
+

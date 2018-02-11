@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_channels":({({"string","*",}),({}),(["main":({"This method returns the channels this player has.",}),"return":({"an array of channel names the player has",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Channels \"borrowed\" from the Nightmare mudlib by Sibbis 12/10/1994Converted to Divided Sky - Shaydz",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/global/player/channels.c"
+last_changed 1120721888

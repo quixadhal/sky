@@ -1,0 +1,37 @@
+.DT
+burn_them
+$MUDNAME$ Creator Help
+burn_them
+
+.SH Name
+.SP 5 5
+burn_them -  Burns the player unless they have wetness over 80.
+.EP
+
+.SH Syntax
+.SI 5
+void burn_them(object player,
+int time,
+int id)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - The player to burn.
+%^BOLD%^time%^RESET%^ - The time left.
+%^BOLD%^id%^RESET%^ - The effect ID.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/other/boiling_oil.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Burns the player unless they have wetness over 80.
+
+.EP
+

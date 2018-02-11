@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect fills a room with poisonous gas for a specifiedlength of time.  Armour class of type \"gas\" on the head zonewill offer protection to the player from the damage it causes.<p>The only argument is the time it will remain in the room for.<p>",}),"see":({"help::effects",}),"classification":({"gas.poisonous.yellow-green",}),])
+define_docs (["DAMAGE":([]),"CHOKE_TIME":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/room/yellow-green_gas.c"
+last_changed 1009430797

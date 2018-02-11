@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"args",({}),"int",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"old_args",({"int",}),"new_args",}),([]),}),"find_right_object":({({"object",}),({({"object",}),"plr",}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"mixed","*",}),"args",({}),"int",}),([]),}),"message":({({"void",}),({({"object",}),"player",({"int",}),"args",({}),"int",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"args",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["EFFECT":([]),"COMMANDOB":([]),"SKILL":([]),"COST":([]),])
+includes (["/include/effect.h":962428284,"/include/player.h":1036911799,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/std/effects/ingested/potion_spellcheck.c"
+last_changed 1021560701

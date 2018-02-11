@@ -1,0 +1,33 @@
+.DT
+query_max_deaths
+$MUDNAME$ Creator Help
+query_max_deaths
+
+.SH Name
+.SP 5 5
+query_max_deaths -  Returns the maxium number of deaths.
+.EP
+
+.SH Syntax
+.SI 5
+int query_max_deaths()
+.EI
+
+.SH Returns
+.SI 5
+the maxium number fo deaths
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the maxium number of deaths.  This is the maxium
+number of times they can die before they are totally dead.
+.EP
+

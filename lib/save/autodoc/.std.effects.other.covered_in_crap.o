@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["smell_string":({({"string",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"make_stink":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.smell.crap\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"body.smell.crap",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/covered_in_crap.c"
+last_changed 962122399

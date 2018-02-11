@@ -1,0 +1,37 @@
+.DT
+query_friend
+$MUDNAME$ Creator Help
+query_friend
+
+.SH Name
+.SP 5 5
+query_friend -  This method will return 1 if the input name is a friend.
+.EP
+
+.SH Syntax
+.SI 5
+int query_friend(string who)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^who%^RESET%^ - the person to test for friendship
+.EI
+
+.SH Returns
+.SI 5
+1 if the specified person is our friend or not
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will return 1 if the input name is a friend.
+.EP
+

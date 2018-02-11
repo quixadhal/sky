@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect is for the nice people who ride a horse.",}),"started":({"Fri Sep 24 1:00:00 1999",}),"author":({"Pinkfish",}),"classification":({"mudlib.riding",}),])
+define_docs ([])
+includes ([])
+class_docs (["riding":({0,({({"transport",({"object",}),}),({"saved_info",({"mixed",}),}),}),([]),}),])
+file_name "/std/effects/attached/riding.c"
+last_changed 962122403

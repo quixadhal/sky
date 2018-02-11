@@ -1,0 +1,49 @@
+.DT
+create_channel
+$MUDNAME$ Creator Help
+create_channel
+
+.SH Name
+.SP 5 5
+create_channel -  This method creates an intermud channel.
+.EP
+
+.SH Syntax
+.SI 5
+string create_channel(string cname,
+int ctype)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^cname%^RESET%^ - the name of the channel to create
+%^BOLD%^ctype%^RESET%^ - the type of the channel to create
+.EI
+
+.SH Returns
+.SI 5
+a message describing our progress
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method creates an intermud channel.
+The channel types that can be used are:
+.EP
+.SP 5 5
+0 - selectively banned.
+.EP
+.SP 5 5
+1 - selectively admitted.
+.EP
+.SP 5 5
+2 - filtered (selectively admitted).
+.EP
+

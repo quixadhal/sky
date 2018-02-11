@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_remove":({({"int",}),({({"object",}),"player",({}),"int",({"int",}),"enum",({"int",}),"bonus",}),([]),}),"come_around":({({"void",}),({({"object",}),"person",}),([]),}),"drunk_behaviour":({({"void",}),({({"object",}),"person",({"int",}),"*",}),([]),}),"wander_about":({({"void",}),({({"object",}),"person",}),([]),}),"counter":({({"int",}),({({"object",}),"person",({"int",}),"bonus",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.drunk\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"body.drunk",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/position.h":1056994259,"/include/effect.h":962428284,"/include/living.h":962428284,"/std/effects/ingested/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/ingested/drunk.c"
+last_changed 1032938367

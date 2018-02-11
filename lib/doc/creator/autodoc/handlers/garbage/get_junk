@@ -1,0 +1,29 @@
+.DT
+get_junk
+$MUDNAME$ Creator Help
+get_junk
+
+.SH Name
+.SP 5 5
+get_junk -  Filter function for the objects() efun.
+.EP
+
+.SH Syntax
+.SI 5
+int get_junk(object ob)
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/garbage.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Filter function for the objects() efun.  We only want clones without
+references from other objects that are not shadowing stuff,
+not in a room and are not rooms themselves.
+
+.EP
+

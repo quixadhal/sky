@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_tear":({({"int",}),({({"int",}),"num",}),([]),}),])
+protected_functions ([])
+inherits (["/std/book_dir":({}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/cre_book1.c"
+last_changed 1026881711

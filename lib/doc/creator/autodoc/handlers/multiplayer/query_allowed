@@ -1,0 +1,32 @@
+.DT
+query_allowed
+$MUDNAME$ Creator Help
+query_allowed
+
+.SH Name
+.SP 5 5
+query_allowed -  Returns the current allowed multi player IP list
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_allowed()
+.EI
+
+.SH Returns
+.SI 5
+the list of allowed multi players
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/multiplayer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current allowed multi player IP list
+.EP
+

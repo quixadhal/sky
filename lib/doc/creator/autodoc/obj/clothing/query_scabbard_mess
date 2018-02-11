@@ -1,0 +1,43 @@
+.DT
+query_scabbard_mess
+$MUDNAME$ Creator Help
+query_scabbard_mess
+
+.SH Name
+.SP 5 5
+query_scabbard_mess -  This method returns the message associated with the scabbard.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string query_scabbard_mess(int flag)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^flag%^RESET%^ - if the flag is set then the message will be
+constructed without the "It could sheath" bit.
+.EI
+
+.SH Returns
+.SI 5
+the message associated with the scabbard
+.EI
+
+.SH Defined in
+.SI 5
+/obj/clothing.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the message associated with the scabbard.
+.EP
+
+.SH See also
+.SP 5 5
+query_scabbard()
+
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["F_DIE":([]),"A_TYPE":([]),"F_NUM":([]),"A_AC":([]),"W_TYPE":([]),"A_ARRAY_SIZE":([]),"A_NAME":([]),"W_CHANCE":([]),"W_ARRAY_SIZE":([]),"W_SKILL":([]),"W_FUNCTION":([]),"F_FIXED":([]),"W_DAMAGE":([]),])
+includes ([])
+class_docs ([])
+file_name "/include/weapon.h"
+last_changed 962428284

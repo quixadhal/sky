@@ -1,0 +1,37 @@
+.DT
+process_value
+$MUDNAME$ Creator Help
+process_value
+
+.SH Name
+.SP 5 5
+process_value -  This method replaces the process_value efun which is now missing.
+.EP
+
+.SH Syntax
+.SI 5
+mixed process_value(string s)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^s%^RESET%^ - the string to process
+.EI
+
+.SH Returns
+.SI 5
+the processed string
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/process_value.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method replaces the process_value efun which is now missing.
+.EP
+

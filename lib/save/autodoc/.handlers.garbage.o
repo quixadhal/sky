@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["get_junk":({({"int",}),({({"object",}),"ob",}),(["main":({"Filter function for the objects() efun.  We only want clones withoutreferences from other objects that are not shadowing stuff,not in a room and are not rooms themselves.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["changed":({"Sandoz, 09/09/2002Changed to not consider doors/chatters with no my_room junk.The refs count should still get those.","Sandoz, 16/10/2002Added a new cleanup scheme, that will hold back on heaps of roomscalling out real_clean at the same time, and that will callreclaim_objects() on more sensible times.",}),"main":({"handler to remove junk lost in null-space from the mudso they wont waste memory, and (if they have a heart_beat)cpu anymore.",}),])
+define_docs (["FAULT_RATE":([]),"MIN_TIME":([]),"HOUSEKEEP_INTERVAL":([]),"ROOM_STABLE_DELAY":([]),"ROOM_IDLE_DELAY":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/garbage.c"
+last_changed 1052936171

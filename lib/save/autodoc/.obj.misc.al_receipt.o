@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_object":({({"void",}),({({"string",}),"s",}),([]),}),"set_dynamic_save":({({"void",}),({({"mixed",}),"m",}),([]),}),"query_dynamic_auto_load":({({"mapping",}),({}),([]),}),"query_static_save":({({"mixed",}),({}),([]),}),"stats":({({"mixed",}),({}),([]),}),"query_virt_obname":({({"string",}),({}),([]),}),"set_virtobname":({({"void",}),({({"string",}),"s",}),([]),}),"query_timestamp":({({"int",}),({}),([]),}),"init_dynamic_arg":({({"void",}),({({"mapping",}),"arg",}),([]),}),"query_obpath":({({"string",}),({}),([]),}),"query_obname":({({"string",}),({}),([]),}),"being_sold":({({"void",}),({}),([]),}),"set_static_save":({({"void",}),({({"mixed",}),"m",}),([]),}),"set_obname":({({"void",}),({({"string",}),"s",}),([]),}),"do_kiss":({({"int",}),({}),([]),}),"query_dynamic_save":({({"mixed",}),({}),([]),}),"long":({({"string",}),({({"string",}),"str",({"int",}),"light",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs (["CLONER":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/al_receipt.c"
+last_changed 1015322126

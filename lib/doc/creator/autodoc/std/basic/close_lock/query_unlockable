@@ -1,0 +1,37 @@
+.DT
+query_unlockable
+$MUDNAME$ Creator Help
+query_unlockable
+
+.SH Name
+.SP 5 5
+query_unlockable -  This tells us whether the object can be locked or not.
+.EP
+
+.SH Syntax
+.SI 5
+int query_unlockable()
+.EI
+
+.SH Returns
+.SI 5
+1 for true 0 for false;
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/close_lock.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This tells us whether the object can be locked or not.
+.EP
+
+.SH See also
+.SP 5 5
+set_autolock()
+.EP
+

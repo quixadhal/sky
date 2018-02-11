@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["move_to_player":({({"void",}),({({"object",}),"light",({"object",}),"player",}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"int",}),"number",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.misc.light.blue\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"magic.misc.light.blue",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),"NPCS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/magic/defs.h":980969182,])
+class_docs ([])
+file_name "/std/effects/magic/blue_light.c"
+last_changed 980972944

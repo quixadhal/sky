@@ -1,0 +1,36 @@
+.DT
+set_info
+$MUDNAME$ Creator Help
+set_info
+
+.SH Name
+.SP 5 5
+set_info -  This method sets information about the deity.
+.EP
+
+.SH Syntax
+.SI 5
+void set_info(string deity,
+string text)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity to set information for
+%^BOLD%^text%^RESET%^ - the new value for the information
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets information about the deity.  This is used
+in the finger information and when querying about joining the
+clergy.
+.EP
+

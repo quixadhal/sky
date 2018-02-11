@@ -1,0 +1,66 @@
+.DT
+add_attack_message
+$MUDNAME$ Creator Help
+add_attack_message
+
+.SH Name
+.SP 5 5
+add_attack_message -  This method adds a special attack message set onto the weapon.
+.EP
+
+.SH Syntax
+.SI 5
+void add_attack_message(string name,
+string type,
+string * data)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the attack (0 for none)
+%^BOLD%^type%^RESET%^ - the type of attack
+%^BOLD%^data%^RESET%^ - the attack data
+.EI
+
+.SH Defined in
+.SI 5
+/std/weapon_logic.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a special attack message set onto the weapon.  The type
+and name are around this way to correspond
+to the parameters to add_attack.
+.EP
+
+.SH Example 1
+.SI 5
+inherit "/obj/weapon";
+
+void setup() {
+  ...
+  add_attack_message("gumboot", "blunt", ({
+     20, ({
+        "You gumboot $hcname$ lightly with your $wcname$.\n",
+        "$mcname$ gumboots you lightly with $mposs$ $wcname$.\n",
+        "$mcname$ gumboots $hcname$ lightly with $mposs$ $wcname$.\n"}),
+      60, ({
+        "You gumboot $hcname$ with your $wcname$.\n",
+        "$mcname$ gumboots you with $mposs$ $wcname$.\n",
+        "$mcname$ gumboots $hcname$ with $mposs$ $wcname$.\n"}),
+      0, ({ // default message
+        "You gumboot $hcname$ heavily with your $wcname$.\n",
+        "$mcname$ gumboots you heavily with $mposs$ $wcname$.\n",
+        "$mcname$ gumboots $hcname$ heavily with $mposs$ $wcname$.\n"}));
+  ...
+} /* setup() */
+
+.EI
+
+.SH See also
+.SP 5 5
+/std/weapon.mess, query_special_message()
+.EP
+

@@ -1,0 +1,37 @@
+.DT
+query_rituals
+$MUDNAME$ Creator Help
+query_rituals
+
+.SH Name
+.SP 5 5
+query_rituals -  This method queries the rituals given by this deity.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_rituals(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity to get the rituals for
+.EI
+
+.SH Returns
+.SI 5
+the rituals array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries the rituals given by this deity.
+.EP
+

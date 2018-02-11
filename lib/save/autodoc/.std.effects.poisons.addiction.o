@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["effect_heart_beat":({({"int",}),({({"object",}),"player",({"int",}),"hbnum",({"mixed",}),"arg",({"int",}),"id",}),([]),}),"begining":({({"int",}),({({"object",}),"player",({"mixed",}),"arg",}),([]),}),"query_secs_between_hb":({({"int",}),({}),([]),}),"reset_hb":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"poison.addictive\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"poison.addictive",}),])
+define_docs (["SHADOWS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/poisons/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/poisons/addiction.c"
+last_changed 962122405

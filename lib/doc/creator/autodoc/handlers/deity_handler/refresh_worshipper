@@ -1,0 +1,39 @@
+.DT
+refresh_worshipper
+$MUDNAME$ Creator Help
+refresh_worshipper
+
+.SH Name
+.SP 5 5
+refresh_worshipper -  This method deletes the given worshipper by name from all deities' arrays.
+.EP
+
+.SH Syntax
+.SI 5
+void refresh_worshipper(string worshipper)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^worshipper%^RESET%^ - the worshipper to refresh
+.EI
+
+.SH Returns
+.SI 5
+1 if the operation was successful, 0 if it failed
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method deletes the given worshipper by name from all
+deities' arrays.  This is called by the refresh handler
+when the player refreshes or is deleted.
+.EP
+

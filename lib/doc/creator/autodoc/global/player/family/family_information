@@ -1,0 +1,46 @@
+.DT
+family_information
+$MUDNAME$ creator help
+family_information
+
+.SH Name
+.SP 5 5
+family_information -  The class for family information in the family stuff for the player.
+.EP
+
+.SH Definition
+.SI 5
+class family_information {
+string name;
+string * adjectives;
+string id;
+string * titles;
+string cur_title;
+string * clubs;
+}
+
+.EI
+
+.SH Members
+.SI 5
+%^BOLD%^name%^RESET%^ - the family name
+%^BOLD%^adjectives%^RESET%^ - the adjectives
+%^BOLD%^id%^RESET%^ - the id
+%^BOLD%^titles%^RESET%^ - the allowed played titles
+%^BOLD%^cur_title%^RESET%^ - the current player title
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/family.c
+.EI
+
+.SH Description
+.SP 5 5
+
+The class for family information in the family stuff for the player.
+This is used internaly to the player object and should not be used
+elsewhere.
+.EP
+

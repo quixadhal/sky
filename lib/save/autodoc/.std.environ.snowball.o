@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["heart_beat":({({"void",}),({}),([]),}),"query_dynamic_auto_load":({({"mapping",}),({}),([]),}),"do_throw":({({"int",}),({({"object","*",}),"obs",}),([]),}),"init_dynamic_arg":({({"void",}),({({"mapping",}),"map",}),([]),}),"query_strength":({({"int",}),({}),([]),}),"set_strength":({({"void",}),({({"int",}),"number",}),([]),}),"long":({({"string",}),({({"string",}),"word",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes (["/include/tasks.h":1059677152,])
+class_docs ([])
+file_name "/std/environ/snowball.c"
+last_changed 1000722095

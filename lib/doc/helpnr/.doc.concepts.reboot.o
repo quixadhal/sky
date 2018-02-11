@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,6,"%^BOLD%^reboot","Shadowlord-sky Player Help","reboot%^RESET%^","",3,5,5,"Due to the way MudOS works every so often Divided Sky will need to reboot.  When this happens the mud will shut down and everyone must logoff.  The mud will be shut down for just a few minutes and then will return.Since Shadowlord-sky saves players inventories this should have no harmful side-effects for you, but please, leave when Shutdown says there's just a minute to go. ","See also",3,5,5,"uptime ","",})
+nroffed_file_name "/doc/concepts/reboot"
+modified_time 1517542042

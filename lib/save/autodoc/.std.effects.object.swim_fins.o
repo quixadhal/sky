@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"test_worn":({({"void",}),({({"object",}),"player",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"old_state",({"int",}),"new_state",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"restart":({({"void",}),({({"object",}),"player",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["SHADOW":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/swim_fins.c"
+last_changed 984361859

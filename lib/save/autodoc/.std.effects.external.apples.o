@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_spam":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["changes":({"Rewritten by Terano, 7 April, 1998",}),"main":({"This effect has a classificationof \"exploded.apples\".<p>",}),"author":({"mooples",}),"see":({"help::effects",}),"classification":({"exploded.apples",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/external/apples.c"
+last_changed 962122406

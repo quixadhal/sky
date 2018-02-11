@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_douse":({({"int",}),({}),([]),}),"self_light":({({"void",}),({}),([]),}),"query_dynamic_auto_load":({({"mixed",}),({}),([]),}),"init_static_arg":({({"void",}),({({"mapping",}),"arg",}),([]),}),"out_of_fuel":({({"void",}),({}),([]),}),"do_extinguish":({({"int",}),({}),([]),}),"stats":({({"mixed","*",}),({}),([]),}),"setup_shorts":({({"void",}),({}),([]),}),"set_fuel":({({"void",}),({({"int",}),"f",}),([]),}),"init_dynamic_arg":({({"void",}),({({"mapping",}),"arg",({"mixed",}),"dummy",}),([]),}),"consume_fuel":({({"void",}),({}),([]),}),"query_amount_of_fuel":({({"int",}),({}),([]),}),"query_static_auto_load":({({"mapping",}),({}),([]),}),"move":({({"varargs","int",}),({({"mixed",}),"ob",({"string",}),"mess1",({"string",}),"mess2",}),([]),}),"held_this_item":({({"int",}),({({"int",}),"type",({"object",}),"holder",({"mixed",}),"arg",}),([]),}),"do_light":({({"int",}),({}),([]),}),"do_dowse":({({"int",}),({}),([]),}),"do_warning":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/basic/holdable":({}),"/std/object":({}),])
+define_docs (["FUEL_PER_TICK":([]),"MAX_FUEL":([]),"BRIGHTNESS":([]),])
+includes (["/include/move_failures.h":962428284,"/include/fuel_handler.h":962428284,])
+class_docs ([])
+file_name "/obj/misc/torch.c"
+last_changed 1026879878

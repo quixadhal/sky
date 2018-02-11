@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["extra_look":({({"string",}),({}),([]),}),"create_shimmer":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),"merge_effect":({({"void",}),({({"object",}),"player",({"mixed",}),"old_arg",({"mixed",}),"new_arg",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.stardust\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"object.stardust",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/stardust_effect.c"
+last_changed 962122399

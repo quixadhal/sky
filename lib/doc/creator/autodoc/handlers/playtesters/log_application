@@ -1,0 +1,35 @@
+.DT
+log_application
+$MUDNAME$ Creator Help
+log_application
+
+.SH Name
+.SP 5 5
+log_application -  This method deletes an application from the mapping, logs it, and sends out the appropriate mail to the applicant.
+.EP
+
+.SH Syntax
+.SI 5
+void log_application(string name,
+int accept)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the applicant whose application to delete
+%^BOLD%^accept%^RESET%^ - whether or not we accepted the application
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method deletes an application from the mapping, logs it,
+and sends out the appropriate mail to the applicant.
+.EP
+

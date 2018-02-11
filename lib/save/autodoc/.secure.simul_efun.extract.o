@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["extract":({({"varargs","string",}),({({"string",}),"str",({"int",}),"start",({"int",}),"end",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method extracts characters from a string and returns them.",}),"param":({"str the input string to extract from","start the character to start extracting from","end the character to start extracting from",}),"example":({"    extract(\"bingle\", 3 ) will return \"gle\"    extract(\"bingle\", 3, 4 ) will return \"gl\"",}),"return":({"the extracted characters",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/extract.c"
+last_changed 1053249924

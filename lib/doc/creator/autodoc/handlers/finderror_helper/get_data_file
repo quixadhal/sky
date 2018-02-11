@@ -1,0 +1,32 @@
+.DT
+get_data_file
+$MUDNAME$ Creator Help
+get_data_file
+
+.SH Name
+.SP 5 5
+get_data_file -  This method loads up the data file for the particular player.
+.EP
+
+.SH Syntax
+.SI 5
+int get_data_file(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator name to load the data for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method loads up the data file for the particular player.
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["remove_owner":({({"void",}),({({"object",}),"player",({"class","riding",}),"arg",({"int",}),"id",({"object",}),"trans",}),(["main":({"This method removes the specified transport from the list ofcurrent transports on the player.",}),"param":({"player the player the transport is removed from","bing the class!","id the id of the effect","trans the transport to remove",}),]),}),])
+protected_functions ([])
+inherits (["/std/basic/virtual_quit_control":({}),])
+main_docs (["main":({"This effect is for the nice people who own a transport.",}),"started":({"Fri Sep 24 1:00:00 1999",}),"author":({"Pinkfish",}),"classification":({"mudlib.riding.owned",}),])
+define_docs ([])
+includes (["/include/player.h":1036911799,"/include/playtesters.h":1020949410,])
+class_docs (["riding":({0,({({"transport",({"object","*",}),}),({"environments",({"string","*",}),}),({"save_stuff",({"mixed",}),}),}),([]),}),])
+file_name "/std/effects/attached/owned_transport.c"
+last_changed 1045921527

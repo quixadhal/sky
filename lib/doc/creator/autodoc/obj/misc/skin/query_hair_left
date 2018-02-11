@@ -1,0 +1,32 @@
+.DT
+query_hair_left
+$MUDNAME$ Creator Help
+query_hair_left
+
+.SH Name
+.SP 5 5
+query_hair_left -  This methods queries the percentual amount of hair that is left.
+.EP
+
+.SH Syntax
+.SI 5
+int query_hair_left()
+.EI
+
+.SH Returns
+.SI 5
+the percentual amount of hair left
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This methods queries the percentual amount of hair that is left.
+.EP
+

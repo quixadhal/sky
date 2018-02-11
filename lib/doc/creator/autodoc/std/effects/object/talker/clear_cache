@@ -1,0 +1,35 @@
+.DT
+clear_cache
+$MUDNAME$ Creator Help
+clear_cache
+
+.SH Name
+.SP 5 5
+clear_cache -  This method is used to clear a specific person's cache details.
+.EP
+
+.SH Syntax
+.SI 5
+void clear_cache(string person)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^person%^RESET%^ - the person's name to clear from the cache.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/talker.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used to clear a specific person's cache
+details.  It is called from the shadow when a person
+attempts to re-add a channel, so they their details
+can be updated.
+.EP
+

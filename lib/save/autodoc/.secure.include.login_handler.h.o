@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"The include file for the login handler.",}),"author":({"Pinkfish",}),])
+define_docs (["RECONNECT":(["main":({"The name of the reconnect event.  Used in the static/dynamic login calls. ",}),]),"WITH_LOGIN_QUEUE":(["main":({"Flag to the is_discworld_full method. ",}),]),"WITHOUT_ANY_LOGINS":(["main":({"Flag to the is_discworld_full method. ",}),]),"LOGOUT":(["main":({"The name of the logout event.  Used in the static/dynamic login calls. ",}),]),"LOGIN_HANDLER":(["main":({"The path to the login handler.",}),]),"WITHOUT_LOGINS_NOT_IN_QUEUE":(["main":({"Flag to the is_discworld_full method. ",}),]),"MAX_PLAYERS":(["main":({"The maximum number of players online at Discworld at once. ",}),]),"NETDEATH":(["main":({"The name of the netdeath event.  Used in the static/dynamic login calls. ",}),]),"LOGIN":(["main":({"The name of the login event.  Used in the static/dynamic login calls. ",}),]),"WITHOUT_LOGIN_QUEUE":(["main":({"Flag to the is_discworld_full method. ",}),]),])
+includes (["/include/player_handler.h":962428284,])
+class_docs ([])
+file_name "/secure/include/login_handler.h"
+last_changed 962429079

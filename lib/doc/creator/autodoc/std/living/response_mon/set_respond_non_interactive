@@ -1,0 +1,33 @@
+.DT
+set_respond_non_interactive
+$MUDNAME$ Creator Help
+set_respond_non_interactive
+
+.SH Name
+.SP 5 5
+set_respond_non_interactive -  This method sets whether or not we should respond to non-interactives (ie.
+.EP
+
+.SH Syntax
+.SI 5
+void set_respond_non_interactive(int i)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^i%^RESET%^ - 1 if we should respond to other NPCs, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/response_mon.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets whether or not we should respond to
+non-interactives (ie. other NPCs).
+.EP
+

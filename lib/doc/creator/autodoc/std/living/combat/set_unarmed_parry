@@ -1,0 +1,37 @@
+.DT
+set_unarmed_parry
+$MUDNAME$ Creator Help
+set_unarmed_parry
+
+.SH Name
+.SP 5 5
+set_unarmed_parry -  This sets the current unarmed parry to use in combat.
+.EP
+
+.SH Syntax
+.SI 5
+void set_unarmed_parry(int parry)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^parry%^RESET%^ - the new unarmed parry flag
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This sets the current unarmed parry to use in combat.
+.EP
+
+.SH See also
+.SP 5 5
+query_tactics()
+
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["get_route":({({"string","*",}),({({"string",}),"start",({"string",}),"end",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Returns an array with move instructions from 'start' to 'end'",}),])
+define_docs (["SIZE":([]),"LEVEL(x)":([]),])
+includes (["/include/db.h":962428284,"/secure/include/config.h":1121841204,])
+class_docs (["cluster":({0,({({"members",({"mixed","*",}),}),({"level",({"int",}),}),({"cluster_number",({"int",}),}),({"this_cluster",({"int",}),}),({"contacts",({"mixed","*",}),}),}),([]),}),])
+file_name "/handlers/clusters.c"
+last_changed 1035040304

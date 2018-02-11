@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["get_last_error":({({"mapping",}),({}),([]),}),"set_last_error":({({"void",}),({({"mapping",}),"err",}),([]),}),"logging_commands":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/global/player/log.c"
+last_changed 999080615

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_materials_value":({({"mapping",}),({}),([]),}),"query_material_down":({({"string",}),({({"string",}),"material",}),([]),}),"query_create_object_mapping":({({"mapping",}),({({"mapping",}),"material_amounts",({"object",}),"who",}),([]),}),"query_materials_down":({({"mapping",}),({}),([]),}),"query_material_value":({({"int",}),({({"string",}),"material",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Blah, standard header, hopefully something good. :(Fill this out when I get something actually working.",}),])
+define_docs (["MAT_DIR":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/materials_handler.c"
+last_changed 999785223

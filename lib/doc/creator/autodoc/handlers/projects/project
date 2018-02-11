@@ -1,0 +1,38 @@
+.DT
+project
+$MUDNAME$ creator help
+project
+
+.SH Name
+.SP 5 5
+project -  This class is the project itself.
+.EP
+
+.SH Definition
+.SI 5
+class project {
+string name;
+string description;
+class note * notes;
+int target_completion_date;
+int estimated_completion_date;
+string progress_so_far;
+int date_started;
+int date_completed;
+string * assigned_to;
+}
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This class is the project itself.
+
+.EP
+

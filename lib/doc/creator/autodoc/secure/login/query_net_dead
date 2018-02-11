@@ -1,0 +1,32 @@
+.DT
+query_net_dead
+$MUDNAME$ Creator Help
+query_net_dead
+
+.SH Name
+.SP 5 5
+query_net_dead -  This method tells us if the object is net dead.
+.EP
+
+.SH Syntax
+.SI 5
+int query_net_dead()
+.EI
+
+.SH Returns
+.SI 5
+1 if they are net dead, 0 if they are not
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/login.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method tells us if the object is net dead.
+.EP
+

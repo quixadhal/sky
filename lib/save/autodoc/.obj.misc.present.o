@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["long_status":({({"string",}),({}),([]),}),"query_closed":({({"int",}),({}),([]),}),"do_unwrap":({({"int",}),({}),(["main":({"This method unwraps the wrapping paper and sets up all the exitingbits which pop out of it.",}),"return":({"1 on success, 0 on failure",}),]),}),"set_colour":({({"int",}),({({"string",}),"word",}),([]),}),"do_wrap":({({"int",}),({({"object","*",}),"things",}),(["main":({"This is the main entry point and wraps up the given objects into thewrapping paper.",}),"param":({"things the things to wrap up",}),"return":({"1 on success, 0 on failure",}),]),}),])
+protected_functions ([])
+inherits (["/obj/baggage":({}),])
+main_docs (["main":({"This method sets the colour of the present.",}),"param":({"word the colour of the present",}),])
+define_docs (["PAPER_LONG":([]),"PRESENT_LONG":([]),])
+includes (["/include/move_failures.h":962428284,])
+class_docs ([])
+file_name "/obj/misc/present.c"
+last_changed 979736400

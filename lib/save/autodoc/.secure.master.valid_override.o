@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_override":({({"int",}),({({"string",}),"file",({"string",}),"func",({"string",}),"filename",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method is used by the driver to determine whether ornot an efun can be overriden in an object.",}),"param":({"file the file that is trying to override the efun","func the efun we are trying to override","filename the full filename of the file being compiled",}),"return":({"1 if we are allowed to override, 0 if not",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_override.c"
+last_changed 1031211469

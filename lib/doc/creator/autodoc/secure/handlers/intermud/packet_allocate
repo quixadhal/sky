@@ -1,0 +1,37 @@
+.DT
+packet_allocate
+$MUDNAME$ Creator Help
+packet_allocate
+
+.SH Name
+.SP 5 5
+packet_allocate -  This method allocates a packet of the specified type.
+.EP
+
+.SH Syntax
+.SI 5
+mixed * packet_allocate(string type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the type of the packet to allocate
+.EI
+
+.SH Returns
+.SI 5
+the newly allocated packet
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method allocates a packet of the specified type.
+.EP
+

@@ -1,0 +1,38 @@
+.DT
+query_bit_left_pl
+$MUDNAME$ Creator Help
+query_bit_left_pl
+
+.SH Name
+.SP 5 5
+query_bit_left_pl -  This method queries whether or not specific bits are left in the corpse.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_bit_left_pl(string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the bit to check for
+.EI
+
+.SH Returns
+.SI 5
+an array of bits
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether or not specific bits are left in the corpse.
+This checks for the plural bits.
+.EP
+

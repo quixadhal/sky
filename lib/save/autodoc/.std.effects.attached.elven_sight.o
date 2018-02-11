@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_name":({({"string",}),({}),([]),}),"hurt_player":({({"void",}),({({"object",}),"player",({"int",}),"pain",}),([]),}),"side_effects":({({"void",}),({({"object",}),"player",({"mixed",}),"stuff",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.stats.sight\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"magic.stats.sight",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effects/stat_adjustment.h":962122463,"/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/elven_sight.c"
+last_changed 962122403

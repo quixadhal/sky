@@ -1,0 +1,32 @@
+.DT
+query_accept_gossip
+$MUDNAME$ Creator Help
+query_accept_gossip
+
+.SH Name
+.SP 5 5
+query_accept_gossip -  This method returns whether or not we are accepting new gossip.
+.EP
+
+.SH Syntax
+.SI 5
+int query_accept_gossip()
+.EI
+
+.SH Returns
+.SI 5
+1 if we are accepting new gossip, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/gossip_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not we are accepting new gossip.
+.EP
+

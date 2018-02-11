@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Makes the player deaf.  The classification of the effectis \"misc.curse.deafness\".<p>This effect has a shadow associated with it.",}),"classification":({"misc.curse.deafness",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/curses/deaf_effect.c"
+last_changed 962122406

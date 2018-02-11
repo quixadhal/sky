@@ -1,0 +1,18 @@
+/w/quixadhal/exec_tmp.c line 3: Undefined function blah before ;l;;
+/w/quixadhal/exec_tmp.c line 3: Undefined variable 'l' before ;
+/w/quixadhal/exec_tmp.c line 3: Undefined function query_channel_name before );;
+/w/quixadhal/exec_tmp.c line 3: Undefined function color_strlen before ;;
+/w/quixadhal/exec_tmp.c line 3: Undefined function colour_strlen before ;;
+/w/quixadhal/exec_tmp.c line 3: Illegal character constant before MT');;
+/w/quixadhal/exec_tmp.c line 3: syntax error before ');;
+/w/quixadhal/exec_tmp.c line 3: Illegal character constant before ;;
+/w/quixadhal/exec_tmp.c line 3: Too many arguments to localtime before ;;
+/w/quixadhal/exec_tmp.c line 3: Undefined function timestamp before ;;
+/w/quixadhal/exec_tmp.c line 3: Undefined variable 'undef' before ;;
+/w/quixadhal/exec_tmp.c line 3: Undefined function getSpeakerColor before ;;
+/w/quixadhal/exec_tmp.c line 3: syntax error before ) { return ({ 1,2 })
+/w/quixadhal/exec_tmp.c line 3: syntax error before  foo();;
+/w/quixadhal/exec_tmp.c line 3: Undefined variable 'xx' before ;
+/w/quixadhal/exec_tmp.c line 3: syntax error before );;
+/w/quixadhal/exec_tmp.c line 3: syntax error before );;
+/w/quixadhal/exec_tmp.c line 3: syntax error before ));;

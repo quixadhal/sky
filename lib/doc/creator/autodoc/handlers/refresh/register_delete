@@ -1,0 +1,50 @@
+.DT
+register_delete
+$MUDNAME$ Creator Help
+register_delete
+
+.SH Name
+.SP 5 5
+register_delete -  Use this function to tell the refresh handler about functions that you want to have called whenever any player refreshes or gets deleted.
+.EP
+
+.SH Syntax
+.SI 5
+string register_delete(mixed ob,
+string func)
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/refresh.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Use this function to tell the refresh handler about functions that
+you want to have called whenever any player refreshes or gets
+deleted.
+
+Typically, you will call this by hand, with the 'call' command,
+rather than coding a call to this function into your code.
+
+The first parameter is the object that contains the callback
+to be called.  This can be either a pointer to the object, or
+the filename to the object.
+
+The second parameter is the name of the function that should be
+called.  This callback should take one parameter: a string
+containing the player's name who's data is being deleted.
+
+This function will refuse to register a callback if either:
+the object is a clone, the callback isn't defined in the object, or
+the callback is a function pointer.
+.EP
+
+.SH See also
+.SP 5 5
+unregister_delete()
+
+.EP
+

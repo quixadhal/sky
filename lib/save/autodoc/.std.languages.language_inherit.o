@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_garble":({({"string",}),({({"string",}),"word",({"string",}),"type",({"object",}),"player",}),([]),}),"query_name":({({"string",}),({}),([]),}),"garble_say":({({"mixed",}),({({"string",}),"start",({"string",}),"mess",({"object",}),"player",({"object",}),"from",({"string",}),"type",({"string",}),"skill",({"int",}),"no_increase",}),([]),}),"garble_message":({({"string",}),({({"string",}),"mess",({"object",}),"player",({"object",}),"speaker",({"string",}),"type",({"string",}),"skill",({"int",}),"no_increase",}),([]),}),"set_name":({({"void",}),({({"string",}),"str",}),([]),}),"check_level_increase":({({"void",}),({({"object",}),"player",({"int",}),"difficulty",({"int",}),"level",({"string",}),"skill",({"string",}),"mess",}),([]),}),"query_long":({({"string",}),({}),([]),}),"set_start_text_bit":({({"void",}),({({"string",}),"str",}),([]),}),"set_long":({({"void",}),({({"string",}),"str",}),([]),}),"garble_text":({({"string",}),({({"mixed",}),"text",({"object",}),"thing",({"object",}),"player",({"string",}),"skill",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/tasks.h":1059677152,"/include/fixed_random.h":962428284,])
+class_docs ([])
+file_name "/std/languages/language_inherit.c"
+last_changed 1059816361

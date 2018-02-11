@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_read":({({"int",}),({({"string",}),"path",({"mixed",}),"euid",({"string",}),"func",}),([]),}),"query_read_stats":({({"mapping",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["FILE_STATS":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_read.c"
+last_changed 998744934

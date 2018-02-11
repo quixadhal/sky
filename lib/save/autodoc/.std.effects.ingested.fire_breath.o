@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),"query_name":({({"string",}),({}),([]),}),"query_classification":({({"string",}),({}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"int",}),"amount",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["HIDING_SKILL":([]),"HEALTH_SKILL":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/fire_breath.c"
+last_changed 962122404

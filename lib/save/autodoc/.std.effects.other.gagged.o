@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"mixed","*",}),"arg",}),([]),}),"merge_effect":({({"mixed","*",}),({({"object",}),"player",({"mixed","*",}),"old_arg",({"mixed","*",}),"new_arg",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"mixed","*",}),"arg",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classification of \"mudlib.gagged\".<p>",}),"author":({"Shiannar",}),"see":({"help::effects",}),"classification":({"\"mudlib.gagged\"",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/gagged.c"
+last_changed 1000366055

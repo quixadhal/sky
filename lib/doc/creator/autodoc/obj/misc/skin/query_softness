@@ -1,0 +1,32 @@
+.DT
+query_softness
+$MUDNAME$ Creator Help
+query_softness
+
+.SH Name
+.SP 5 5
+query_softness -  This method returns the percentual softness of the skin.
+.EP
+
+.SH Syntax
+.SI 5
+int query_softness()
+.EI
+
+.SH Returns
+.SI 5
+the softness percentage
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the percentual softness of the skin.
+.EP
+

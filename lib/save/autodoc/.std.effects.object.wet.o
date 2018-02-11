@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["dry_off":({({"void",}),({({"object",}),"thing",({"int",}),"amount",({"int",}),"id",}),([]),}),"restart":({({"void",}),({({"object",}),"thing",({"int",}),"amount",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.wet\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"object.wet",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/wet.c"
+last_changed 984361859

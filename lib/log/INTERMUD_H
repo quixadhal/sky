@@ -1,0 +1,1596 @@
+Tue Nov  1 18:54:56 2011: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "MultiMUD",
+  0,
+  0,
+  0,
+  "Multibot",
+  "Multibot",
+  1
+})
+Thu Feb  1 18:54:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Jotham",
+  "Jotham",
+  0
+})
+Thu Feb  1 18:54:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Silvanus",
+  "Silvanus",
+  0
+})
+Thu Feb  1 18:54:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Jorim",
+  "Jorim",
+  0
+})
+Thu Feb  1 18:54:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Urbanus",
+  "Urbanus",
+  0
+})
+Thu Feb  1 18:54:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Matthias",
+  "Matthias",
+  0
+})
+Thu Feb  1 18:55:50 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Korbon",
+  "Korbon",
+  0
+})
+Thu Feb  1 20:14:28 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Karter",
+  "Karter",
+  0
+})
+Thu Feb  1 20:14:37 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Karter",
+  "Karter",
+  1
+})
+Thu Feb  1 20:29:17 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Days of Dragons",
+  0,
+  0,
+  0,
+  "Jupiter",
+  "Jupiter",
+  0
+})
+Thu Feb  1 20:51:11 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Karter",
+  "Karter",
+  0
+})
+Thu Feb  1 20:56:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Karter",
+  "Karter",
+  0
+})
+Thu Feb  1 23:17:57 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Drakan",
+  "Drakan",
+  0
+})
+Fri Feb  2 00:28:57 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Nautilus",
+  "Nautilus",
+  0
+})
+Fri Feb  2 08:08:52 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Driftera",
+  "Driftera",
+  1
+})
+Fri Feb  2 08:44:25 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Marley",
+  "Marley",
+  0
+})
+Fri Feb  2 08:44:25 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Driftera",
+  "Driftera",
+  1
+})
+Fri Feb  2 08:44:57 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Driftera",
+  "Driftera",
+  1
+})
+Fri Feb  2 09:25:59 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})
+Fri Feb  2 09:29:28 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Sandman",
+  "Sandman",
+  0
+})
+Fri Feb  2 09:36:19 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  0
+})
+Fri Feb  2 10:05:28 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})
+Fri Feb  2 10:24:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Alekhine",
+  "Alekhine",
+  0
+})
+Fri Feb  2 11:12:57 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  0
+})
+Fri Feb  2 14:26:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Bongzilla",
+  "Bongzilla",
+  0
+})
+Fri Feb  2 15:50:03 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Itsaku",
+  "Itsaku",
+  0
+})
+Fri Feb  2 15:50:04 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Jorik",
+  "Jorik",
+  0
+})
+Fri Feb  2 19:14:19 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})
+Fri Feb  2 19:23:35 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Nils",
+  "Nils",
+  0
+})
+Fri Feb  2 19:46:04 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  0
+})
+Sat Feb  3 05:17:59 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "SotU",
+  0,
+  0,
+  0,
+  "Ravage",
+  "Ravage",
+  0
+})
+Sat Feb  3 07:15:39 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Tijer",
+  "Tijer",
+  0
+})
+Sat Feb  3 07:27:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Bzzz",
+  "Bzzz",
+  0
+})
+Sat Feb  3 07:27:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Gladys",
+  "Gladys",
+  1
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Myth",
+  "Myth",
+  0
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Sleepy",
+  "Sleepy",
+  0
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Psst",
+  "Psst",
+  0
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Radyth",
+  "Radyth",
+  0
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Smoke",
+  "Smoke",
+  0
+})
+Sat Feb  3 07:27:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Reflection",
+  "Reflection",
+  0
+})
+Sat Feb  3 08:24:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Cough",
+  "Cough",
+  0
+})
+Sat Feb  3 08:24:52 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Dankenstein",
+  "Dankenstein",
+  0
+})
+Sat Feb  3 10:21:46 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Pegvira",
+  "Pegvira",
+  1
+})
+Sat Feb  3 12:44:29 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Kyprin",
+  "Kyprin",
+  0
+})
+Sat Feb  3 13:43:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Meridius",
+  "Meridius",
+  0
+})
+Sat Feb  3 13:43:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Fangs",
+  "Fangs",
+  0
+})
+Sat Feb  3 13:43:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Claws",
+  "Claws",
+  0
+})
+Sat Feb  3 13:43:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Hogan",
+  "Hogan",
+  0
+})
+Sat Feb  3 13:43:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Shady",
+  "Shady",
+  0
+})
+Sat Feb  3 13:43:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Heisenberg",
+  "Heisenberg",
+  0
+})
+Sat Feb  3 13:43:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Noob",
+  "Noob",
+  0
+})
+Sun Feb  4 00:06:56 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Szym",
+  "Szym",
+  0
+})
+Sun Feb  4 00:06:56 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Lyeis",
+  "Lyeis",
+  0
+})
+Sun Feb  4 12:45:46 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Waldar",
+  "Waldar",
+  0
+})
+Sun Feb  4 17:39:36 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  0
+})
+Sun Feb  4 17:39:38 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  1
+})
+Sun Feb  4 21:09:56 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Galahad",
+  "Galahad",
+  0
+})
+Sun Feb  4 22:16:05 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Fenrir",
+  "Fenrir",
+  0
+})
+Mon Feb  5 08:28:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Blitz",
+  "Blitz",
+  0
+})
+Mon Feb  5 12:33:47 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Akira",
+  "Akira",
+  0
+})
+Mon Feb  5 15:33:32 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})
+Mon Feb  5 18:34:27 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Domon",
+  "Domon",
+  0
+})
+Mon Feb  5 22:22:38 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Brinx",
+  "Brinx",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Tytan",
+  "Tytan",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Omega",
+  "Omega",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Chyknen",
+  "Chyknen",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Alacrot",
+  "Alacrot",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Blasphemy",
+  "Blasphemy",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Talmus",
+  "Talmus",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Paradox",
+  "Paradox",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Drahma",
+  "Drahma",
+  0
+})
+Mon Feb  5 22:34:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Mirgan",
+  "Mirgan",
+  0
+})
+Mon Feb  5 22:37:00 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  0
+})
+Mon Feb  5 22:47:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  0
+})
+Tue Feb  6 05:07:47 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Modrack",
+  "Modrack",
+  0
+})
+Tue Feb  6 08:52:29 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Tijer",
+  "Tijer",
+  0
+})
+Tue Feb  6 09:40:13 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Days of Dragons",
+  0,
+  0,
+  0,
+  "Alaeron",
+  "Alaeron",
+  0
+})
+Tue Feb  6 09:44:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Marbles",
+  "Marbles",
+  0
+})
+Tue Feb  6 09:52:12 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Days of Dragons",
+  0,
+  0,
+  0,
+  "Devlyn",
+  "Devlyn",
+  0
+})
+Tue Feb  6 10:49:24 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Zona",
+  "Zona",
+  0
+})
+Tue Feb  6 11:03:01 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Xavius",
+  "Xavius",
+  0
+})
+Tue Feb  6 12:36:09 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Aston",
+  "Aston",
+  0
+})
+Tue Feb  6 13:04:30 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Andris",
+  "Andris",
+  0
+})
+Tue Feb  6 16:42:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Brainz",
+  "Brainz",
+  0
+})
+Tue Feb  6 18:05:20 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Testdummy",
+  "Testdummy",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Pompom",
+  "Pompom",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Upowilopizi",
+  "Upowilopizi",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Upo",
+  "Upo",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Upowz",
+  "Upowz",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Puff",
+  "Puff",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Asteawan",
+  "Asteawan",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Infiriel",
+  "Infiriel",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Asgoth",
+  "Asgoth",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Forsvik",
+  "Forsvik",
+  0
+})
+Tue Feb  6 18:05:21 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Spindel",
+  "Spindel",
+  0
+})
+Tue Feb  6 19:03:22 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Adaleder",
+  "Adaleder",
+  0
+})
+Tue Feb  6 20:15:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Avalar",
+  "Avalar",
+  0
+})
+Tue Feb  6 21:25:50 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Nameless",
+  "Nameless",
+  0
+})
+Tue Feb  6 21:25:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Troy",
+  "Troy",
+  0
+})
+Tue Feb  6 21:25:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "One",
+  "One",
+  1
+})
+Tue Feb  6 21:25:51 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Gamer",
+  "Gamer",
+  0
+})
+Wed Feb  7 07:01:27 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Immalion",
+  "Immalion",
+  1
+})
+Wed Feb  7 08:11:19 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Luggage",
+  "Luggage",
+  0
+})
+Wed Feb  7 08:56:20 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Trebina",
+  "Trebina",
+  1
+})
+Wed Feb  7 10:35:59 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Xix",
+  "Xix",
+  0
+})
+Wed Feb  7 17:05:49 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Lael",
+  "Lael",
+  0
+})
+Wed Feb  7 17:46:49 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Pid",
+  "Pid",
+  0
+})
+Wed Feb  7 18:36:41 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Sigh",
+  "Sigh",
+  0
+})
+Thu Feb  8 07:05:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Niche",
+  "Niche",
+  1
+})
+Thu Feb  8 08:57:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Kypran",
+  "Kypran",
+  0
+})
+Thu Feb  8 08:57:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Cale",
+  "Cale",
+  0
+})
+Thu Feb  8 08:57:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Kypren",
+  "Kypren",
+  0
+})
+Thu Feb  8 08:57:08 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Fenril",
+  "Fenril",
+  0
+})
+Thu Feb  8 09:01:05 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  0
+})
+Thu Feb  8 09:01:07 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  1
+})
+Thu Feb  8 11:46:15 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Valeron",
+  "Valeron",
+  0
+})
+Thu Feb  8 21:07:25 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Faye",
+  "Faye",
+  0
+})
+Thu Feb  8 21:07:26 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Faye",
+  "Faye",
+  1
+})
+Fri Feb  9 05:54:44 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  0
+})
+Fri Feb  9 05:54:45 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "Aadarian_Realms",
+  0,
+  0,
+  0,
+  "Illyanna",
+  "Illyanna",
+  1
+})
+Fri Feb  9 11:20:06 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "FluffyNutts",
+  "FluffyNutts",
+  0
+})
+Fri Feb  9 12:06:42 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Tikhal",
+  "Tikhal",
+  0
+})
+Fri Feb  9 16:05:03 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Grasshopper",
+  "Grasshopper",
+  0
+})
+Sat Feb 10 09:27:17 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Couladin",
+  "Couladin",
+  0
+})
+Sat Feb 10 12:39:03 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Dilbo",
+  "Dilbo",
+  0
+})
+Sat Feb 10 13:57:47 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Skrrt",
+  "Skrrt",
+  0
+})
+Sat Feb 10 14:39:04 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Merlin",
+  "Merlin",
+  0
+})
+Sat Feb 10 15:02:11 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Taolin",
+  "Taolin",
+  0
+})
+Sat Feb 10 16:27:56 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Lanfear",
+  "Lanfear",
+  0
+})
+Sat Feb 10 18:49:33 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "Pad",
+  "Pad",
+  0
+})
+Sat Feb 10 20:28:46 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "MultiMUD",
+  0,
+  0,
+  0,
+  "Adani",
+  "Adani",
+  1
+})
+Sun Feb 11 01:39:54 2018: Invalid packet
+({ /* sizeof() == 9 */
+  "ucache-update",
+  5,
+  "War of Legend",
+  0,
+  0,
+  0,
+  "",
+  "",
+  1
+})

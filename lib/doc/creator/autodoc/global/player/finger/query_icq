@@ -1,0 +1,37 @@
+.DT
+query_icq
+$MUDNAME$ Creator Help
+query_icq
+
+.SH Name
+.SP 5 5
+query_icq -  This method returns the icq number of the player.
+.EP
+
+.SH Syntax
+.SI 5
+string query_icq()
+.EI
+
+.SH Returns
+.SI 5
+their currently set icq number
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/finger.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the icq number of the player.
+.EP
+
+.SH See also
+.SP 5 5
+set_where()
+
+.EP
+

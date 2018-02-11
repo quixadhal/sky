@@ -1,0 +1,33 @@
+.DT
+query_amount_scraped
+$MUDNAME$ Creator Help
+query_amount_scraped
+
+.SH Name
+.SP 5 5
+query_amount_scraped -  This method queries how much of the skin has been scraped, percentually.
+.EP
+
+.SH Syntax
+.SI 5
+int query_amount_scraped()
+.EI
+
+.SH Returns
+.SI 5
+the amount of skin that has been scraped
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries how much of the skin has been
+scraped, percentually.
+.EP
+

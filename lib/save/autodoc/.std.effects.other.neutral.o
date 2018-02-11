@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["backdrop":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/basic":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mind.fluster\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"mind.fluster",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/effects/other/neutral.c"
+last_changed 962122400

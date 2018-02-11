@@ -1,0 +1,37 @@
+.DT
+query_no_weapons_allowed
+$MUDNAME$ Creator Help
+query_no_weapons_allowed
+
+.SH Name
+.SP 5 5
+query_no_weapons_allowed -  This method returns the number of weapons allowed into the scabbard.
+.EP
+
+.SH Syntax
+.SI 5
+int query_no_weapons_allowed()
+.EI
+
+.SH Returns
+.SI 5
+the number of weapons allowed into the scabbard.
+.EI
+
+.SH Defined in
+.SI 5
+/obj/clothing.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the number of weapons allowed into the scabbard.
+.EP
+
+.SH See also
+.SP 5 5
+query_scabbard(), query_clothing(), set_types(), query_types(), set_no_weapons_allowed(), set_clothing_scabbard(), test_type_ok()
+
+.EP
+

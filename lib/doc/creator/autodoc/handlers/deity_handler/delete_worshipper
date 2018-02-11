@@ -1,0 +1,41 @@
+.DT
+delete_worshipper
+$MUDNAME$ Creator Help
+delete_worshipper
+
+.SH Name
+.SP 5 5
+delete_worshipper -  This method deletes the given worshipper.
+.EP
+
+.SH Syntax
+.SI 5
+int delete_worshipper(string deity,
+string worshipper,
+string reason)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+%^BOLD%^worshipper%^RESET%^ - the worshipper to delete
+%^BOLD%^reason%^RESET%^ - the reason for deletion
+.EI
+
+.SH Returns
+.SI 5
+1 if the operation was successful, 0 if it failed
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method deletes the given worshipper.
+.EP
+

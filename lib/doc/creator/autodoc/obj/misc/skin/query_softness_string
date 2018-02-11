@@ -1,0 +1,32 @@
+.DT
+query_softness_string
+$MUDNAME$ Creator Help
+query_softness_string
+
+.SH Name
+.SP 5 5
+query_softness_string -  This method returns the softness of the skin in a string format.
+.EP
+
+.SH Syntax
+.SI 5
+string query_softness_string()
+.EI
+
+.SH Returns
+.SI 5
+the softness of the skin
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the softness of the skin in a string format.
+.EP
+

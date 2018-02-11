@@ -1,0 +1,9 @@
+#/handlers/map_helper.c
+shorts (["void":"the convention in the void",])
+movezones (["void":({"nowhere",}),])
+changetimes (["void":1020784730,])
+clusters ([])
+map ([])
+coords ([])
+sizes (["void":({25,25,25,}),])
+directory "room"

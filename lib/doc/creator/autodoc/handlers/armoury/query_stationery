@@ -1,0 +1,32 @@
+.DT
+query_stationery
+$MUDNAME$ Creator Help
+query_stationery
+
+.SH Name
+.SP 5 5
+query_stationery -  Returns the current list of known stationery items.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_stationery()
+.EI
+
+.SH Returns
+.SI 5
+the stationery items array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known stationery items.
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"","The effect put on NPCs who are protected by Unseen University's Porters.The argument is an array containing, in this order, the attack string, (what the  NPC does/says when attacked), the enter string (what the NPC does/says when a criminal enters), the warning string (how the NPC warns the guards), and the integer severity of attacking the NPC. (Usually 1, but potentially more for \"better\" NPCS).The strings will be passed right into init_command, so they will need to have the appropriate command at the front. (for example, \":cowers away in terror.\"). Optionally, zeroes may be passed to leave out that string.There is no timing on this effect because, well, that's just silly.",}),"author":({"Rodion",}),"classification":({"npc.protection.wizards",}),])
+define_docs (["SHADOW_OB":([]),"SHADOWS":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/npc/wizards_protection.c"
+last_changed 962122405

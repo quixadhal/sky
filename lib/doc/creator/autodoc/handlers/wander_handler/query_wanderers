@@ -1,0 +1,33 @@
+.DT
+query_wanderers
+$MUDNAME$ Creator Help
+query_wanderers
+
+.SH Name
+.SP 5 5
+query_wanderers -  This method returns the mapping of all wandering NPCs and their related data.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_wanderers()
+.EI
+
+.SH Returns
+.SI 5
+a mapping of all wandering NPCs and their data
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/wander_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the mapping of all wandering NPCs
+and their related data.
+.EP
+

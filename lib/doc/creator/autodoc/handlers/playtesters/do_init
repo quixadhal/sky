@@ -1,0 +1,33 @@
+.DT
+do_init
+$MUDNAME$ Creator Help
+do_init
+
+.SH Name
+.SP 5 5
+do_init -  This method is used by the PT badge and gives all the transit commands to this_player().
+.EP
+
+.SH Syntax
+.SI 5
+void do_init(object badge)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^badge%^RESET%^ - the badge that is giving out the commands
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used by the PT badge and gives all the transit
+commands to this_player().
+.EP
+

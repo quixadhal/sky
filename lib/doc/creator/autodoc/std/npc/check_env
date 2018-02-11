@@ -1,0 +1,35 @@
+.DT
+check_env
+$MUDNAME$ Creator Help
+check_env
+
+.SH Name
+.SP 5 5
+check_env -  This method checks to see if there are any players in the environment of the NPC.
+.EP
+
+.SH Syntax
+.SI 5
+int check_env()
+.EI
+
+.SH Returns
+.SI 5
+1 if there is a player in the room, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks to see if there are any players in the environment
+of the NPC.  This should be used to determine if chats should
+be turned off and other things which should only work in the
+presence of players.
+.EP
+

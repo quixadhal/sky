@@ -1,0 +1,41 @@
+.DT
+channel
+$MUDNAME$ Creator Help
+channel
+
+.SH Name
+.SP 5 5
+channel -  This method sends a channel message to the router.
+.EP
+
+.SH Syntax
+.SI 5
+int channel(string channel,
+string name,
+string message)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^channel%^RESET%^ - the channel to send the message to
+%^BOLD%^name%^RESET%^ - the name of the person sending the message
+%^BOLD%^message%^RESET%^ - the message to send
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sends a channel message to the router.
+.EP
+

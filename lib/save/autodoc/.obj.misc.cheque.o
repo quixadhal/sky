@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_place":({({"string",}),({}),(["main":({"This method queries the place associated with the cheque.",}),"return":({"the place associated with the cheque",}),]),}),"query_bank_name":({({"string",}),({}),(["main":({"This method queries the bank name associated with the cheque.",}),"return":({"the bank name associated with the cheque",}),]),}),"query_amount":({({"int",}),({}),(["main":({"This method queries the amount of money associated with the cheque.",}),"return":({"the amount of money associated with the cheque",}),]),}),"set_place":({({"void",}),({({"string",}),"loc",}),(["main":({"This method sets the place associated with the cheque.",}),"param":({"loc the place to associate the cheque with",}),]),}),"set_bank_name":({({"void",}),({({"string",}),"name",}),(["main":({"This method sets the bank name associated with the cheque.",}),"param":({"name the bank name",}),]),}),"set_amount":({({"int",}),({({"int",}),"number",}),(["main":({"This method sets the amount of money associated with the cheque.",}),"param":({"number the amount of money to associate the cheque with",}),"return":({"the newly set amount or 0 if the amount has already been set",}),]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+main_docs (["main":({"A cheque inherit for use with banks.",}),"author":({"Sandoz, 31st August 2001",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/cheque.c"
+last_changed 999973620

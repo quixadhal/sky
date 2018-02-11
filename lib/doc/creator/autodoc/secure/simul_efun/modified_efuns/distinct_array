@@ -1,0 +1,39 @@
+.DT
+distinct_array
+$MUDNAME$ Creator Help
+distinct_array
+
+.SH Name
+.SP 5 5
+distinct_array -  This method removes any duplicates from an array while keeping the order intact, this is more costly than uniq_array, so if the order isn't important to you, don't use it, use uniq_array instead.
+.EP
+
+.SH Syntax
+.SI 5
+mixed distinct_array(mixed arr)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^arr%^RESET%^ - the array to remove duplicates from
+.EI
+
+.SH Returns
+.SI 5
+the new array with no duplicates
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/modified_efuns.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes any duplicates from an array while keeping
+the order intact, this is more costly than uniq_array, so if the
+order isn't important to you, don't use it, use uniq_array instead.
+.EP
+

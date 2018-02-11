@@ -1,0 +1,36 @@
+.DT
+query_attackables
+$MUDNAME$ Creator Help
+query_attackables
+
+.SH Name
+.SP 5 5
+query_attackables -  This method recalculates the hunting structure, and returns an array of people we are in the same room with, and who we can attack.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_attackables()
+.EI
+
+.SH Returns
+.SI 5
+returns an array of people on our attacker list that are in
+the room with us
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method recalculates the hunting structure, and returns an array
+of people we are in the same room with, and who we can attack.
+If we are on a horse in a room with someone, we start attacking them
+as well.
+.EP
+

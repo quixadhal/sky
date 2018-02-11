@@ -1,0 +1,28 @@
+.DT
+query_decay
+$MUDNAME$ Creator Help
+query_decay
+
+.SH Name
+.SP 5 5
+query_decay -  This method returns which niche the food object has decayed to.
+.EP
+
+.SH Syntax
+.SI 5
+int query_decay()
+.EI
+
+.SH Defined in
+.SI 5
+/obj/food.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns which niche the food object has decayed to.
+Should never be more than 6.
+
+.EP
+

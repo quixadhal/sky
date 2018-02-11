@@ -1,0 +1,36 @@
+.DT
+query_spell_type
+$MUDNAME$ Creator Help
+query_spell_type
+
+.SH Name
+.SP 5 5
+query_spell_type - 
+.EP
+
+.SH Syntax
+.SI 5
+string query_spell_type()
+.EI
+
+.SH Returns
+.SI 5
+String skill used primarily in spell.
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+.EP
+
+.SH See also
+.SP 5 5
+set_spell_type
+
+.EP
+

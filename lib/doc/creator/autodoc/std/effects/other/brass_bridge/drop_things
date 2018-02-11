@@ -1,0 +1,29 @@
+.DT
+drop_things
+$MUDNAME$ Creator Help
+drop_things
+
+.SH Name
+.SP 5 5
+drop_things -  Function to handle inventory dropping.
+.EP
+
+.SH Syntax
+.SI 5
+void drop_things(object player,
+int time)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/other/brass_bridge.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Function to handle inventory dropping.  This happens only every 3-6
+minutes for now.
+
+.EP
+

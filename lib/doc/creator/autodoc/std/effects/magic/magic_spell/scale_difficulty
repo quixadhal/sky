@@ -1,0 +1,35 @@
+.DT
+scale_difficulty
+$MUDNAME$ Creator Help
+scale_difficulty
+
+.SH Name
+.SP 5 5
+scale_difficulty -  Scaling function.
+.EP
+
+.SH Syntax
+.SI 5
+float scale_difficulty(object caster,
+mixed * args)
+.EI
+
+.SH Returns
+.SI 5
+Float percentage of difficulty, default 1.0
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Scaling function. Overload to scale difficulty of stages according
+to any factors you may desire. For example, you could make a spell
+more difficult if there are more targets.
+.EP
+

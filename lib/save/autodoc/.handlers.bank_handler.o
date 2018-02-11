@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["adjust_account":({({"void",}),({({"string",}),"word",({"string",}),"bank_name",({"int",}),"amount",}),(["main":({"Change the amount of money a player has at a given bank.",}),"param":({"word the name of the player","bank_name the name of the bank","amount the amount to change the balance by",}),]),}),"query_account":({({"int",}),({({"string",}),"name",({"string",}),"bank_name",}),(["main":({"Find out how much a player has at a given bank.",}),"param":({"name the name of the player","bank_name the name of the bank",}),"return":({"the current balance, -1 on failure",}),]),}),"set_account":({({"void",}),({({"string",}),"word",({"string",}),"bank_name",({"int",}),"amount",}),(["main":({"Sets the balance at a certain bank to the specificed amount.",}),"param":({"word the name of the player","bank_name the name of the bank","amount the amount to set the bank to.",}),]),}),"get_data_file":({({"int",}),({({"string",}),"name",}),(["main":({"Start up the system by restoring the players data.",}),"param":({"word the name of the player being restored",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Keep track of each banks data.",}),"change":({"12-11-97 PinkfishRemoved the player_name variable.  Made a couple of the functionsprivate","21-11-97 TeranoChanged the get_data_file function so that if there is no data filefor a player, it calls init_data().",}),])
+define_docs (["RESTORE_PATH":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/bank_handler.c"
+last_changed 1096897884

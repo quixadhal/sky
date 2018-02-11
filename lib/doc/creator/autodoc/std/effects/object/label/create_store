@@ -1,0 +1,33 @@
+.DT
+create_store
+$MUDNAME$ Creator Help
+create_store
+
+.SH Name
+.SP 5 5
+create_store -  Create the storage container for the labels.
+.EP
+
+.SH Syntax
+.SI 5
+object create_store(mapping map,
+object player)
+.EI
+
+.SH Returns
+.SI 5
+the storage container
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/label.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Create the storage container for the labels.
+.EP
+

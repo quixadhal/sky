@@ -1,0 +1,28 @@
+.DT
+check_arrays
+$MUDNAME$ Creator Help
+check_arrays
+
+.SH Name
+.SP 5 5
+check_arrays -  This method checks to make sure all the criminals still exist.
+.EP
+
+.SH Syntax
+.SI 5
+void check_arrays()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks to make sure all the criminals still exist.
+It also removes the invalid criminals.
+
+.EP
+

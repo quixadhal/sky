@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["calc_colour":({({"string",}),({({"int",}),"red",({"int",}),"green",({"int",}),"blue",({"int",}),"whitener",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/colour.h":962428284,])
+class_docs ([])
+file_name "/handlers/colour.c"
+last_changed 1000619557

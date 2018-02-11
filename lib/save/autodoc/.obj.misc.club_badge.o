@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["init_dynamic_arg":({({"void",}),({({"mapping",}),"map",}),(["@ignore":({"yes ",}),]),}),"query_dynamic_auto_load":({({"mapping",}),({({"mapping",}),"map",}),(["@ignore":({"yes ",}),]),}),"extra_look":({({"string",}),({}),(["main":({"Print out some terribly using extra information.",}),"return":({"the useful extra information",}),]),}),])
+protected_functions ([])
+inherits (["/std/basic/club_insignia":({}),"/obj/clothing":({}),])
+main_docs (["main":({"The club badge.  What fun!",}),"started":({"Sun Oct  4 04:23:52 EDT 1998",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes (["/include/time.h":1049465667,"/include/broadcaster.h":962756770,"/include/clubs.h":1050407666,])
+class_docs ([])
+file_name "/obj/misc/club_badge.c"
+last_changed 979736400

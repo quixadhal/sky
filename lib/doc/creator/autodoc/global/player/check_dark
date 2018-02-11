@@ -1,0 +1,33 @@
+.DT
+check_dark
+$MUDNAME$ Creator Help
+check_dark
+
+.SH Name
+.SP 5 5
+check_dark -  This method checks to see if the player can see at the passed in light level.
+.EP
+
+.SH Syntax
+.SI 5
+int check_dark(int light)
+.EI
+
+.SH Returns
+.SI 5
+-2 or -1 if it is too dark, 1 or 2 if too bright, 0 if they can see
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks to see if the player can see at the passed
+in light level.
+.EP
+

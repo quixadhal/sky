@@ -1,0 +1,37 @@
+.DT
+check_interactive
+$MUDNAME$ Creator Help
+check_interactive
+
+.SH Name
+.SP 5 5
+check_interactive -  Checks to see if the object is interactive.
+.EP
+
+.SH Syntax
+.SI 5
+int check_interactive(object thing)
+.EI
+
+.SH Returns
+.SI 5
+1 if it is interactive
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/item_chat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Checks to see if the object is interactive.
+.EP
+
+.SH See also
+.SP 5 5
+efun::interactive()
+
+.EP
+

@@ -1,0 +1,46 @@
+.DT
+playtesterp
+$MUDNAME$ Creator Help
+playtesterp
+
+.SH Name
+.SP 5 5
+playtesterp -  This method returns whether or not the given player is a playtester.
+.EP
+
+.SH Syntax
+.SI 5
+varargs int playtesterp(mixed person,
+int nocre)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^person%^RESET%^ - the player to test
+%^BOLD%^optional%^RESET%^ - flag to make it return 0 for creators
+.EI
+
+.SH Returns
+.SI 5
+whether or not the player is a playtester
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not the given player is a playtester.
+This will return 1 for creators as well, unless the optional nocre
+flag is set.
+.EP
+
+.SH See also
+.SP 5 5
+adminp, lordp, seniorp, creatorp, liaisonp
+
+.EP
+

@@ -1,0 +1,42 @@
+.DT
+query_quest_xp
+$MUDNAME$ Creator Help
+query_quest_xp
+
+.SH Name
+.SP 5 5
+query_quest_xp -  This method returns the xp reward of the quest.
+.EP
+
+.SH Syntax
+.SI 5
+int query_quest_xp(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the quest
+.EI
+
+.SH Returns
+.SI 5
+the xp reward of the quest, -1 on failure
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/quest_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the xp reward of the quest.
+.EP
+
+.SH See also
+.SP 5 5
+add_quest(), set_quest_xp()
+
+.EP
+

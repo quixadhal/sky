@@ -1,0 +1,37 @@
+.DT
+set_combat_focus
+$MUDNAME$ Creator Help
+set_combat_focus
+
+.SH Name
+.SP 5 5
+set_combat_focus -  This sets the bodypart to focus on in combat.
+.EP
+
+.SH Syntax
+.SI 5
+void set_combat_focus(string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the new bodypart to focus on
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This sets the bodypart to focus on in combat.
+.EP
+
+.SH See also
+.SP 5 5
+query_tactics()
+
+.EP
+

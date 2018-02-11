@@ -1,0 +1,32 @@
+.DT
+query_liquid
+$MUDNAME$ Creator Help
+query_liquid
+
+.SH Name
+.SP 5 5
+query_liquid -  This function returns true if the food is a liquid.
+.EP
+
+.SH Syntax
+.SI 5
+int query_liquid()
+.EI
+
+.SH Returns
+.SI 5
+1 if the food is a liquid, and 0 if it is not
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/food.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function returns true if the food is a liquid.
+.EP
+

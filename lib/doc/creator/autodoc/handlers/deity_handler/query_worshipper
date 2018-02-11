@@ -1,0 +1,39 @@
+.DT
+query_worshipper
+$MUDNAME$ Creator Help
+query_worshipper
+
+.SH Name
+.SP 5 5
+query_worshipper -  This method checks if a player is the worshipper of the god
+.EP
+
+.SH Syntax
+.SI 5
+int query_worshipper(string deity,
+string worshipper)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+%^BOLD%^worshipper%^RESET%^ - the worshipper to check
+.EI
+
+.SH Returns
+.SI 5
+1 if the player is a worshipper, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks if a player is the worshipper of the god
+.EP
+

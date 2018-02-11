@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["player_wear":({({"void",}),({}),(["main":({"This function is called on an object and causes it to be wornif it can be by it's environment(), i.e the player carrying it.",}),]),}),"query_no_limbs":({({"int",}),({}),([]),}),"query_full_value":({({"int",}),({}),([]),}),"query_armour":({({"int",}),({}),(["main":({"This method returns 1 to tell us that it is armour.",}),"return":({"always returns 1",}),]),}),"set_no_limbs":({({"void",}),({({"int",}),"number",}),([]),}),"query_value":({({"int",}),({}),([]),}),"set_holder":({({"mixed",}),({({"object",}),"thing",({"int",}),"number",}),([]),}),"query_ac":({({"varargs","int",}),({({"string",}),"type",({"int",}),"amount",({"string",}),"zone",}),([]),}),])
+protected_functions ([])
+inherits (["/std/basic/holdable":({}),"/std/basic/wearable":({}),"/std/object":({}),"/std/armour_logic":({}),])
+main_docs (["main":({"This is the basic armour object.",}),])
+define_docs (["AC_LIMIT":([]),])
+includes (["/include/move_failures.h":962428284,"/include/query_ac.h":1057411536,])
+class_docs ([])
+file_name "/obj/armour.c"
+last_changed 1057411153

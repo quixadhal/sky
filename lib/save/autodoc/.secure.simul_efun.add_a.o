@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["add_a":({({"string",}),({({"string",}),"str",}),(["main":({"This method adds the 'a' or 'an' determinate to the input word.",}),"see":({"/std/basic/desc->a_short()","/std/basic/desc->the_short()","/std/basic/desc->one_short()",}),"param":({"str the string to add a/an to",}),"return":({"the input string along with a/an prefix",}),]),}),"vowel":({({"int",}),({({"int",}),"i",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Determine if the input is a vowel.",}),"param":({"i the int to check for vowelness",}),"return":({"1 if the int is a vowel, 0 if not",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/add_a.c"
+last_changed 1030701463

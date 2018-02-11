@@ -1,0 +1,27 @@
+.DT
+list_routes
+$MUDNAME$ Creator Help
+list_routes
+
+.SH Name
+.SP 5 5
+list_routes -  This method prints all routes to TP, if TP is a creator.
+.EP
+
+.SH Syntax
+.SI 5
+int list_routes()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints all routes to TP, if TP is a creator.
+
+.EP
+

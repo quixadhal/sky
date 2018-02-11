@@ -1,0 +1,45 @@
+.DT
+valid_worshipper
+$MUDNAME$ Creator Help
+valid_worshipper
+
+.SH Name
+.SP 5 5
+valid_worshipper -  This method checks to see if the worshipper is valid.
+.EP
+
+.SH Syntax
+.SI 5
+int valid_worshipper(string worshipper,
+string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^worshipper%^RESET%^ - the worshipper to check
+%^BOLD%^deity%^RESET%^ - the deity they should be worshipping according to the handler
+.EI
+
+.SH Returns
+.SI 5
+0 if they are not valid, 1 if they are
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks to see if the worshipper is valid.  This basically
+checks to see if they exist and they are worshipping the current deity.
+.EP
+
+.SH See also
+.SP 5 5
+"/handlers/player_handler"->test_deity()
+
+.EP
+

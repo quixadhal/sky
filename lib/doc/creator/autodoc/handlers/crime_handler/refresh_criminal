@@ -1,0 +1,39 @@
+.DT
+refresh_criminal
+$MUDNAME$ Creator Help
+refresh_criminal
+
+.SH Name
+.SP 5 5
+refresh_criminal -  This method deletes the given player by name from all places' criminal arrays.
+.EP
+
+.SH Syntax
+.SI 5
+void refresh_criminal(string player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player to delete
+.EI
+
+.SH Returns
+.SI 5
+1 if the operation was successful, 0 if it failed
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method deletes the given player by name from all
+places' criminal arrays.  This should be called by the
+refresh handler when the player refreshes or is deleted.
+.EP
+

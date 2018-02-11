@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_registered_channels":({({"string","*",}),({}),(["main":({"This method returns the names of all registered channels.",}),"return":({"the names of registered channels",}),]),}),"query_users":({({"string","*",}),({({"string",}),"channel",}),(["main":({"This method returns the list of users for the specified channel.",}),"param":({"channel the channel to get the users list for",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Chat daemon from the Nightmare mudlib ... \"borrowed\" by Sibbis 12/10/1994Modified extensively for the Cyningdom of Suvangi by Sibbis 12/10/1994Cleaned up and modified for new intermud(3) client;  Galileo, 2/4/99Modified for the Skylib Mudlib: Shaydz 2001",}),])
+define_docs (["MAX_HISTORY":([]),])
+includes (["/secure/include/socket_errors.h":1200761934,"/include/drinks.h":962428284,"/secure/include/network.h":1027443840,])
+class_docs ([])
+file_name "/handlers/channel.c"
+last_changed 1517553602

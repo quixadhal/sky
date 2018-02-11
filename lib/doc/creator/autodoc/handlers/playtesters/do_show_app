@@ -1,0 +1,32 @@
+.DT
+do_show_app
+$MUDNAME$ Creator Help
+do_show_app
+
+.SH Name
+.SP 5 5
+do_show_app -  This method prints the specified player's playtester application.
+.EP
+
+.SH Syntax
+.SI 5
+int do_show_app(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the player to get the application for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints the specified player's playtester application.
+.EP
+

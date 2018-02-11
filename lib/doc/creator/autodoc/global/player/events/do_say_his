@@ -1,0 +1,28 @@
+.DT
+do_say_his
+$MUDNAME$ Creator Help
+do_say_his
+
+.SH Name
+.SP 5 5
+do_say_his -  This method is the command used to print a players say history.
+.EP
+
+.SH Syntax
+.SI 5
+varargs int do_say_his(string str,
+int brief)
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is the command used to print a players say history.
+
+.EP
+

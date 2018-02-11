@@ -1,0 +1,44 @@
+.DT
+can_wear_or_remove
+$MUDNAME$ Creator Help
+can_wear_or_remove
+
+.SH Name
+.SP 5 5
+can_wear_or_remove -  This method returns whether or not a player can wear or remove a given item.
+.EP
+
+.SH Syntax
+.SI 5
+varargs mixed can_wear_or_remove(object thing,
+object player,
+int flag)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^thing%^RESET%^ - the item to be worn or removed.
+%^BOLD%^player%^RESET%^ - the person doing the wearing or removing.
+%^BOLD%^flag%^RESET%^ - if the flag is 1, the objects that won't allow
+to remove the item are returned instead of a string.
+.EI
+
+.SH Returns
+.SI 5
+the reason why the item can't be removed, if there is one,
+or the objects that aren't allowing to remove the item,
+if the flag is true
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/clothing_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not a player can wear or remove a given item.
+.EP
+

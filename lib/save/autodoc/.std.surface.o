@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_loc_weight":({({"int",}),({}),(["main":({"This method returns the weight of all things in us.",}),"return":({"the weight of all things within us",}),]),}),"query_max_weight":({({"int",}),({}),(["main":({"This method return the maximum weight of things that can fit in us.",}),"return":({"the maximum weight",}),]),}),"query_has_surface":({({"int",}),({}),(["main":({"This method queries whether or not we are a surface.",}),"return":({"always returns 1",}),]),}),"set_max_weight":({({"void",}),({({"int",}),"arg",}),([]),}),])
+protected_functions (["handle_restore_inventory":({({"int",}),({({"object",}),"ob",}),(["main":({"This method handles moving objects into the inventory from an autoload.",}),"param":({"ob the object to move into ourselves",}),]),}),])
+inherits (["/std/basic/cute_look":({}),"/std/object":({}),])
+main_docs (["main":({"This method sets our maximum capacity.",}),"param":({"arg the maximum weight to set",}),])
+define_docs ([])
+includes (["/include/player.h":1036911799,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/std/surface.c"
+last_changed 1079293589

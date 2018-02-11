@@ -1,0 +1,38 @@
+.DT
+query_is_lord
+$MUDNAME$ Creator Help
+query_is_lord
+
+.SH Name
+.SP 5 5
+query_is_lord -  This method queries whether or not the specified person is a lord of the playtesters domain or not.
+.EP
+
+.SH Syntax
+.SI 5
+int query_is_lord(mixed who)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^who%^RESET%^ - the name or object of the player to test
+.EI
+
+.SH Returns
+.SI 5
+1 if we are a lord of playtesting, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether or not the specified person is a
+lord of the playtesters domain or not.
+.EP
+

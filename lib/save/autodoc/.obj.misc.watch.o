@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["heart_beat":({({"void",}),({}),([]),}),"set_gmt":({({"int",}),({({"string",}),"arg",}),([]),}),"do_read":({({"int",}),({}),([]),}),"check_alarm":({({"void",}),({}),([]),}),"query_read":({({"string",}),({}),([]),}),"do_time":({({"int",}),({}),([]),}),"query_auto_load":({({"mixed",}),({}),([]),}),"get_text":({({"varargs","int",}),({({"string",}),"line",}),([]),}),"get_time":({({"string",}),({}),([]),}),"move":({({"int",}),({({"object",}),"ob",}),([]),}),"the_command":({({"int",}),({({"string",}),"arg",}),([]),}),"init_arg":({({"void",}),({({"mixed","*",}),"arg",}),([]),}),"use":({({"int",}),({({"string",}),"arg",}),([]),}),"long":({({"string",}),({({"string",}),"word",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/watch.c"
+last_changed 1026880055

@@ -1,0 +1,32 @@
+.DT
+query_gender
+$MUDNAME$ Creator Help
+query_gender
+
+.SH Name
+.SP 5 5
+query_gender -  This method returns the gender associated with the skin.
+.EP
+
+.SH Syntax
+.SI 5
+int query_gender()
+.EI
+
+.SH Returns
+.SI 5
+the gender associated with the skin
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the gender associated with the skin.
+.EP
+

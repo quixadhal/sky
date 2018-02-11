@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["alter_corpse":({({"int",}),({({"object",}),"corpse",({"object",}),"weapon",({"string",}),"attack",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method will allow all sorts of modifications to a corpse once it hasbeen created, based on the weapon or attack used for the killing stroke.",}),"see":({"death_helper()","make_corpse()","do_death()",}),"param":({"corpse the corpse object","weapon the weapon used to inflict the fatal damage","attack the attack used to inflict the fatal damage",}),"return":({"none",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/living/corpse.c"
+last_changed 962428716

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["parse_command_plural_id_list":({({"string","*",}),({}),([]),}),"parse_command_adjectiv_id_list":({({"string","*",}),({}),([]),}),"query_word_list":({({"string","*",}),({({"string",}),"word",}),([]),}),"parse_command_all_word":({({"string",}),({}),([]),}),"parse_command_prepos_list":({({"string","*",}),({}),([]),}),"parse_command_id_list":({({"string","*",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/parse_command.c"
+last_changed 998745002

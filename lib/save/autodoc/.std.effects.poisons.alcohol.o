@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["action_drunk":({({"void",}),({({"object",}),"ob",({"int","*",}),"coord",({"int",}),"quantity",}),([]),}),"action_smell":({({"void",}),({({"object",}),"ob",({"int","*",}),"coord",({"int",}),"quantity",}),([]),}),"query_coordinate":({({"int","*",}),({}),([]),}),"query_pass_through":({({"int",}),({({"int","*",}),"coord",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/basic":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"poison.addictive\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"poison.addictive",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/effects/poisons/alcohol.c"
+last_changed 962122405

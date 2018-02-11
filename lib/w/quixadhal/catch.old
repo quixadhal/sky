@@ -1,0 +1,1728 @@
+--------------------
+Thu Feb  1 19:21:11 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#8 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#8 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were:
+    (object) /global/creator#8
+(3) 'drunk_check' in /global/creator#8 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "blah();l",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were:
+    (int) 1799964
+(5) '<fake>' in /global/creator#8 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#8 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were:
+    (object) /global/creator#8
+(7) 'new_parser' in /global/creator#8 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec blah();l"
+)
+Locals were:
+    (array) ({"exec","blah();l",}),
+    (string) "exec blah();l",
+    (array) ({0,1,2,3,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#8 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","blah();l",}),
+    (array) ({0,1,2,3,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"blah();l",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 2,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"blah();l",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "blah();l"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "blah();l;"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"blah()","l",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "l"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  1 22:37:31 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return INTERMUD_H->chan_who( query_channel_name(\"url\"));",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (int) 1799957
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (array) ({"exec","return","INTERMUD_H->chan_who(","query_channel_name(\"url\"));",}),
+    (string) "exec return INTERMUD_H->chan_who( query_channel_name(\"url\"));",
+    (array) ({0,3,4,5,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","INTERMUD_H->chan_who(","query_channel_name(\"url\"));",}),
+    (array) ({0,3,4,5,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return INTERMUD_H->chan_who( query_channel_name(\"url\"));",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 4,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return INTERMUD_H->chan_who( query_channel_name(\"url\"));",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return INTERMUD_H->chan_who( query_channel_name(\"url\"));"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return INTERMUD_H->chan_who( query_channel_name(\"url\"))",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return INTERMUD_H->chan_who( query_channel_name(\"url\"))"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb  3 00:01:41 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#13 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#13 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (object) /global/creator#13
+(3) 'drunk_check' in /global/creator#13 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 1799926
+(5) '<fake>' in /global/creator#13 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#13 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (object) /global/creator#13
+(7) 'new_parser' in /global/creator#13 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (array) ({"exec","return","color_strlen(\"A","long","string","of","%^RED%^colored%^RESET%^","wurdsz","and","stuff","to","test","the","string","wrapping","thingy","that","doesn't","work","right","and","might","work","better","or","not","so","good","now.","This","is","another","bit","after","using","dupdate","on","the","player","object.\");",}),
+    (string) "exec return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");",
+    (array) ({0,39,40,41,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#13 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","color_strlen(\"A","long","string","of","%^RED%^colored%^RESET%^","wurdsz","and","stuff","to","test","the","string","wrapping","thingy","that","doesn't","work","right","and","might","work","better","or","not","so","good","now.","This","is","another","bit","after","using","dupdate","on","the","player","object.\");",}),
+    (array) ({0,39,40,41,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 40,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\")",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return color_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\")"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb  3 00:02:22 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#13 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#13 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (object) /global/creator#13
+(3) 'drunk_check' in /global/creator#13 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 1799917
+(5) '<fake>' in /global/creator#13 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#13 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (object) /global/creator#13
+(7) 'new_parser' in /global/creator#13 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (array) ({"exec","return","colour_strlen(\"A","long","string","of","%^RED%^colored%^RESET%^","wurdsz","and","stuff","to","test","the","string","wrapping","thingy","that","doesn't","work","right","and","might","work","better","or","not","so","good","now.","This","is","another","bit","after","using","dupdate","on","the","player","object.\");",}),
+    (string) "exec return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now.  This is another bit after using dupdate on the player object.\");",
+    (array) ({0,39,40,41,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#13 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","colour_strlen(\"A","long","string","of","%^RED%^colored%^RESET%^","wurdsz","and","stuff","to","test","the","string","wrapping","thingy","that","doesn't","work","right","and","might","work","better","or","not","so","good","now.","This","is","another","bit","after","using","dupdate","on","the","player","object.\");",}),
+    (array) ({0,39,40,41,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 40,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\");"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\")",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return colour_strlen(\"A long string of %^RED%^colored%^RESET%^ wurdsz and stuff to test the string wrapping thingy that doesn't work right and might work better or not so good now. This is another bit after using dupdate on the player object.\")"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb  3 23:05:50 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return localtime(time(), 'GMT');",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were:
+    (int) 1799953
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), 'GMT');"
+)
+Locals were:
+    (array) ({"exec","return","localtime(time(),","'GMT');",}),
+    (string) "exec return localtime(time(), 'GMT');",
+    (array) ({0,3,4,5,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","localtime(time(),","'GMT');",}),
+    (array) ({0,3,4,5,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return localtime(time(), 'GMT');",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 4,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return localtime(time(), 'GMT');",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return localtime(time(), 'GMT');"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return localtime(time(), 'GMT');"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return localtime(time(), 'GMT')",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return localtime(time(), 'GMT')"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb  3 23:05:58 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return localtime(time(), \"GMT\");",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (int) 1799952
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (array) ({"exec","return","localtime(time(),","\"GMT\");",}),
+    (string) "exec return localtime(time(), \"GMT\");",
+    (array) ({0,3,4,5,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","localtime(time(),","\"GMT\");",}),
+    (array) ({0,3,4,5,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return localtime(time(), \"GMT\");",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 4,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return localtime(time(), \"GMT\");",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return localtime(time(), \"GMT\");"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return localtime(time(), \"GMT\")",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return localtime(time(), \"GMT\")"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Tue Feb  6 23:48:00 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return timestamp();",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were:
+    (int) 1799956
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return timestamp();"
+)
+Locals were:
+    (array) ({"exec","return","timestamp();",}),
+    (string) "exec return timestamp();",
+    (array) ({0,2,3,4,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","timestamp();",}),
+    (array) ({0,2,3,4,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return timestamp();",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 3,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return timestamp();",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return timestamp();"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return timestamp();"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return timestamp()",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return timestamp()"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Wed Feb  7 00:17:13 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return undefinedp(undef);",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were:
+    (int) 1799958
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return undefinedp(undef);"
+)
+Locals were:
+    (array) ({"exec","return","undefinedp(undef);",}),
+    (string) "exec return undefinedp(undef);",
+    (array) ({0,2,3,4,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","undefinedp(undef);",}),
+    (array) ({0,2,3,4,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return undefinedp(undef);",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 3,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return undefinedp(undef);",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return undefinedp(undef);"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return undefinedp(undef);"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return undefinedp(undef)",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return undefinedp(undef)"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  8 14:36:55 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return getSpeakerColor(\"quixadhal\");",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (int) 1799952
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (array) ({"exec","return","getSpeakerColor(\"quixadhal\");",}),
+    (string) "exec return getSpeakerColor(\"quixadhal\");",
+    (array) ({0,2,3,4,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","getSpeakerColor(\"quixadhal\");",}),
+    (array) ({0,2,3,4,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return getSpeakerColor(\"quixadhal\");",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 3,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return getSpeakerColor(\"quixadhal\");",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return getSpeakerColor(\"quixadhal\");"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return getSpeakerColor(\"quixadhal\")",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return getSpeakerColor(\"quixadhal\")"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  8 22:14:37 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "string *foo() { return ({ 1,2 }); }; return foo();",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (int) 1799946
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (array) ({"exec","string","*foo()","{","return","({","1,2","});","};","return","foo();",}),
+    (string) "exec string *foo() { return ({ 1,2 }); }; return foo();",
+    (array) ({0,10,11,12,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","string","*foo()","{","return","({","1,2","});","};","return","foo();",}),
+    (array) ({0,10,11,12,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"string *foo() { return ({ 1,2 }); }; return foo();",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 11,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"string *foo() { return ({ 1,2 }); }; return foo();",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "string *foo() { return ({ 1,2 }); }; return foo();"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"string *foo() { return ({ 1,2 })"," }"," return foo()",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) " return foo()"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  8 22:40:13 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "int xy; return xy ? \"undef\" : xx;",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (int) 1799955
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (array) ({"exec","int","xy;","return","xy","?","\"undef\"",":","xx;",}),
+    (string) "exec int xy; return xy ? \"undef\" : xx;",
+    (array) ({0,8,9,10,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","int","xy;","return","xy","?","\"undef\"",":","xx;",}),
+    (array) ({0,8,9,10,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"int xy; return xy ? \"undef\" : xx;",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 9,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"int xy; return xy ? \"undef\" : xx;",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "int xy; return xy ? \"undef\" : xx;"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"int xy"," return xy ? \"undef\" : xx",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) " return xy ? \"undef\" : xx"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+--------------------
+Thu Feb  8 22:56:21 2018:  *Error in loading object '/w/quixadhal/exec_tmp'
+Object: /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.
+
+(1) 'process_input' in /global/creator#3 (/global/player/psoul.c) at line 475
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were: none.
+(2) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 448
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (object) /global/creator#3
+(3) 'drunk_check' in /global/creator#3 (/global/player/psoul.c) at line 421
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "exec",
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",
+    (int) 0,
+    (int) 0
+(4) 'command' in /secure/simul_efun (/secure/simul_efun/add_action.c) at line 30
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 1799951
+(5) '<fake>' in /global/creator#3 (/<driver>) at line 0
+Object name: "quixadhal"
+Arguments were: (void)
+Locals were: none.
+(6) '_process_input' in /global/creator#3 (/global/player/psoul.c) at line 449
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (object) /global/creator#3
+(7) 'new_parser' in /global/creator#3 (/global/player/new_parse.c) at line 659
+Object name: "quixadhal"
+Arguments were:
+(
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0);",}),
+    (string) "exec return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",
+    (array) ({0,8,9,10,}),
+    (int) 0,
+    (array) ({5,2,}),
+    (array) ({({5,"<string'code'>",0,,,}),}),
+    (array) ({5,"<string'code'>",0,,,}),
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 1,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(8) 'handle_command' in /global/creator#3 (/global/player/new_parse.c) at line 1577
+Object name: "quixadhal"
+Arguments were:
+(
+    (array) ({"exec","return","INTERMUD_H->formChatString(\"booger\",","\"foo@blahmud\",","\"this","sucks\",","97,","0.","0);",}),
+    (array) ({0,8,9,10,}),
+    (array) ({5,2,}),
+    (array) ({5,"<string'code'>",0,,,})
+)
+Locals were:
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",}),
+    (int) 0,
+    (int) 0,
+    (int) 2,
+    (int) 0,
+    (int) 3,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (class) (/0,({}),0,/),
+    (int) 0,
+    (int) 9,
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (string) "<string'code'>",
+    (int) 0,
+    (int) 0,
+    (int) 0,
+    (int) 0
+(9) '<fake>' in /secure/cmds/creator/exe_c (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+(10) '(: <code>($1, $2, $3, $4) :)' in /secure/cmds/creator/exe_c at line 106
+Arguments were:
+(
+    (array) ({}),
+    (int) 0,
+    (int) 0,
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);",})
+)
+Locals were: none.
+(11) 'cmd' in /secure/cmds/creator/exe_c at line 89
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (int) 0
+(12) 'do_exec' in /secure/cmds/creator/exe_c at line 66
+Arguments were:
+(
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0);"
+)
+Locals were:
+    (string) "/w/quixadhal/exec_tmp",
+    (string) "/w/quixadhal",
+    (array) ({"return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0)",}),
+    (string) "",
+    (array) ({0,0,0,0,}),
+    (int) 0,
+    (string) "return INTERMUD_H->formChatString(\"booger\", \"foo@blahmud\", \"this sucks\", 97, 0. 0)"
+(13) 'CATCH' in /secure/cmds/creator/exe_c at line 66
+Arguments were: (void)
+Locals were: none.

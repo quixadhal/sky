@@ -1,0 +1,32 @@
+.DT
+set_gender
+$MUDNAME$ Creator Help
+set_gender
+
+.SH Name
+.SP 5 5
+set_gender -  This method sets the gender of the corpse.
+.EP
+
+.SH Syntax
+.SI 5
+void set_gender(int i)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^i%^RESET%^ - the gender of the corpse
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the gender of the corpse.
+.EP
+

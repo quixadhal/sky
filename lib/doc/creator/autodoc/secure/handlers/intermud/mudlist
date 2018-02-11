@@ -1,0 +1,39 @@
+.DT
+mudlist
+$MUDNAME$ Creator Help
+mudlist
+
+.SH Name
+.SP 5 5
+mudlist -  This method is used by the mudlist command.
+.EP
+
+.SH Syntax
+.SI 5
+string mudlist(string mud,
+mapping flags)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^mud%^RESET%^ - the mud to get info on
+%^BOLD%^flags%^RESET%^ - the flags
+.EI
+
+.SH Returns
+.SI 5
+a string describing our progress
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used by the mudlist command.
+.EP
+

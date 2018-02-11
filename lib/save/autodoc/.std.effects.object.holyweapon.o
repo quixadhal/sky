@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"thing",({"mixed",}),"args",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect makes the object a holy weapon.  This effecthas a classification of \"object.holyweapon\".<p>The argument specifies the time in seconds for the effect tolast.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"example":({"// last for 2 minutesob->add_effect(\"/std/effects/object/holyweapon\", 120);",}),"classification":({"object.holyweapon",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/holyweapon.c"
+last_changed 984361859

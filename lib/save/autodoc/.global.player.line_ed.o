@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_in_editor":({({"int",}),({}),(["main":({"This method returns the value of the in editor flag.It will return non-zero if the player is in an editor.",}),"see":({"set_in_editor()",}),"return":({"non-zero in editor, 0 not in an editor",}),]),}),"append_signature":({({"string",}),({}),(["main":({"This method will create the signature to append to whatever needsa signature.",}),"return":({"the players signature",}),]),}),"set_in_editor":({({"void",}),({({"mixed",}),"what",}),(["main":({"This method sets the current in editor flag.",}),"see":({"query_in_editor()",}),"param":({"what the new value of the in editor flag",}),]),}),"query_editor":({({"string",}),({}),(["main":({"This method will return the players current editor setting.",}),"return":({"the current editor setting.",}),]),}),"do_edit":({({"varargs","int",}),({({"string",}),"str",({"mixed",}),"end_f",({"object",}),"end_o",({"string",}),"fname",({"mixed",}),"extra",}),(["main":({"Edit a string.  This will edit the string or file name and thencall the end function and end object at the end.  It will pas inthe string if the edit is successful, or 0 if it is not.",}),"param":({"str the string to edit","end_f the function to call","end_o the object to call it on (defaul: previous_object())","fname a specific filename to edit","extra an array of any parameters you need to carry into the end function",}),"return":({"0 on failure.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This allows a piece of text to be placed into the players ownline editor (which ever one they wish to use).<p>Expansion of the editor.  We will now allow the player to use anyof three different editors.  One of them is the default (the oldone) one of them is ed and the other I am going to write in afew secs....<p>cute line editor thing.  Which even a player could use!",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes (["/include/ed.h":1046176366,])
+class_docs ([])
+file_name "/global/player/line_ed.c"
+last_changed 1046176083

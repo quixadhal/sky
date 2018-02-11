@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["insert":({({"mixed",}),({({"mixed",}),"arr",({"mixed",}),"el",({"int",}),"pos",}),(["main":({"This method inserts an element into the array.It inserts an element into the array at the specified point.This function accepts strings as well as arrays.<p>The code to do this is: \"arr[0..pos-1] + ({ el }) + arr[pos..]\".",}),"param":({"arr the array to insert the element into.","el the element to insert","pos the position at which to insert it",}),"return":({"the array with the element inserted into it",}),]),}),"delete":({({"mixed",}),({({"mixed",}),"arr",({"int",}),"start",({"int",}),"len",}),(["main":({"This method deletes and element from an array.",}),"param":({"arr the array to delete an element from","start the start position to delete from","len the number of elements to delete",}),"return":({"the new array",}),]),}),"find_member":({({"int","*",}),({({"mixed",}),"target",({"mixed",}),"arr",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This function finds all the occurrences of the target in an array.It returns an array of the positions.",}),"author":({"Terano",}),"param":({"target the target to get the positions for","arr the array to scan for the target",}),"return":({"the array of target's positions in arr",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/array.c"
+last_changed 1034341962

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Makes the player speak like an obnoxious english person.The classification of the effect is \"misc.curse.ken\".<p>The argument to the effect specifies how long the effect will lasytfor.<p>This effect has  ashadw associated with it",}),"example":({"// give them the curse for 3 minutesadd_effect(\"/std/effects/curses/ken_curse\", 360);",}),"classification":({"misc.curse.ken",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/curses/ken_curse.c"
+last_changed 962122407

@@ -1,0 +1,34 @@
+.DT
+set_my_colours
+$MUDNAME$ Creator Help
+set_my_colours
+
+.SH Name
+.SP 5 5
+set_my_colours -  This method sets the colour codes for a given event.
+.EP
+
+.SH Syntax
+.SI 5
+void set_my_colours(string event_type,
+string colour)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^event_type%^RESET%^ - the type of event to set the colour for
+%^BOLD%^colour%^RESET%^ - the colour to set
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the colour codes for a given event.
+.EP
+

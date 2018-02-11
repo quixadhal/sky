@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["disease_action":({({"void",}),({({"object",}),"player",({}),"int",({}),"int",}),([]),}),"test_remove":({({"int",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"enum",({"int",}),"bonus",}),([]),}),"disease_start":({({"int",}),({({"object",}),"player",({"int",}),"arg",({}),"int",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/disease/simple_disease":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"misc.curse.smurf\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"misc.curse.smurf",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/flea_infestation.c"
+last_changed 962122405

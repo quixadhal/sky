@@ -1,0 +1,38 @@
+.DT
+set_types
+$MUDNAME$ Creator Help
+set_types
+
+.SH Name
+.SP 5 5
+set_types -  This method sets the types of weapons that can be sheathed in the scabbard.
+.EP
+
+.SH Syntax
+.SI 5
+void set_types(string * words)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^words%^RESET%^ - the array of types that can be sheathed
+.EI
+
+.SH Defined in
+.SI 5
+/obj/clothing.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the types of weapons that can be
+sheathed in the scabbard.
+.EP
+
+.SH See also
+.SP 5 5
+query_scabbard(), query_clothing(), query_types(), set_no_weapons_allowed(), query_no_weapons_allowed(), set_clothing_scabbard(), test_type_ok()
+
+.EP
+

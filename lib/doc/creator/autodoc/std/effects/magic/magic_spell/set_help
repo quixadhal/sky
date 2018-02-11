@@ -1,0 +1,25 @@
+.DT
+set_help
+$MUDNAME$ Creator Help
+set_help
+
+.SH Name
+.SP 5 5
+set_help - 
+.EP
+
+.SH Syntax
+.SI 5
+void set_help(string _help)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+.EP
+

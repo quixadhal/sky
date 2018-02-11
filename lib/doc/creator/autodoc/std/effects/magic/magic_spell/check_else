@@ -1,0 +1,35 @@
+.DT
+check_else
+$MUDNAME$ Creator Help
+check_else
+
+.SH Name
+.SP 5 5
+check_else -  Checks to see if the spell should fail due to any other reasons.
+.EP
+
+.SH Syntax
+.SI 5
+int check_else(object caster,
+mixed * args)
+.EI
+
+.SH Returns
+.SI 5
+0 to halt the spell, 1 to continue
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Checks to see if the spell should fail due to any other reasons.
+Suppresses error messages, thus custom ones must be provided
+by inheriting objects. Should be overloaded if needed.
+.EP
+

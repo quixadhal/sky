@@ -1,0 +1,42 @@
+.DT
+set_required
+$MUDNAME$ Creator Help
+set_required
+
+.SH Name
+.SP 5 5
+set_required -  This function sets the items required by the spell, and the stages they're required for.
+.EP
+
+.SH Syntax
+.SI 5
+void set_required(mapping rrequired)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^rrequired%^RESET%^ - the entire mapping of items required in the format:
+([
+  (int)stage : ([ (string)id of the item : ({ (string)short used for error message, (int)quantity used ]),
+])
+EG: ([
+  1 : ([ "pinche$s$ of ForestGreenDust" : ({ "forest-green dust", 1 }) ]),
+  3 : ([ "metal shield$s$" : ({ "metal shield", 1 }) ]),
+])
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function sets the items required by the spell, and the stages they're required for.
+NB: Items that are required are not consumed! Use set_consumed for items that will
+be consumed by the spell. Furthermore, having items that conflict in both the consumed
+and required mappings is a bad idea, no guarantees made about behaviour.
+.EP
+

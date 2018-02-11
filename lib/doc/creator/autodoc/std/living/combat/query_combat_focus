@@ -1,0 +1,37 @@
+.DT
+query_combat_focus
+$MUDNAME$ Creator Help
+query_combat_focus
+
+.SH Name
+.SP 5 5
+query_combat_focus -  This returns the bodypart we are currently focusing on.
+.EP
+
+.SH Syntax
+.SI 5
+string query_combat_focus()
+.EI
+
+.SH Returns
+.SI 5
+the bodypart we are currently focusing on
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This returns the bodypart we are currently focusing on.
+.EP
+
+.SH See also
+.SP 5 5
+query_tactics()
+
+.EP
+

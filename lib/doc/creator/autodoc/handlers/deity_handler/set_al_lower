@@ -1,0 +1,39 @@
+.DT
+set_al_lower
+$MUDNAME$ Creator Help
+set_al_lower
+
+.SH Name
+.SP 5 5
+set_al_lower -  This method sets the lower alignment limit for the given deity.
+.EP
+
+.SH Syntax
+.SI 5
+int set_al_lower(string deity,
+int number)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the lower alignment limit for the
+given deity.
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",({"object","*",}),"things",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"fighting.combat.special.punch\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"fighting.combat.special.punch",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/fighting/path.h":962122401,"/include/player.h":1036911799,"/include/effect.h":962428284,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/std/effects/fighting/bob.c"
+last_changed 962122401

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"decrease_amount":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"misc.ketchup\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"misc.ketchup",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/external/ketchup_effect.c"
+last_changed 962122406

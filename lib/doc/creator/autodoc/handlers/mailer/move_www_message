@@ -1,0 +1,43 @@
+.DT
+move_www_message
+$MUDNAME$ Creator Help
+move_www_message
+
+.SH Name
+.SP 5 5
+move_www_message -  This is the backend of the online mailer's move function.
+.EP
+
+.SH Syntax
+.SI 5
+string move_www_message(int number,
+string fname,
+string to_folder,
+string usr)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^number%^RESET%^ - the number of the message to move
+%^BOLD%^fname%^RESET%^ - the folder to move the message from
+%^BOLD%^to_folder%^RESET%^ - the folder to move the message to
+%^BOLD%^usr%^RESET%^ - the user of the online mailer
+.EI
+
+.SH Returns
+.SI 5
+0 upon success or a string explaining the error upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/mailer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This is the backend of the online mailer's move function.
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["WWW_TEMP_MAIL_LIST":([]),"PLAYER_ERROR_LOG":([]),"ERROR_LOG":([]),"WWW_TEMP_FORWARD_LIST":([]),"LOG_FILE":([]),"SMART_LOG":([]),"TEMP_MAIL_LIST":([]),"TEMP_FORWARD_LIST":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/log.h"
+last_changed 962429079

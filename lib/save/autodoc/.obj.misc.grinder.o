@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_grind":({({"int",}),({({"object","*",}),"things",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs (["STATE_CHANGE":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/misc/grinder.c"
+last_changed 979736400

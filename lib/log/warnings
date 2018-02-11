@@ -1,0 +1,74 @@
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/global/player/events.c line 1792: Warning: Unused local variable 'color' before  /* event_chat() */
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1793: Warning: Unused local variable 'color' before  /* event_chat() */
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/secure/handlers/intermud.c line 96: Warning: Unused local variable 'the_time' before the end of line
+/secure/handlers/intermud.c line 96: Warning: Unused local variable 'the_time' before the end of line
+/secure/handlers/intermud.c line 96: Warning: Unused local variable 'the_time' before the end of line
+/secure/handlers/intermud.c line 98: Warning: Unused local variable 'the_time' before the end of line
+/secure/handlers/intermud.c line 83: Warning: Unused local variable 'hour' before the end of line
+/secure/handlers/intermud.c line 83: Warning: Unused local variable 'minute' before the end of line
+/secure/handlers/intermud.c line 102: Warning: <TAB> before             : "%^CYA
+/global/player/events.c line 1789: Warning: Expression has no side effects, and the value is unused before the end of line
+/global/player/events.c line 1809: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1809: Warning: Unused local variable 'color' before  /* event_chat() */
+/global/player/events.c line 1809: Warning: Unused local variable 'color' before  /* event_chat() */
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/secure/handlers/intermud.c line 242: Warning: Expression has no side effects, and the value is unused before the end of line
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/secure/handlers/intermud.c line 242: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 260: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 260: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 265: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 260: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 265: Warning: Expression has no side effects, and the value is unused before the end of line
+/secure/handlers/intermud.c line 306: Warning: Unused local variable 't_name' before the end of line
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 510: Warning: Number of arguments disagrees with previous definition. before  {
+/handlers/inherit/club_elected.c line 549: Warning: Number of arguments disagrees with previous definition. before  {

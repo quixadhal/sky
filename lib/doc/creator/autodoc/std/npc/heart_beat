@@ -1,0 +1,29 @@
+.DT
+heart_beat
+$MUDNAME$ Creator Help
+heart_beat
+
+.SH Name
+.SP 5 5
+heart_beat -  The main heart beat function.
+.EP
+
+.SH Syntax
+.SI 5
+void heart_beat()
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+The main heart beat function.  This is called by the driver
+every 2 seconds.  Does all the maintenance stuff like fixing
+up hps, greeting people and stuff like that.
+
+.EP
+

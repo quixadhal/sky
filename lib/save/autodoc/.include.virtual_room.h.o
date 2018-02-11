@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["DELAY":([]),"FLAG":([]),"UNIQUE":([]),"REMOVABLE":([]),"CLONE":([]),"FIXED":([]),"MESS":([]),])
+includes (["/include/virtual.h":962428284,])
+class_docs ([])
+file_name "/include/virtual_room.h"
+last_changed 962428284

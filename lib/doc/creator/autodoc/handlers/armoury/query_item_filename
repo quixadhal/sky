@@ -1,0 +1,37 @@
+.DT
+query_item_filename
+$MUDNAME$ Creator Help
+query_item_filename
+
+.SH Name
+.SP 5 5
+query_item_filename -  This method returns the absolute filename of an item.
+.EP
+
+.SH Syntax
+.SI 5
+string query_item_filename(string item)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the item
+.EI
+
+.SH Returns
+.SI 5
+the absolute filename of the item
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the absolute filename of an item.
+.EP
+

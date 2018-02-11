@@ -1,0 +1,39 @@
+.DT
+set_max_volume
+$MUDNAME$ Creator Help
+set_max_volume
+
+.SH Name
+.SP 5 5
+set_max_volume -  This method sets the maximum volume of the container.
+.EP
+
+.SH Syntax
+.SI 5
+void set_max_volume(int v)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^v%^RESET%^ - the new maximum volume
+.EI
+
+.SH Defined in
+.SI 5
+/obj/vessel.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the maximum volume of the container.  This also
+sets the maximum weight of the container to one tenth of the
+volume (if there is no current maximum weight).
+.EP
+
+.SH See also
+.SP 5 5
+add_volume(), query_max_volume(), set_max_weight()
+
+.EP
+

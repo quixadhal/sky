@@ -1,0 +1,39 @@
+.DT
+query_fighting
+$MUDNAME$ Creator Help
+query_fighting
+
+.SH Name
+.SP 5 5
+query_fighting -  This method returns true if the object is fighting someone in the room.
+.EP
+
+.SH Syntax
+.SI 5
+int query_fighting()
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^return%^RESET%^ - 1 if the creature is fighting someone
+in the room, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns true if the object is fighting
+someone in the room.
+.EP
+
+.SH See also
+.SP 5 5
+query_attacker_list()
+
+.EP
+

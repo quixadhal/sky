@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.identify\".<p>The arguement is a mapping which has the \"keep\" or the \"identity\"bit set.  If either of these are set then that bit of the objectsdefinition is overwritten.",}),"see":({"help::effects",}),"classification":({"object.identify",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/object/path.h":984361859,"/include/effect.h":962428284,])
+class_docs (["special_stuff":({0,({({"keep",({"int",}),}),({"identity",({"string",}),}),}),([]),}),])
+file_name "/std/effects/object/identity_hold.c"
+last_changed 984361859

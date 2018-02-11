@@ -1,0 +1,39 @@
+.DT
+query_channel_cache
+$MUDNAME$ Creator Help
+query_channel_cache
+
+.SH Name
+.SP 5 5
+query_channel_cache -  This method is used for debugging purposes to query the channel cache.
+.EP
+
+.SH Syntax
+.SI 5
+varargs mapping query_channel_cache(string person)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^person%^RESET%^ - the name of a person to query. If this is not
+specified, then the entire channel cache is returned.
+.EI
+
+.SH Returns
+.SI 5
+a mapping containing channel cache data.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/talker.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used for debugging purposes to query the
+channel cache.
+.EP
+

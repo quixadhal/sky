@@ -1,0 +1,41 @@
+.DT
+special_attack
+$MUDNAME$ Creator Help
+special_attack
+
+.SH Name
+.SP 5 5
+special_attack -  This method is used by the combat handler and returns a class with special attack data, if there is one in the queue that fits the specified arguments.
+.EP
+
+.SH Syntax
+.SI 5
+class special_attack_data special_attack(int type,
+class attack_data att)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the type of the special attack
+%^BOLD%^att%^RESET%^ - the attack class
+.EI
+
+.SH Returns
+.SI 5
+a class with special attack data or 0
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used by the combat handler and returns a class with
+special attack data, if there is one in the queue that fits the
+specified arguments.
+.EP
+

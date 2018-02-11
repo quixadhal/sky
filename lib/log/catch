@@ -1,0 +1,1804 @@
+--------------------
+Fri Feb  9 19:37:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Fri Feb  9 19:56:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Fri Feb  9 20:56:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Fri Feb  9 21:42:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Fri Feb  9 22:29:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Fri Feb  9 23:22:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 00:15:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 01:17:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 01:52:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 02:32:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 03:21:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 04:21:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 05:10:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 05:59:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 06:45:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 07:39:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 08:27:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 09:03:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 09:51:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 10:35:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 11:14:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 12:04:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 12:52:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 13:44:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 14:32:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 15:02:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 16:06:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 16:33:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 17:12:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 18:15:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 18:53:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 19:33:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 20:03:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 20:58:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 21:28:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 22:21:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 23:00:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sat Feb 10 23:46:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sun Feb 11 00:27:47 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sun Feb 11 01:19:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+--------------------
+Sun Feb 11 02:14:17 2018:  *restore_object(): Illegal array format while restoring auto_load.
+Object: /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.
+
+(1) 'continuous_erase' in /secure/handlers/bulk_delete at line 128
+Arguments were:
+(
+    (array) ({"shaydz.o",})
+)
+Locals were: none.
+(2) 'check_name' in /secure/handlers/bulk_delete at line 146
+Arguments were:
+(
+    (string) "shaydz"
+)
+Locals were:
+    (int) 0
+(3) 'unguarded' in /secure/simul_efun (/secure/simul_efun/unguarded.c) at line 24
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :)
+)
+Locals were:
+    (object) /secure/master
+(4) 'apply_unguarded' in /secure/master at line 94
+Object name: "Root"
+Arguments were:
+(
+    (function) (: restore_object, "/save/players/s/shaydz" :),
+    (int) 0
+)
+Locals were:
+    (int) 0,
+    (int) 0,
+    (int) 0
+(5) 'CATCH' in /secure/master at line 94
+Object name: "Root"
+Arguments were: (void)
+Locals were: none.
+(6) '<fake>' in /secure/handlers/bulk_delete (/<driver>) at line 0
+Arguments were: (void)
+Locals were: none.

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_shadow_ob":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/basic":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/water_breathing.c"
+last_changed 1015354853

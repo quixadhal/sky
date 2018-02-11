@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["snoop_reason":({({"void",}),({({"string",}),"str",}),([]),}),"valid_snoop":({({"int",}),({({"object",}),"snooper",({"object",}),"snoopee",({"object",}),"pobj",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/snoop.c"
+last_changed 998744965

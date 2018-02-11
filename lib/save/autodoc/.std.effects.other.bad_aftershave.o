@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["smell_string":({({"string",}),({({"object",}),"player",({"mixed","*",}),"args",}),([]),}),"make_stink":({({"void",}),({({"object",}),"player",({}),"int",({}),"int",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mind.avoidance\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"mind.avoidance",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/bad_aftershave.c"
+last_changed 962122399

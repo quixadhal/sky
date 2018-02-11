@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_name":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.smoke.choking\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"magic.smoke.choking",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/magic/choking_smoke.c"
+last_changed 980969180

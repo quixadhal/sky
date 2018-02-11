@@ -1,0 +1,59 @@
+.DT
+query_tactics
+$MUDNAME$ Creator Help
+query_tactics
+
+.SH Name
+.SP 5 5
+query_tactics -  This method returns the current tactics set.
+.EP
+
+.SH Syntax
+.SI 5
+class combat_tactics query_tactics()
+.EI
+
+.SH Returns
+.SI 5
+the current tactics array set
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current tactics set.
+This method will return a class with four elements in it:
+
+.EP
+.SP 5 5
+({
+.EP
+.SP 5 5
+   attitude,
+.EP
+.SP 5 5
+   response,
+.EP
+.SP 5 5
+   parry,
+.EP
+.SP 5 5
+   unarmed_parry,
+.EP
+.SP 5 5
+})
+.EP
+.SP 5 5
+The first element is an int, signifying the attitude of the player, the secon two are strings, which correspond to the values as set in the tactics player help file.
+.EP
+
+.SH See also
+.SP 5 5
+query_combat_attitude(), query_combat_response(), query_combat_parry(), query_combat_unarmed_parry()
+.EP
+

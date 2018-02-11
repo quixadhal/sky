@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["backdrop":({({"int",}),({}),([]),}),"action_drunk":({({"void",}),({({"object",}),"ob",({"int","*",}),"coord",({"int",}),"quantity",}),([]),}),"query_attrs":({({"mixed","*",}),({({"int","*",}),"coord",}),([]),}),"query_coordinate":({({"int","*",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/basic":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"poison.constitution\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"poison.constitution",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/effects/poisons/green.c"
+last_changed 1020322297

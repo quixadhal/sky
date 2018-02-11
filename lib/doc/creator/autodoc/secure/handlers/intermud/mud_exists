@@ -1,0 +1,37 @@
+.DT
+mud_exists
+$MUDNAME$ Creator Help
+mud_exists
+
+.SH Name
+.SP 5 5
+mud_exists -  This method queries whether the specified mud exists or not.
+.EP
+
+.SH Syntax
+.SI 5
+string mud_exists(string mud)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^mud%^RESET%^ - the mud to check
+.EI
+
+.SH Returns
+.SI 5
+the name of the mud if it exists, or 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether the specified mud exists or not.
+.EP
+

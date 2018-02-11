@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["give_message":({({"void",}),({({"object",}),"thing",({"string",}),"mess",}),([]),}),"restart":({({"void",}),({({"object",}),"thing",({"mixed",}),"args",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.glowing\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"object.glowing",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/glowing.c"
+last_changed 984361859

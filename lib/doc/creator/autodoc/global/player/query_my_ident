@@ -1,0 +1,33 @@
+.DT
+query_my_ident
+$MUDNAME$ Creator Help
+query_my_ident
+
+.SH Name
+.SP 5 5
+query_my_ident -  This method returns the ident of the player.
+.EP
+
+.SH Syntax
+.SI 5
+string query_my_ident()
+.EI
+
+.SH Returns
+.SI 5
+the ident of the player
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the ident of the player.  The ident is
+determined using the authentication protocol.
+.EP
+

@@ -1,0 +1,37 @@
+.DT
+query_artifact_value_info
+$MUDNAME$ Creator Help
+query_artifact_value_info
+
+.SH Name
+.SP 5 5
+query_artifact_value_info -  Find the value associated with the artifact.
+.EP
+
+.SH Syntax
+.SI 5
+int query_artifact_value_info(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the artifact
+.EI
+
+.SH Returns
+.SI 5
+the value associated with the artifact
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/artifact_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Find the value associated with the artifact.
+.EP
+

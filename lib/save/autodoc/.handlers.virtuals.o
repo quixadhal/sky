@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["remove_missing":({({"void",}),({({"string",}),"path",}),([]),}),"new_data":({({"mapping",}),({({"string",}),"path",}),(["main":({"Called by virtual objects as they are being cloned, if their timestamp is older than their file.",}),"param":({"path the path of the virtual object",}),"return":({"the object's static auto load info if any, otherwise 0",}),]),}),"add_missing":({({"int",}),({({"string",}),"path",}),([]),}),"query_missing_paths":({({"string","*",}),({}),([]),}),"add_data":({({"void",}),({({"string",}),"path",}),(["main":({"Adds a path and its static auto load information to the mappingand cleans the mapping and paths array.",}),"param":({"path the path of the object to add",}),]),}),"save_me":({({"void",}),({}),(["main":({"Save the current state.",}),]),}),"remove_forbidden":({({"void",}),({({"string",}),"path",}),([]),}),"query_forbidden":({({"int",}),({({"string",}),"path",}),([]),}),"add_forbidden":({({"int",}),({({"string",}),"path",}),([]),}),"query_forbidden_paths":({({"string","*",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This handler fixes up virtual objects if their files change, so that their static variables will be adjusted.",}),"author":({"Dragonkin",}),])
+define_docs (["SAVE_FILE":([]),"MAX_NUMBERS":([]),])
+includes ([])
+class_docs ([])
+file_name "/handlers/virtuals.c"
+last_changed 962428359

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["burn_them":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),(["main":({"Burns the player unless they have wetness over 80.",}),"param":({"player The player to burn.","time The time left.","id The effect ID.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classification of \"misc.boiling_oil\".<p>Nasty effect which burns (and dries) you lots, then graduallyburns you less and less.  It can be got rid of by getting yourwetness over 80.<p>The argument is the time in seconds you want the effect tolast for.<p>",}),"see":({"help::effects",}),"classification":({"body.poison",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/boiling_oil.c"
+last_changed 1009430417

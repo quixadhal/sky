@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_classification":({({"void",}),({({"string",}),"str",}),([]),}),"do_cure":({({"void",}),({({"object",}),"person",({"int",}),"power",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"fighting.warcry\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"fighting.warcry",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/healing/basic_cure.c"
+last_changed 962122406

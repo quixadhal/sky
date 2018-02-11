@@ -1,0 +1,37 @@
+.DT
+valid_place
+$MUDNAME$ Creator Help
+valid_place
+
+.SH Name
+.SP 5 5
+valid_place -  This method checks if the place is a valid place.
+.EP
+
+.SH Syntax
+.SI 5
+int valid_place(string place_name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the place to check
+.EI
+
+.SH Returns
+.SI 5
+1 if the place is valid, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method checks if the place is a valid place.
+.EP
+

@@ -1,0 +1,8 @@
+/w/quixadhal/exec_tmp.c line 3: Warning: Expression has no side effects, and the value is unused before ;
+/w/quixadhal/exec_tmp.c line 3: Warning: Unused local variable 'foo' before ; return foo();;
+/w/quixadhal/exec_tmp.c line 3: Warning: Extra ';'. Ignored. before  return foo();;
+/w/quixadhal/exec_tmp.c line 3: Warning: Types in ?: do not match ( string vs int ). before ;
+/w/quixadhal/exec_tmp.c line 3: Warning: Types in ?: do not match ( string vs int ). before ;
+/w/quixadhal/exec_tmp.c line 3: Warning: Types in ?: do not match ( string vs int ). before ;
+/w/quixadhal/exec_tmp.c line 3: Warning: Types in ?: do not match ( string vs int ). before ;
+/w/quixadhal/exec_tmp.c line 3: Warning: Types in ?: do not match ( string vs int ). before ;

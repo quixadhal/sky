@@ -1,0 +1,42 @@
+.DT
+query_achat_string
+$MUDNAME$ Creator Help
+query_achat_string
+
+.SH Name
+.SP 5 5
+query_achat_string -  This method queries the current aggressive chat strings for the NPC.
+.EP
+
+.SH Syntax
+.SI 5
+mixed query_achat_string()
+.EI
+
+.SH Returns
+.SI 5
+the current chat strings
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries the current aggressive chat strings for the NPC.
+The return value is an array of three elements where the
+first member is the sum of the weights of all chats, the
+second member contains the weights of chats, and the third
+member contains the chat strings.
+chat string is formatted.
+.EP
+
+.SH See also
+.SP 5 5
+load_chat(), query_chat_string()
+
+.EP
+

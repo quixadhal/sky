@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"extra_look":({({"string",}),({({"object",}),"player",}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"int",}),"light",}),([]),}),"decrease_points":({({"void",}),({({"object",}),"player",({"int",}),"light",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.body.light\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"magic.body.light",}),])
+define_docs (["INTENSITY":([]),"COST_PER_ROUND":([]),"SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/living_light.c"
+last_changed 962122403

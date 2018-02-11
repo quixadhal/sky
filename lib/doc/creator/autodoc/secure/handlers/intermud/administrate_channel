@@ -1,0 +1,29 @@
+.DT
+administrate_channel
+$MUDNAME$ Creator Help
+administrate_channel
+
+.SH Name
+.SP 5 5
+administrate_channel -  This method is used to administrate an intermud channel.
+.EP
+
+.SH Syntax
+.SI 5
+string administrate_channel(string cname,
+string * add_list,
+string * remove_list)
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used to administrate an intermud channel.
+
+.EP
+

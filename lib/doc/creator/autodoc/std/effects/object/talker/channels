@@ -1,0 +1,33 @@
+.DT
+channels
+$MUDNAME$ Creator Help
+channels
+
+.SH Name
+.SP 5 5
+channels -  This returns the channels that a player is on in a nifty formatted way.
+.EP
+
+.SH Syntax
+.SI 5
+string channels()
+.EI
+
+.SH Returns
+.SI 5
+a list of channels that this_player() is on.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/object/talker.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This returns the channels that a player is on in a nifty
+formatted way.  Used in the channel list and talker shadow.
+.EP
+

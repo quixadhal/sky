@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_boosting":({({"int",}),({({"object",}),"player",({"int",}),"amount",}),([]),}),"poison_backlash":({({"void",}),({({"object",}),"player",({"int",}),"amount",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.stats.boost.strength\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"body.stats.boost.strength",}),])
+define_docs (["PLAYER":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/strength_boost.c"
+last_changed 962122405

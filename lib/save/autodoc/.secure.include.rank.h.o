@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["APPRENTICE":([]),"ADMIN":([]),"PLAYER":([]),"LORD":([]),"__RANK_H":([]),"SENIOR":([]),"CREATOR":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/rank.h"
+last_changed 981679203

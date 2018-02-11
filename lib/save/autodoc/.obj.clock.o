@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_show_date":({({"void",}),({}),(["main":({"This method sets the clock to show the date as well as the time.",}),]),}),"set_chimes":({({"void",}),({({"int",}),"num",({"string",}),"mess",}),(["main":({"This method sets up chimes for this clock.",}),"param":({"num 1 = every hour, 2 = every half hour, 4 = every quarter hour","mess the message to be displayed when the clock chimes",}),]),}),"do_chime":({({"void",}),({({"string",}),"mess",({"int",}),"type",}),(["main":({"This function is called by the chime handler.Overload this if you wish to have your own chime code.",}),"see":({"set_chimes",}),"param":({"mess the message set with set_chimes.","type the type of chime (quarter/half/hour)",}),]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+main_docs (["main":({"A generalised watch object. Taken from a watch I found in /obj/miscand made into an inheritable object.",}),"author":({"Ceres",}),])
+define_docs (["HOURS":([]),])
+includes (["/include/time.h":1049465667,])
+class_docs ([])
+file_name "/obj/clock.c"
+last_changed 1012203666

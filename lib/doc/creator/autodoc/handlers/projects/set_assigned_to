@@ -1,0 +1,43 @@
+.DT
+set_assigned_to
+$MUDNAME$ Creator Help
+set_assigned_to
+
+.SH Name
+.SP 5 5
+set_assigned_to -  Assign a project to a creator (or creators).
+.EP
+
+.SH Syntax
+.SI 5
+int set_assigned_to(string domain,
+int pid,
+string * assigned)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+%^BOLD%^date%^RESET%^ - The creators assigned.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Assign a project to a creator (or creators).
+
+.EP
+

@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,15,"%^BOLD%^time_expression","Seattle-sky driver help","time_expression%^RESET%^","",8,"Name",7,5,"time_expression() - return the amount of real time that an expression took","",8,"Synopsis",7,5,"int time_expression( mixed expr );int time_expression { ... }","",8,"Description",3,5,5,"Evaluate `expr' or the specified block of code.  The amount of real time that passes during the evaluation of `expr', in microseconds, is returned.  The precision of the value is not necessarily 1 microsecond; in fact, it probably is much less precise. ","",8,"See also",7,5,"rusage(), function_profile(), time()","",})
+nroffed_file_name "/doc/driver/efuns/internals/time_expression"
+modified_time 1517727880

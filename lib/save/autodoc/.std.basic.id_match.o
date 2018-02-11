@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["parse_match_object":({({"mixed",}),({({"string","*",}),"input",({"object",}),"viewer",({"class","obj_match_context",}),"context",}),(["main":({"This code is for the new parser...  It returns an array which containstwo elements.  The first is the type of the match, plural or singular,and the second is the object it matched.  Usualy TO butit can be used to swap new objects.",}),"param":({"input the input string","viewer the person viewing the object","context the contex this is to be taken in",}),"return":({"({ type, ob }), 0 on failure",}),]),}),])
+protected_functions (["is_matching_object":({({"int",}),({({"string","*",}),"input",({"object",}),"viewer",({"class","obj_match_context",}),"context",}),([]),}),"update_parse_match_context":({({"int",}),({({"class","obj_match_context",}),"context",({"int",}),"num",({"int",}),"singular",}),(["main":({"This method updates the context.  It returns the number of the objectswe match, and you pass in the number of objects that we are.",}),"param":({"context the context to update","num the number of objects","singular return from is_matching_object",}),"return":({"the number of matched objects",}),]),}),])
+inherits ([])
+main_docs (["main":({"This method is used by upper objects that only wish to match theids and not mess with all the context stuff.  This method willreturn a combination of OBJ_PARSER_MATCH_SINGULAR andOBJ_PARSER_MATCH_PLURAL.",}),"param":({"input the input string","viewer the person viewing the object","context the contex this is to be taken in",}),"return":({"the singular/plural match flags",}),])
+define_docs ([])
+includes (["/include/obj_parser.h":1049992949,])
+class_docs ([])
+file_name "/std/basic/id_match.c"
+last_changed 1011732249

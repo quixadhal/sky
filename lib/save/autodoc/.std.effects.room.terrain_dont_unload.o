@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"terrain.dont.unload\".pDescribe the arguments in here.pThis effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"terrain.dont.unload",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/room/terrain_dont_unload.c"
+last_changed 962122403

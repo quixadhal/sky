@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect places a poster in the room for a time.The poster will add an item to the room, which contains adescription and a read message.<p>The argument is an array of four elements.  These are time forposter to remain in room, the short desc., the long desc., andthe message displayed when poster is read.<p>",}),"see":({"help::effects",}),"classification":({"other.poster",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/poster_effect.c"
+last_changed 962122399

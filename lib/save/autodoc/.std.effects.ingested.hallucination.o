@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["see_things":({({"void",}),({({"object",}),"player",}),([]),}),"strange_things":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mind.hallucination\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"mind.hallucination",}),])
+define_docs (["PLAYER":([]),"SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/ingested/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/ingested/hallucination.c"
+last_changed 962122405

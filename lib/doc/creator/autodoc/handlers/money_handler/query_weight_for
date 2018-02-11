@@ -1,0 +1,37 @@
+.DT
+query_weight_for
+$MUDNAME$ Creator Help
+query_weight_for
+
+.SH Name
+.SP 5 5
+query_weight_for -  This method returns the weight of 100 coins of the money type.
+.EP
+
+.SH Syntax
+.SI 5
+int query_weight_for(string type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the money type to get the weight of 100 coins for
+.EI
+
+.SH Returns
+.SI 5
+the weight of 100 coins of the specified type
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/money_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the weight of 100 coins of the money type.
+.EP
+

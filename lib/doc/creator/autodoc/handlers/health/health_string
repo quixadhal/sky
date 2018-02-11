@@ -1,0 +1,40 @@
+.DT
+health_string
+$MUDNAME$ Creator Help
+health_string
+
+.SH Name
+.SP 5 5
+health_string -  This method returns the health string of the creature.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string health_string(object who,
+int full)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^who%^RESET%^ - the creature to get the health string for
+%^BOLD%^full%^RESET%^ - whether or not to returns the full (coloured) health string
+.EI
+
+.SH Returns
+.SI 5
+the health string
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/health.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the health string of the creature.
+It is used in extra_look in living creatures and in the 'health' command.
+.EP
+

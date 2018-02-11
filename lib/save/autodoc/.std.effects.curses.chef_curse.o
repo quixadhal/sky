@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This curse makes the players talk as if they are the sweedish chef.The classification of the effect is \"misc.curse.chef\".<p>The argument is an integer and specifies how long thecurse will last.<p>This effect has a shadow associated with it.",}),"example":({"// give them the curse for 2 minutesadd_effect(\"/std/effects/curses/chef_curse\", 120);",}),"classification":({"misc.curse.chef",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/curses/chef_curse.c"
+last_changed 962122407

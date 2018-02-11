@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"mind.alertness\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"mind.alertness",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/alertness.c"
+last_changed 962122400

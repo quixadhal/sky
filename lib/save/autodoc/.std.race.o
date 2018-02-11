@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_valid_race":({({"int",}),({({"string",}),"race",}),(["main":({"This method checks to see if the specified race is valid or not.",}),"param":({"race the race to check for validity",}),"return":({"1 if it exists, 0 if it does not",}),]),}),"query_race_path":({({"string",}),({({"string",}),"race_name",}),(["main":({"This method returns the path associated with the specified race.",}),"param":({"race_name the name of the race",}),"return":({"the path of the race",}),]),}),"query_races":({({"mapping",}),({}),(["main":({"This method returns all the current races in the race object.  It is amapping with matches between the name of the race and race object.",}),"return":({"the race mapping",}),]),}),"set_level":({({"void",}),({({"int",}),"lvl",({"string",}),"race",}),(["main":({"This method sets the level of the npc with the specified attributes.",}),"param":({"lvl the level to set the npc at","race the race to set the npc with",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is called off of the monster to set up a race andprofession...   Race should be first then profession..",}),"started":({"Sometime in 1991",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes (["/secure/include/config.h":1121841204,])
+class_docs ([])
+file_name "/std/race.c"
+last_changed 1021640092

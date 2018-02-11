@@ -1,0 +1,44 @@
+.DT
+adjust_components
+$MUDNAME$ Creator Help
+adjust_components
+
+.SH Name
+.SP 5 5
+adjust_components -  This function is used to adjust the quantities of components consumed by a spell.
+.EP
+
+.SH Syntax
+.SI 5
+mixed * adjust_components(object caster,
+int stage,
+mixed * quant,
+mixed * args)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^caster%^RESET%^ - the person casting the spell
+%^BOLD%^stage%^RESET%^ - the stage currently being executed
+%^BOLD%^quant%^RESET%^ - mapping containing the components for that stage
+%^BOLD%^args%^RESET%^ - the args for the spell
+.EI
+
+.SH Returns
+.SI 5
+mapping showing the correct components for that stage.
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function is used to adjust the quantities of components consumed by
+a spell. Overload it to adjust them.
+.EP
+

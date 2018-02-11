@@ -1,0 +1,40 @@
+.DT
+monitor_points
+$MUDNAME$ Creator Help
+monitor_points
+
+.SH Name
+.SP 5 5
+monitor_points -  This method prints out the health and gp points during combat, if the player so desires.
+.EP
+
+.SH Syntax
+.SI 5
+void monitor_points(object player,
+int charge)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the object recieving the monitor message
+%^BOLD%^charge%^RESET%^ - non-zero to charge the player gp points for the message
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/health.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints out the health and gp points during combat,
+if the player so desires. Moved to here from the combat effect.
+.EP
+
+.SH See also
+.SP 5 5
+query_monitor
+
+.EP
+

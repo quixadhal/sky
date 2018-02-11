@@ -1,0 +1,39 @@
+.DT
+query_details
+$MUDNAME$ Creator Help
+query_details
+
+.SH Name
+.SP 5 5
+query_details -  This method returns all the details for the current set of coins.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_details()
+.EI
+
+.SH Returns
+.SI 5
+the mapping of details for all coin types
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/money_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all the details for the current set of
+coins.   The details are information which is shown when the coin
+is looked at.   Stuff about heads and tails and things.
+.EP
+
+.SH See also
+.SP 5 5
+/include/money.h
+
+.EP
+

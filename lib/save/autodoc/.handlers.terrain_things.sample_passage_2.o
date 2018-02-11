@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_exit_type":({({"string",}),({({"string",}),"word",}),([]),}),])
+protected_functions ([])
+inherits (["/std/room/basic_room":({}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/handlers/terrain_things/sample_passage_2.c"
+last_changed 1200761933

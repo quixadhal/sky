@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the livings handler.",}),"author":({"Someone at DW, most likely.",}),"change":({"Rewritten to be a fair bit faster - Sandoz, 2002.",}),])
+define_docs (["CLEANUP_INTERVAL":([]),])
+includes (["/include/runtime_config.h":1200761933,])
+class_docs ([])
+file_name "/handlers/livings.c"
+last_changed 1033180887

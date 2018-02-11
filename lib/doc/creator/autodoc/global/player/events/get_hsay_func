@@ -1,0 +1,27 @@
+.DT
+get_hsay_func
+$MUDNAME$ Creator Help
+get_hsay_func
+
+.SH Name
+.SP 5 5
+get_hsay_func -  Return function pointer for do_say_his, for history say only.
+.EP
+
+.SH Syntax
+.SI 5
+function get_hsay_func()
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Return function pointer for do_say_his, for history say only.
+
+.EP
+

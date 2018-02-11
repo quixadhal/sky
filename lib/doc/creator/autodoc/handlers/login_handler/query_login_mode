@@ -1,0 +1,41 @@
+.DT
+query_login_mode
+$MUDNAME$ Creator Help
+query_login_mode
+
+.SH Name
+.SP 5 5
+query_login_mode -  This method returns our login restriction level.
+.EP
+
+.SH Syntax
+.SI 5
+int query_login_mode()
+.EI
+
+.SH Returns
+.SI 5
+0, 1 or 2
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns our login restriction level.
+The return value is one of the following.
+0 - unrestricted
+1 - restricted to playtesters
+2 - restricted to creators
+.EP
+
+.SH See also
+.SP 5 5
+set_login_mode()
+
+.EP
+

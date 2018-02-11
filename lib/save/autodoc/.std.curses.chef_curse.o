@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_say":({({"int",}),({({"string",}),"str",}),([]),}),"do_loud_say":({({"int",}),({({"string",}),"str",}),([]),}),"init_curse":({({"int",}),({({"object",}),"pl",}),([]),}),"do_emote_all":({({"int",}),({({"string",}),"str",}),([]),}),"do_tell":({({"int",}),({({"string",}),"str",}),([]),}),"player_start":({({"int",}),({({"object",}),"pl",}),([]),}),"do_shout":({({"int",}),({({"string",}),"str",}),([]),}),"do_emote":({({"int",}),({({"string",}),"str",}),([]),}),"destruct_curse":({({"int",}),({({"string",}),"str",}),([]),}),"query_remove":({({"int",}),({({"string",}),"name",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["MY_NAME":([]),"HERE":([]),])
+includes (["/std/curses/path.h":962122411,])
+class_docs ([])
+file_name "/std/curses/chef_curse.c"
+last_changed 1000718708

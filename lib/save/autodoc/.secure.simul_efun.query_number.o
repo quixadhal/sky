@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["word_ordinal":({({"string",}),({({"int",}),"num",}),(["main":({"This method returns the ordinal of a number as a string (ie, \"first\",\"thirtieth\", etc.)",}),"returns":({"the ordinal of the number as a string",}),"see":({"query_num(), ordinal()",}),"param":({"n the number for which you want the ordinal",}),]),}),"create_table":({({"varargs","string",}),({({"string","*",}),"title",({"string","*",}),"names",({"int",}),"cap_flag",}),(["main":({"This method creates a nice table from the input array.To control whether or not the results should be sorted orcapitalized, set the cap_flag to 1 to sort and capitalize,or to 2 to only capitalize the array.",}),"param":({"title a two element array containing the title ofthe table, and the singular name for an array element","names the array to make the table out of","cap_flag 1 to capitalize and sort the array, 2 tocapitalize without sorting",}),"example":({"write( create_table( ({\"Creators\", \"creator\"}),       DOMAIN_H->query_creators(), 1 )+\"\\n\");",}),"return":({"a nice table",}),]),}),"time_string":({({"varargs","string",}),({({"int",}),"time",({"int",}),"flag",}),([]),}),"query_num":({({"string",}),({({"int",}),"n",({"int",}),"limit",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method turns a number into a string.  It returns a string of theform \"one hundred and twenty four\".The limit argument is used to set the cut off point at which it willprint \"many\".",}),"param":({"i the number to return as a string","limit the largest number to process",}),"return":({"the number as a nice string",}),])
+define_docs (["_BOLD(xxxx)":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/query_number.c"
+last_changed 1030700710

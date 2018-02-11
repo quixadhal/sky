@@ -1,0 +1,28 @@
+.DT
+list_destinations
+$MUDNAME$ Creator Help
+list_destinations
+
+.SH Name
+.SP 5 5
+list_destinations -  This method prints the routes that can be used from TP's current location to TP.
+.EP
+
+.SH Syntax
+.SI 5
+int list_destinations()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints the routes that can be used from TP's current
+location to TP.  This is used by the PT badge.
+
+.EP
+

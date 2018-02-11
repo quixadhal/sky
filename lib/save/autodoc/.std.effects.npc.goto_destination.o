@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_the_sell":({({"void",}),({({"object",}),"player",}),(["main":({"This method sells everything the npc currently has and is notmarked with the property \"start equipment\".  This can be called fromoutside the effect to sell things.",}),"param":({"player the players whose inventory is to be sold",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the goto destination effect, it also handles sellingstuff at the destination. This effecthas a classification of \"npc.move\".<p>The argument to this can be one of three things, it can be astring, an object or an array.  If it is a string the stringspecifies the room which the npc will try to go to.  If itis an object then the npc will try and get to the living objector room specified by the object.  The array consists of threeelements:<ol><li>The destination as given above, string or object<li>The end function, 0 for nothing, \"sell\" to sell the inventory<li>The delay before heading off to the next destination.</ol><p>If the thing to do at the end is a function it is called withthe following parameters: <br>  <code>function(object player, int found_it, string destination)</code><br>The found_it parameter will be 1 if the room is correct or 0if it is not correct.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"npc.move",}),])
+define_docs (["LOG_FILE":([]),"SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/npc/path.h":962122405,"/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/npc/goto_destination.c"
+last_changed 962122405

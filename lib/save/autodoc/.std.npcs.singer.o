@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_current_song":({({"string","*",}),({}),(["main":({"This method returns the song the NPC is currently singing.",}),"see":({"query_songs(), query_singing()",}),"return":({"the song we're currently singing",}),]),}),"query_singing":({({"int",}),({}),(["main":({"This method queries if the NPC is currently singing or not.",}),"see":({"query_songs(), query_current_song()",}),"return":({"the amount of lines of song left to sing",}),]),}),])
+protected_functions ([])
+inherits (["/std/npc":({}),])
+main_docs (["main":({"He sings! Wheee!!!!Shiannar, 25/09/01, inheritized by Sandoz, 25/09/01.To use the inherit you need to have a mixed query_songs()function in your NPC with the desired songs array.To make the NPC automatically sing at times, you can use afunction pointer to request_song() in load_chat().",}),"example":({"void setup() {    ...    <insert any setup functions>    ...    load_chat( 50, ({        1, (: request_song() :), }) );}mixed query_songs() {    return ({ ({           \"'This is the first line of song 1.\",           \"'This is the second line of song 1.\"           }),           ({           \"'This is the first line of song 2.\",           \"'This is the second line of song 2.\"           }) });}",}),])
+define_docs (["DELAY":([]),])
+includes ([])
+class_docs ([])
+file_name "/std/npcs/singer.c"
+last_changed 1009552226

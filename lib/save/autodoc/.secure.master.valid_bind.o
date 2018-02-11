@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_bind":({({"int",}),({({"object",}),"binder",({"object",}),"old_owner",({"object",}),"new_owner",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_bind.c"
+last_changed 998744938

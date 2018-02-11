@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_remove":({({"int",}),({({"object",}),"thing",({"int",}),"flag",}),([]),}),"query_shop":({({"object",}),({}),([]),}),"set_shop":({({"void",}),({({"object",}),"thing",}),([]),}),"test_add":({({"int",}),({({"object",}),"thing",({"int",}),"flag",}),([]),}),"long":({({"string",}),({({"string",}),"word",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/container":({}),])
+define_docs ([])
+includes (["/include/money.h":1049974076,])
+class_docs ([])
+file_name "/obj/misc/cash_register.c"
+last_changed 979736400

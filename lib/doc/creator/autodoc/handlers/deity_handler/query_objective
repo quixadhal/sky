@@ -1,0 +1,42 @@
+.DT
+query_objective
+$MUDNAME$ Creator Help
+query_objective
+
+.SH Name
+.SP 5 5
+query_objective -  This method returns the objective for the deity.
+.EP
+
+.SH Syntax
+.SI 5
+string query_objective(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity_name%^RESET%^ - the name of the deity to get the objective of
+.EI
+
+.SH Returns
+.SI 5
+the objective of the deity
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the objective for the deity.
+.EP
+
+.SH See also
+.SP 5 5
+/std/living/gender->query_objective()
+.EP
+

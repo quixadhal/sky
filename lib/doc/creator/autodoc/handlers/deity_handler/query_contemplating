@@ -1,0 +1,32 @@
+.DT
+query_contemplating
+$MUDNAME$ Creator Help
+query_contemplating
+
+.SH Name
+.SP 5 5
+query_contemplating -  This method will return the whole contemplating array.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_contemplating()
+.EI
+
+.SH Returns
+.SI 5
+the array of contemplating people
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will return the whole contemplating array.
+.EP
+

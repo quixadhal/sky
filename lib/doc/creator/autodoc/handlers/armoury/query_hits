@@ -1,0 +1,37 @@
+.DT
+query_hits
+$MUDNAME$ Creator Help
+query_hits
+
+.SH Name
+.SP 5 5
+query_hits -  This method returns the recycle hits count for a specific file.
+.EP
+
+.SH Syntax
+.SI 5
+int query_hits(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the name of the object to get the hits count for
+.EI
+
+.SH Returns
+.SI 5
+the hits count
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the recycle hits count for a specific file.
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["RED":([]),"RESET_COLOR":([]),"YELLOW":([]),"CYAN":([]),"RESET":([]),"WHITE":([]),"MAGENTA":([]),"GREEN":([]),"BLUE":([]),"FLASH":([]),"BOLD":([]),"ORANGE":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/colors.h"
+last_changed 971575658

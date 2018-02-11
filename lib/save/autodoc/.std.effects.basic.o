@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["sqrt":({({"int",}),({({"int",}),"p",}),([]),}),"distance_within_region":({({"int",}),({({"int","*",}),"coord",}),([]),}),"query_coordinate":({({"int","*",}),({}),([]),}),"install_effect":({({"void",}),({}),([]),}),"distance_from_origin":({({"int",}),({({"int","*",}),"coord",}),([]),}),"query_attrs":({({"mixed","*",}),({({"int","*",}),"coord",}),([]),}),"set_boundaries":({({"void",}),({({"int","*",}),"min",({"int","*",}),"max",}),([]),}),"query_pass_through":({({"int",}),({({"int","*",}),"coord",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/potion_attrs.h":962428284,])
+class_docs ([])
+file_name "/std/effects/basic.c"
+last_changed 962428699

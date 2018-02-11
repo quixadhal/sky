@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["unsuspend_person":({({"int",}),({({"string",}),"str",}),([]),}),"query_access":({({"int",}),({({"string","*",}),"address",({"string",}),"ident",}),([]),}),"check_access":({({"int",}),({({"object",}),"ob",({"int",}),"newish",}),([]),}),"query_suspended":({({"mixed","*",}),({({"string",}),"name",}),([]),}),"change_access":({({"int",}),({({"string","*",}),"address",({"string",}),"ident",({"int",}),"level",({"string",}),"reason",({"int",}),"timeout",}),([]),}),"query_prevent_shadow":({({"int",}),({}),([]),}),"no_new_players":({({"int",}),({({"object",}),"ob",}),([]),}),"no_players":({({"int",}),({({"object",}),"ob",}),([]),}),"query_all_access":({({"mapping",}),({}),([]),}),"query_player_ob":({({"string",}),({({"string",}),"name",({"int",}),"tell_suspend",}),([]),}),"query_reason":({({"string",}),({({"string","*",}),"address",({"string",}),"ident",}),([]),}),"suspend_person":({({"int",}),({({"string",}),"str",({"int",}),"tim",({"string",}),"reason",}),([]),}),])
+protected_functions (["timeout_access":({({"mapping",}),({({"mapping",}),"bing",}),([]),}),"add_access":({({"mixed",}),({({"mixed",}),"bing",({"string","*",}),"address",({"string",}),"ident",({"int",}),"level",({"string",}),"reason",({"int",}),"timeout",}),([]),}),])
+inherits ([])
+main_docs (["main":({"New player banning changed by Pinkfish June 1996.Changed to make the site access stuff timeout. Pinkfish July 1997.",}),])
+define_docs (["BASTARDS_SAVE":([]),])
+includes (["/secure/include/login.h":962429079,"/secure/include/access.h":970974412,"/include/mail.h":999081362,"/include/player_handler.h":962428284,"/include/playerinfo.h":962428284,"/secure/include/login_handler.h":962429079,])
+class_docs ([])
+file_name "/secure/handlers/bastards.c"
+last_changed 1021848869

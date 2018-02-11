@@ -1,0 +1,33 @@
+.DT
+query_guttered
+$MUDNAME$ Creator Help
+query_guttered
+
+.SH Name
+.SP 5 5
+query_guttered -  This method returns the list of items that could be searched up from gutters.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_guttered()
+.EI
+
+.SH Returns
+.SI 5
+the guttered items list
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the list of items that could be
+searched up from gutters.
+.EP
+

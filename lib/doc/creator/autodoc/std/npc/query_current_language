@@ -1,0 +1,32 @@
+.DT
+query_current_language
+$MUDNAME$ Creator Help
+query_current_language
+
+.SH Name
+.SP 5 5
+query_current_language -  This method returns the current language of the NPC.
+.EP
+
+.SH Syntax
+.SI 5
+string query_current_language()
+.EI
+
+.SH Returns
+.SI 5
+the current language
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current language of the NPC.
+.EP
+

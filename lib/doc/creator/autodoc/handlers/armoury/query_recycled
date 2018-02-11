@@ -1,0 +1,37 @@
+.DT
+query_recycled
+$MUDNAME$ Creator Help
+query_recycled
+
+.SH Name
+.SP 5 5
+query_recycled -  This method returns the recycled items for a specific file.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_recycled(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the name of the object to get the recycled objects for
+.EI
+
+.SH Returns
+.SI 5
+the recycled objects
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the recycled items for a specific file.
+.EP
+

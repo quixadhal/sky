@@ -1,0 +1,35 @@
+.DT
+expand_tattooable
+$MUDNAME$ Creator Help
+expand_tattooable
+
+.SH Name
+.SP 5 5
+expand_tattooable -  This method returns the full tattoo area description and does the $p expansion on it.
+.EP
+
+.SH Syntax
+.SI 5
+string expand_tattooable(string bodypart,
+string replace)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^bodypart%^RESET%^ - the bodypart to get the full description for
+%^BOLD%^replace%^RESET%^ - what to expand the $p to
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/other/tattoo.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the full tattoo area description and does the $p
+expansion on it.
+.EP
+

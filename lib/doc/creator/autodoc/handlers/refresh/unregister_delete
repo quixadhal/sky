@@ -1,0 +1,39 @@
+.DT
+unregister_delete
+$MUDNAME$ Creator Help
+unregister_delete
+
+.SH Name
+.SP 5 5
+unregister_delete -  This method unregisters a deletion call back function.
+.EP
+
+.SH Syntax
+.SI 5
+int unregister_delete(string ob,
+string fun)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object to remove
+%^BOLD%^fun%^RESET%^ - the function to remove
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/refresh.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method unregisters a deletion call back function.
+.EP
+

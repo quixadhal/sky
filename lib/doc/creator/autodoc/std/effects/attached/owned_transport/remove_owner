@@ -1,0 +1,39 @@
+.DT
+remove_owner
+$MUDNAME$ Creator Help
+remove_owner
+
+.SH Name
+.SP 5 5
+remove_owner -  This method removes the specified transport from the list of current transports on the player.
+.EP
+
+.SH Syntax
+.SI 5
+void remove_owner(object player,
+class riding arg,
+int id,
+object trans)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player the transport is removed from
+%^BOLD%^bing%^RESET%^ - the class!
+%^BOLD%^id%^RESET%^ - the id of the effect
+%^BOLD%^trans%^RESET%^ - the transport to remove
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/attached/owned_transport.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes the specified transport from the list of
+current transports on the player.
+.EP
+

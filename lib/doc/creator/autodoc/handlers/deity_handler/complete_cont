@@ -1,0 +1,48 @@
+.DT
+complete_cont
+$MUDNAME$ Creator Help
+complete_cont
+
+.SH Name
+.SP 5 5
+complete_cont -  This method will be called by the contemplating room.
+.EP
+
+.SH Syntax
+.SI 5
+int complete_cont(string player,
+string deity,
+int amount)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player to update the mapping for
+%^BOLD%^deity%^RESET%^ - the deity the player contemplated
+%^BOLD%^amount%^RESET%^ - the amount of gps the player used,
+or if it is -1, then this deity will be considered
+as 'completed' for the player
+.EI
+
+.SH Returns
+.SI 5
+1 if the player has completed the contemplating
+of the specified deity, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will be called by the contemplating room.
+It will add the specified amount of gps to the players
+contemplating mapping.  If the amount is -1, it will
+effectively complete the contemplation for the specified
+deity.
+.EP
+

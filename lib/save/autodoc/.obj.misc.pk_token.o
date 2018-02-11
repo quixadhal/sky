@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_dynamic_auto_load":({({"mapping",}),({}),([]),}),"confirm_register":({({"void",}),({({"string",}),"str",}),([]),}),"stats":({({"mixed",}),({}),([]),}),"do_register":({({"int",}),({}),([]),}),"set_owner":({({"void",}),({({"string",}),"who",}),([]),}),"init_dynamic_arg":({({"void",}),({({"mapping",}),"map",}),([]),}),"query_time":({({"int",}),({}),([]),}),"set_time":({({"void",}),({({"int",}),"new_time",}),([]),}),"query_owner":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+main_docs (["main":({"Shiannar@Divided Sky, Somewhere between 3/8/01 and 4/8/01.",}),])
+define_docs (["WAIT_LENGTH":([]),])
+includes (["/include/playerinfo.h":962428284,"/include/player.h":1036911799,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/obj/misc/pk_token.c"
+last_changed 1008341637

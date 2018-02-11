@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_mark":({({"int",}),({({"string",}),"s",}),([]),}),"next_page":({({"void",}),({({"string",}),"str",}),([]),}),"more_file":({({"int",}),({({"string",}),"str",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["ROWS":([]),"COLS":([]),])
+includes (["/include/nroff.h":962428284,])
+class_docs ([])
+file_name "/global/player/more_file.c"
+last_changed 1020696909

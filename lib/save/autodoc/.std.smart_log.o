@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["smart_log":({({"void",}),({({"string",}),"full_type",({"string",}),"reporter",({"string",}),"text",({"string",}),"trace",({"string",}),"file",}),([]),}),"clean_up":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/include/db.h":962428284,"/secure/include/config.h":1121841204,"/secure/include/log.h":962429079,])
+class_docs ([])
+file_name "/std/smart_log.c"
+last_changed 1030676579

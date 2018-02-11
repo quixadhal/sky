@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_indefinite":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.ward.death\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"magic.ward.death",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/object/path.h":984361859,])
+class_docs ([])
+file_name "/std/effects/object/death_ward.c"
+last_changed 984361859

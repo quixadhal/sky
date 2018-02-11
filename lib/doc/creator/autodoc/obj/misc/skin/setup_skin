@@ -1,0 +1,38 @@
+.DT
+setup_skin
+$MUDNAME$ Creator Help
+setup_skin
+
+.SH Name
+.SP 5 5
+setup_skin -  This method sets the skin type.
+.EP
+
+.SH Syntax
+.SI 5
+void setup_skin(string _race,
+string _type,
+int _gender,
+int _decay)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^_race%^RESET%^ - the race of the creature the skin came off from
+%^BOLD%^_type%^RESET%^ - the type of skin - pelt, fur, scales etc.
+%^BOLD%^_gender%^RESET%^ - the gender of the creature the skin came off from
+%^BOLD%^_decay%^RESET%^ - the current decay level of the skin
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the skin type.
+.EP
+

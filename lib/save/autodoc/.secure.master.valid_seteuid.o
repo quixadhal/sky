@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_euid":({({"int",}),({({"string",}),"str",}),([]),}),"valid_seteuid":({({"int",}),({({"object",}),"ob",({"string",}),"euid",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_seteuid.c"
+last_changed 998744908

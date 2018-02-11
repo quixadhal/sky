@@ -1,0 +1,32 @@
+.DT
+do_reject_app
+$MUDNAME$ Creator Help
+do_reject_app
+
+.SH Name
+.SP 5 5
+do_reject_app -  This method will reject an application by the specified player.
+.EP
+
+.SH Syntax
+.SI 5
+int do_reject_app(string name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^name%^RESET%^ - the name of the player whose application to reject
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will reject an application by the specified player.
+.EP
+

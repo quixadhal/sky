@@ -1,0 +1,32 @@
+.DT
+query_worst
+$MUDNAME$ Creator Help
+query_worst
+
+.SH Name
+.SP 5 5
+query_worst -  This returns the player name with the worst alignment.
+.EP
+
+.SH Syntax
+.SI 5
+string query_worst()
+.EI
+
+.SH Returns
+.SI 5
+player name with the worst alignment
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This returns the player name with the worst alignment.
+.EP
+

@@ -1,0 +1,32 @@
+.DT
+query_ores
+$MUDNAME$ Creator Help
+query_ores
+
+.SH Name
+.SP 5 5
+query_ores -  Returns the current list of known ores.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_ores()
+.EI
+
+.SH Returns
+.SI 5
+the ores instruments array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known ores.
+.EP
+

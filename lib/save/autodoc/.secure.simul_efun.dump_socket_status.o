@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["dump_socket_status":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method returns the socket status in a nice string.",}),"return":({"the status of sockets",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/dump_socket_status.c"
+last_changed 1200761934

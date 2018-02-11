@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_grant":({({"int",}),({({"object",}),"euid",({"string",}),"path",({"int",}),"mask",}),([]),}),"add_write_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"check_creator":({({"nomask","int",}),({({"mixed",}),"ob",({"string",}),"func",({"string",}),"path",({"int",}),"mask",}),([]),}),"permission_check":({({"int",}),({}),([]),}),"remove_grant_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"add_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",({"int",}),"mask",}),([]),}),"remove_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",({"int",}),"mask",}),([]),}),"permission_match_path":({({"mixed",}),({({"mapping",}),"m",({"string",}),"path",}),([]),}),"remove_write_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"add_grant_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"remove_read_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"query_permissions":({({"mapping",}),({}),([]),}),"check_domain":({({"nomask","int",}),({({"mixed",}),"ob",({"string",}),"func",({"string",}),"path",({"int",}),"mask",}),([]),}),"add_read_permission":({({"int",}),({({"string",}),"euid",({"string",}),"path",}),([]),}),"check_project":({({"nomask","int",}),({({"mixed",}),"ob",({"string",}),"func",({"string",}),"path",({"int",}),"mask",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Permision handling stuff. Originally coded by Who Knows.This now uses a system based on the previous_object() stack.Coded by Turrican, based on code in the Nightmare Mudlib.- First working version on 7-10-96- Hacked some more on 4-4-97",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/permission.c"
+last_changed 1026996634

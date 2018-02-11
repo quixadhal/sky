@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["init_expr":({({"void",}),({({"string",}),"expr",}),([]),}),"inform_of_call":({({"void",}),({({"object",}),"ob",({"mixed","*",}),"argv",}),([]),}),"finish_expr":({({"void",}),({}),([]),}),"expr":({({"mixed",}),({}),([]),}),"parse_args":({({"mixed","*",}),({({"string",}),"str",({"string",}),"close",}),([]),}),"eval":({({"mixed",}),({}),([]),}),])
+protected_functions (["do_function_call":({({"mixed",}),({({"object",}),"ob",({"string",}),"name",({"mixed",}),"stuff",}),([]),}),"bit4":({({"mixed",}),({}),([]),}),"parse_frogs":({({"int",}),({({"string",}),"str",}),([]),}),"bit3":({({"mixed",}),({}),([]),}),"mapped_call":({({"mixed",}),({({"object",}),"ob",({"string",}),"func",({"mixed","*",}),"argv",}),([]),}),"bit2":({({"mixed",}),({}),([]),}),])
+inherits ([])
+define_docs ([])
+includes (["/include/tokenise.h":962428284,"/include/parser.h":999081375,"/include/creator.h":999081333,])
+class_docs ([])
+file_name "/global/player/parser.c"
+last_changed 1027061151

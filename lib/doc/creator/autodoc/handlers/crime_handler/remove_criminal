@@ -1,0 +1,39 @@
+.DT
+remove_criminal
+$MUDNAME$ Creator Help
+remove_criminal
+
+.SH Name
+.SP 5 5
+remove_criminal -  This method removes a player from the criminals array
+.EP
+
+.SH Syntax
+.SI 5
+int remove_criminal(string place_name,
+mixed player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to clear the player's crime ledger
+%^BOLD%^player%^RESET%^ - the name or object of the player to remove
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully removed, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes a player from the criminals array
+.EP
+

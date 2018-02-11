@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_scarcity":({({"int",}),({}),([]),}),"set_get_failure_mess":({({"void",}),({({"string",}),"s",}),([]),}),"set_scarcity":({({"void",}),({({"int",}),"s",}),([]),}),"query_item_name":({({"string",}),({}),([]),}),"do_get":({({"int",}),({}),([]),}),"set_item_name":({({"void",}),({({"string",}),"name",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes (["/include/parse_command.h":962428284,])
+class_docs ([])
+file_name "/obj/gatherable.c"
+last_changed 1000572660

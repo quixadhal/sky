@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["extra_look":({({"string",}),({}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"restart":({({"mapping",}),({({"object",}),"thing",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/dry_food.c"
+last_changed 984361859

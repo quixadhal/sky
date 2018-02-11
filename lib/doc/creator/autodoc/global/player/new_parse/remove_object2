@@ -1,0 +1,32 @@
+.DT
+remove_object2
+$MUDNAME$ Creator Help
+remove_object2
+
+.SH Name
+.SP 5 5
+remove_object2 -  This method does all the horrible work of removing objects and being evil.
+.EP
+
+.SH Syntax
+.SI 5
+varargs int remove_object2(mixed ob,
+int flag)
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/new_parse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method does all the horrible work of removing objects
+and being evil.
+The bit that does all the horrible work...
+We check in here to make sure we havent come back to the same spot.
+This is so we don't go round deleteing things we shouldn't.
+
+.EP
+

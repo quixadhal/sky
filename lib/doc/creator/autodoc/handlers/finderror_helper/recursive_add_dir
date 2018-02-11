@@ -1,0 +1,35 @@
+.DT
+recursive_add_dir
+$MUDNAME$ Creator Help
+recursive_add_dir
+
+.SH Name
+.SP 5 5
+recursive_add_dir -  This method adds all the subdirectories of the specified dir into the search list.
+.EP
+
+.SH Syntax
+.SI 5
+void recursive_add_dir(string word,
+string dir)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creatro to add to the list of
+%^BOLD%^dir%^RESET%^ - the directory to recursively add to
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds all the subdirectories of the specified dir into the
+search list.
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"person",({"mixed",}),"args",}),([]),}),"merge_effect":({({"mixed",}),({({"object",}),"person",({"mixed",}),"old_arg",({"mixed",}),"new_arg",}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"restart":({({"mixed",}),({({"object",}),"person",({"mixed",}),"args",({"int",}),"id",}),([]),}),"beginning":({({"mixed",}),({({"object",}),"person",({"mixed",}),"args",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Contains a list of locations the person remembers.Added by the Remember spell. Name may change.This effect does not have a shadow associated with it.",}),])
+define_docs ([])
+includes (["/include/tasks.h":1059677152,"/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/magic/remembered_place.c"
+last_changed 1021040367

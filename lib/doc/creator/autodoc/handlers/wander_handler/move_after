@@ -1,0 +1,39 @@
+.DT
+move_after
+$MUDNAME$ Creator Help
+move_after
+
+.SH Name
+.SP 5 5
+move_after -  This method puts an NPC into the random movement group.
+.EP
+
+.SH Syntax
+.SI 5
+void move_after(int runaway)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^runaway%^RESET%^ - whether or not this is a wimpy attempt
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/wander_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method puts an NPC into the random movement group.
+This is called from the set_move_after code in the NPC object.
+You should not need to call this function directly.
+.EP
+
+.SH See also
+.SP 5 5
+/std/npc->set_move_after()
+
+.EP
+

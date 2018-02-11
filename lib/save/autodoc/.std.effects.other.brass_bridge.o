@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["hanging":({({"void",}),({({"object",}),"player",({"int",}),"time",}),(["main":({"A function to do damage and send messages during the duration of the effect",}),]),}),"drop_things":({({"void",}),({({"object",}),"player",({"int",}),"time",}),(["main":({"Function to handle inventory dropping.  This happens only every 3-6minutes for now.",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"An effect for when you're hung off the brass bridge. This does damage and causes some items to be dropped.",}),"author":({"Rodion",}),])
+define_docs (["BRIDGE":([]),"DROP_ROOM":([]),"NUM_DICE":([]),])
+includes (["/include/move_failures.h":962428284,"/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/brass_bridge.c"
+last_changed 962122399

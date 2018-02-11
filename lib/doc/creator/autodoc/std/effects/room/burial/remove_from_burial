@@ -1,0 +1,39 @@
+.DT
+remove_from_burial
+$MUDNAME$ Creator Help
+remove_from_burial
+
+.SH Name
+.SP 5 5
+remove_from_burial -  This method removes the specified object from the queue to be buried.
+.EP
+
+.SH Syntax
+.SI 5
+int remove_from_burial(object room,
+object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^room%^RESET%^ - the room to remove the object from the queue of
+%^BOLD%^ob%^RESET%^ - the object to remove from the queue
+.EI
+
+.SH Returns
+.SI 5
+1 if it is removed, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/room/burial.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes the specified object from the queue to be buried.
+.EP
+

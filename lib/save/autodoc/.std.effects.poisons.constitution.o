@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_name":({({"string",}),({}),([]),}),"shock_death":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"poison.constitution\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"poison.constitution",}),])
+define_docs (["PLAYER":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/poisons/constitution.c"
+last_changed 962122405

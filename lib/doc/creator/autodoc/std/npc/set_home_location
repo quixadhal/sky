@@ -1,0 +1,36 @@
+.DT
+set_home_location
+$MUDNAME$ Creator Help
+set_home_location
+
+.SH Name
+.SP 5 5
+set_home_location -  This method will set up a 'home' location for the NPC.
+.EP
+
+.SH Syntax
+.SI 5
+void set_home_location(string loc)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^loc%^RESET%^ - the filename of the room to set as home
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will set up a 'home' location for the NPC.
+This is the file name of the room the NPC
+should return to whenever it is moved.
+It can be used to make unique NPCs returns
+to their default location etc.
+.EP
+

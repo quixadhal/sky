@@ -1,0 +1,42 @@
+.DT
+query_pronoun
+$MUDNAME$ Creator Help
+query_pronoun
+
+.SH Name
+.SP 5 5
+query_pronoun -  This method returns the pronoun for the deity.
+.EP
+
+.SH Syntax
+.SI 5
+string query_pronoun(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity to get the pronoun of
+.EI
+
+.SH Returns
+.SI 5
+the pronoun of the deity
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the pronoun for the deity.
+.EP
+
+.SH See also
+.SP 5 5
+/std/living/gender->query_pronoun()
+.EP
+

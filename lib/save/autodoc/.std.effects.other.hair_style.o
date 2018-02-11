@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["beginning":({({"mixed","*",}),({({"object",}),"player",({"mixed","*",}),"hairstyle",}),(["main":({"",}),"ingnore":({"yes",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classification of \"body.hairstyle\".  It addsa string of text to the player's description detailing what sortof hair style they have.  The first parameter should be an arrayof strings describing the hair style.  The first member of thearray should be what the hair style looks like the first week,the second member what it looks like the second week, etc.The second parameter is the age of the player when the hair style was added (use query_time_on() * -1). <p>",}),"see":({"help::effects",}),"classification":({"body.hairstyle",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/hair_style.c"
+last_changed 962122399

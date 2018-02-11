@@ -1,0 +1,37 @@
+.DT
+query_deity_finger
+$MUDNAME$ Creator Help
+query_deity_finger
+
+.SH Name
+.SP 5 5
+query_deity_finger -  This method returns the string used when fingering a deity.
+.EP
+
+.SH Syntax
+.SI 5
+string query_deity_finger(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity to finger
+.EI
+
+.SH Returns
+.SI 5
+the information relating to the deity
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the string used when fingering a deity.
+.EP
+

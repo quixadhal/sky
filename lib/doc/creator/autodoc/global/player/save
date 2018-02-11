@@ -1,0 +1,39 @@
+.DT
+save
+$MUDNAME$ Creator Help
+save
+
+.SH Name
+.SP 5 5
+save -  This method is called to save the player to disc.
+.EP
+
+.SH Syntax
+.SI 5
+nomask int save()
+.EI
+
+.SH Returns
+.SI 5
+always returns 1
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called to save the player to disc.  It will print
+a message to the player to inform them of the face they have
+been saved.
+.EP
+
+.SH See also
+.SP 5 5
+save_me()
+
+.EP
+

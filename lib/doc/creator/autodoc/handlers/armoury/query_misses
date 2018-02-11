@@ -1,0 +1,37 @@
+.DT
+query_misses
+$MUDNAME$ Creator Help
+query_misses
+
+.SH Name
+.SP 5 5
+query_misses -  This method returns the recycle miss count for a specific file.
+.EP
+
+.SH Syntax
+.SI 5
+int query_misses(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the name of the object to get the misses count for
+.EI
+
+.SH Returns
+.SI 5
+the misses count
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the recycle miss count for a specific file.
+.EP
+

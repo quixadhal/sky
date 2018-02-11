@@ -1,0 +1,41 @@
+.DT
+delete_project
+$MUDNAME$ Creator Help
+delete_project
+
+.SH Name
+.SP 5 5
+delete_project -  Delete a project 
+.EP
+
+.SH Syntax
+.SI 5
+int delete_project(string domain,
+int pid)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Delete a project
+
+.EP
+

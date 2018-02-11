@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"person_removing_item":({({"void",}),({({"object",}),"item",({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"shades.sight\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"shades.sight",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/shades_sight.c"
+last_changed 1090110724

@@ -1,0 +1,38 @@
+.DT
+query_can_log_in
+$MUDNAME$ Creator Help
+query_can_log_in
+
+.SH Name
+.SP 5 5
+query_can_log_in -  This method tests to see whether a specific person can log on at the time.
+.EP
+
+.SH Syntax
+.SI 5
+int query_can_log_in(string who)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^who%^RESET%^ - the name of the person trying to log in
+.EI
+
+.SH Returns
+.SI 5
+1 if they are allowed to log in, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method tests to see whether a specific person can
+log on at the time.
+.EP
+

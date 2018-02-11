@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is an effect to give the player a nasty headache.  It lowers their dex, con, wis, and int by 1, as well as   Making them unable to concentrate enough to do spells or   special fighting commands.  Ouch!  It has a classification   of disease.pain.headache",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/std/effects/disease/path.h":962122406,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/headache.c"
+last_changed 962122405

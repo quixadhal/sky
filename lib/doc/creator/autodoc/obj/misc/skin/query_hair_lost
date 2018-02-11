@@ -1,0 +1,33 @@
+.DT
+query_hair_lost
+$MUDNAME$ Creator Help
+query_hair_lost
+
+.SH Name
+.SP 5 5
+query_hair_lost -  This methods queries the amount of hair that has been scraped off or otherwise lost.
+.EP
+
+.SH Syntax
+.SI 5
+int query_hair_lost()
+.EI
+
+.SH Returns
+.SI 5
+the amount of hair lost
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/skin.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This methods queries the amount of hair that has been
+scraped off or otherwise lost.
+.EP
+

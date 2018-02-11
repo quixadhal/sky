@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["valid_socket":({({"int",}),({({"object",}),"ob",({"string",}),"func",({"mixed","*",}),"info",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/valid_socket.c"
+last_changed 998745043

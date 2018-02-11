@@ -1,0 +1,33 @@
+.DT
+get_next_dir
+$MUDNAME$ Creator Help
+get_next_dir
+
+.SH Name
+.SP 5 5
+get_next_dir -  This method gets the next directory which has an error in it from the creators list of directories to search.
+.EP
+
+.SH Syntax
+.SI 5
+string get_next_dir(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator to get the next directory for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method gets the next directory which has an error in it from
+the creators list of directories to search.
+.EP
+

@@ -1,0 +1,30 @@
+.DT
+check_components
+$MUDNAME$ Creator Help
+check_components
+
+.SH Name
+.SP 5 5
+check_components -  check_components is used internally.
+.EP
+
+.SH Syntax
+.SI 5
+int check_components(object caster,
+int stage,
+mixed * args)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+check_components is used internally. Should not be overloaded.
+To adjust quantities of components dynamically, see adjust_components()
+
+.EP
+

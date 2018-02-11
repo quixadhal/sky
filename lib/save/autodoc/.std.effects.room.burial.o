@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["remove_from_burial":({({"int",}),({({"object",}),"room",({"object",}),"ob",}),(["main":({"This method removes the specified object from the queue to be buried.",}),"param":({"room the room to remove the object from the queue of","ob the object to remove from the queue",}),"return":({"1 if it is removed, 0 if not",}),]),}),"query_buried_container":({({"object",}),({({"object",}),"room",}),(["main":({"This method returns the container that has all the buried itemsin it.",}),"param":({"room the room to get the burial object from",}),"return":({"the container with the buried items",}),]),}),"query_buried_objects":({({"object","*",}),({({"object",}),"room",}),(["main":({"This method returns all the stuff buried here.",}),"param":({"room the room to get the burial objects from",}),"return":({"the array of buried objects",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"","An effect to keep track of things which are burried in a room.",}),"author":({"Pinkfish",}),"see":({"help::effects",}),"classification":({"room.burial",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/cmds/bury.h":962122463,])
+class_docs (["arg_stuff":({0,({({"cont",({"object",}),}),({"obs",({"object","*",}),}),({"added",({"int","*",}),}),}),([]),}),])
+file_name "/std/effects/room/burial.c"
+last_changed 1011569772

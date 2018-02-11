@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["INETD_TYPE":([]),"STREAM":([]),"MUD":([]),"DATAGRAM_BINARY":([]),"DATAGRAM":([]),"STREAM_BINARY":([]),])
+includes (["/secure/include/socket_errors.h":1200761934,])
+class_docs ([])
+file_name "/secure/include/socket.h"
+last_changed 962429079

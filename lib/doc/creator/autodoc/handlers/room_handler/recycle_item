@@ -1,0 +1,46 @@
+.DT
+recycle_item
+$MUDNAME$ Creator Help
+recycle_item
+
+.SH Name
+.SP 5 5
+recycle_item -  This method recycles an item object and is used by rooms.
+.EP
+
+.SH Syntax
+.SI 5
+int recycle_item(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the item object to recycle
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully recycled, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/room_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method recycles an item object and is used by rooms.
+It calls reload_object() on the item and puts it in the
+recycled_items array.
+It can then be re-used by using get_item().
+Only objects whose base_name is ITEM_OBJECT can be recycled.
+.EP
+
+.SH See also
+.SP 5 5
+get_item()
+
+.EP
+

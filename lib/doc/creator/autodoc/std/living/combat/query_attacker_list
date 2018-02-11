@@ -1,0 +1,38 @@
+.DT
+query_attacker_list
+$MUDNAME$ Creator Help
+query_attacker_list
+
+.SH Name
+.SP 5 5
+query_attacker_list -  This method returns the array of creatures we are fighting.
+.EP
+
+.SH Syntax
+.SI 5
+object * query_attacker_list()
+.EI
+
+.SH Returns
+.SI 5
+the attacker list
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the array of creatures we are fighting.
+It lists all those who are not currently in the room with us as well.
+.EP
+
+.SH See also
+.SP 5 5
+query_concentrating(), query_fighting()
+
+.EP
+

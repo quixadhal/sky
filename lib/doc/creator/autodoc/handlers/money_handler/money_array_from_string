@@ -1,0 +1,49 @@
+.DT
+money_array_from_string
+$MUDNAME$ Creator Help
+money_array_from_string
+
+.SH Name
+.SP 5 5
+money_array_from_string -  This method attempts to create a money array from a string.
+.EP
+
+.SH Syntax
+.SI 5
+mixed money_array_from_string(string str,
+string where,
+int flag)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the string to find the value of
+%^BOLD%^where%^RESET%^ - the currency area to get the money array for
+%^BOLD%^flag%^RESET%^ - if the flag is set, then we will return 0 on a partial match
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/money_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method attempts to create a money array from a string.  It will
+attempt to do fuzzy matching of the type.  This means it will match on
+partial matches, this could lead to somewhat weird behaviour.
+.EP
+
+.SH Example 1
+.SI 5
+MONEY_H->money_array_from_string("12 Calarien rahns and 37 tabli",
+                                 "calarien");
+
+.EI
+
+.SH See also
+.SP 5 5
+money_value_string(), value_from_string()
+.EP
+

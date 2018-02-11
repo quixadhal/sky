@@ -1,0 +1,36 @@
+.DT
+event_person_tell
+$MUDNAME$ Creator Help
+event_person_tell
+
+.SH Name
+.SP 5 5
+event_person_tell -  This method is called when a person is told something.
+.EP
+
+.SH Syntax
+.SI 5
+void event_person_tell(object ob,
+string start,
+string mess)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object doing the tell
+%^BOLD%^start%^RESET%^ - the start bit of the message
+%^BOLD%^mess%^RESET%^ - the message itself
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called when a person is told something.
+.EP
+

@@ -1,0 +1,41 @@
+.DT
+set_completed
+$MUDNAME$ Creator Help
+set_completed
+
+.SH Name
+.SP 5 5
+set_completed -  Mark a project as completed.
+.EP
+
+.SH Syntax
+.SI 5
+int set_completed(string domain,
+int pid)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Mark a project as completed.
+
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_block":({({"int",}),({({"string",}),"str",}),([]),}),"wiz_commands":({({"void",}),({}),([]),}),"check_not_ignored":({({"int",}),({({"string",}),"who",}),([]),}),"do_unblock":({({"int",}),({({"string",}),"str",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes (["/secure/include/socket_errors.h":1200761934,"/secure/include/network.h":1027443840,])
+class_docs ([])
+file_name "/global/creator/wiz_inter_comm.c"
+last_changed 999080818

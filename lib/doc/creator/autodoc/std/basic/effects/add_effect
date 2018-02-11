@@ -1,0 +1,41 @@
+.DT
+add_effect
+$MUDNAME$ Creator Help
+add_effect
+
+.SH Name
+.SP 5 5
+add_effect -  This method adds an effect onto the object.
+.EP
+
+.SH Syntax
+.SI 5
+void add_effect(string eff,
+mixed arg)
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/effects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds an effect onto the object.  The arg is passed
+directly onto the function 'beginning' on the effect object.
+If the result is non-zero then the return value of the begining
+function is used instead of the arg and stored away.  If an
+effect of the same type is already on the object then the
+function 'merge_effect' will be called on the effect object.
+If it returns a non-zero value then the arg for the initial
+effect will be updated to the new value, otherwise both effects
+will run with different arguments.
+.EP
+
+.SH See also
+.SP 5 5
+help::effects, submit_ee()
+
+.EP
+

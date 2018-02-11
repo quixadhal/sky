@@ -1,0 +1,32 @@
+.DT
+query_player_clubs
+$MUDNAME$ Creator Help
+query_player_clubs
+
+.SH Name
+.SP 5 5
+query_player_clubs -  This method returns the current know clubs the player is a meber of
+.EP
+
+.SH Syntax
+.SI 5
+string * query_player_clubs()
+.EI
+
+.SH Returns
+.SI 5
+the array of known clubs
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/family.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current know clubs the player is a meber of
+.EP
+

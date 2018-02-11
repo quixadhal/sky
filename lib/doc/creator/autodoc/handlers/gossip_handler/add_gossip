@@ -1,0 +1,38 @@
+.DT
+add_gossip
+$MUDNAME$ Creator Help
+add_gossip
+
+.SH Name
+.SP 5 5
+add_gossip -  This method adds a gossip string and is called by the gossip effects on NPCs.
+.EP
+
+.SH Syntax
+.SI 5
+void add_gossip(class gossip_data data)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^data%^RESET%^ - the gossip data to add
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/gossip_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a gossip string and is called by the gossip
+effects on NPCs.
+.EP
+
+.SH See also
+.SP 5 5
+/std/shadows/npc/gossip.c
+.EP
+

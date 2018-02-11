@@ -1,0 +1,27 @@
+.DT
+list_transits
+$MUDNAME$ Creator Help
+list_transits
+
+.SH Name
+.SP 5 5
+list_transits -  This method prints all routes to this_player().
+.EP
+
+.SH Syntax
+.SI 5
+int list_transits()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints all routes to this_player().
+
+.EP
+

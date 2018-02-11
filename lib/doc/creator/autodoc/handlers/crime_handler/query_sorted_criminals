@@ -1,0 +1,38 @@
+.DT
+query_sorted_criminals
+$MUDNAME$ Creator Help
+query_sorted_criminals
+
+.SH Name
+.SP 5 5
+query_sorted_criminals -  This method returns the sorted array of criminals in a specified area
+.EP
+
+.SH Syntax
+.SI 5
+string * query_sorted_criminals(string place_name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to get the names for
+.EI
+
+.SH Returns
+.SI 5
+the sorted array of criminals
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the sorted array of criminals in a
+specified area
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This file contains all that is needed by the login object.",}),"author":({"Pinkfish",}),])
+define_docs (["LOGIN_OB":(["main":({"This is the location of the login object.",}),"see":({"/secure/login",}),]),])
+includes (["/include/player_handler.h":962428284,"/secure/include/login_handler.h":962429079,])
+class_docs ([])
+file_name "/secure/include/login.h"
+last_changed 962429079

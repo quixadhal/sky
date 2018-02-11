@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["test_for_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"person_removing_item":({({"void",}),({({"object",}),"item",({"object",}),"player",}),(["main":({"This is called when the gloves are removed..",}),]),}),"restart":({({"void",}),({({"object",}),"player",}),([]),}),"decrease_points":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"magic.hands.strength\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"magic.hands.strength",}),])
+define_docs (["COST_PER_ROUND":([]),"SHADOWS":([]),"PATH":([]),"GRIP":([]),"HUMAN":([]),])
+includes (["/include/effects/stat_adjustment.h":962122463,"/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/iron_grip.c"
+last_changed 962122402

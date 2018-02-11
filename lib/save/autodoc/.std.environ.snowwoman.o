@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["die":({({"void",}),({}),([]),}),"long":({({"string",}),({({"string",}),"str",({"int",}),"dark",}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/environ/snowwoman.c"
+last_changed 1000722099

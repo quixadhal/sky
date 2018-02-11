@@ -1,0 +1,42 @@
+.DT
+attack_by
+$MUDNAME$ Creator Help
+attack_by
+
+.SH Name
+.SP 5 5
+attack_by -  This methid is called when the living object is attacked by something.
+.EP
+
+.SH Syntax
+.SI 5
+int attack_by(object thing)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^thing%^RESET%^ - the thing we are attacked by
+.EI
+
+.SH Returns
+.SI 5
+0 if we cannot attack them, 1 if we can
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This methid is called when the living object is attacked by something.
+.EP
+
+.SH See also
+.SP 5 5
+query_attacker_list(), attack_ob()
+
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["pool_descripts":({({"void",}),({({"object",}),"room",({"int",}),"pools",}),([]),}),"extra_look":({({"string",}),({({"object",}),"room",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["ignore":({"",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/room/vomit.c"
+last_changed 962122403

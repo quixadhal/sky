@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions (["load_file":({({"string","*",}),({({"string",}),"file",}),([]),}),])
+inherits ([])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/preload.c"
+last_changed 1121162957

@@ -1,0 +1,37 @@
+.DT
+set_amount
+$MUDNAME$ Creator Help
+set_amount
+
+.SH Name
+.SP 5 5
+set_amount -  This method sets the amount of money associated with the cheque.
+.EP
+
+.SH Syntax
+.SI 5
+int set_amount(int number)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^number%^RESET%^ - the amount of money to associate the cheque with
+.EI
+
+.SH Returns
+.SI 5
+the newly set amount or 0 if the amount has already been set
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/misc/cheque.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the amount of money associated with the cheque.
+.EP
+

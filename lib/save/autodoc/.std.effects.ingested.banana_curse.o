@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"int",}),"time",}),([]),}),"merge_effect":({({"int",}),({({"object",}),"player",({"int",}),"time1",({"int",}),"time2",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"orangutan_symptoms":({({"void",}),({({"object",}),"player",({"int",}),"arg",({"int",}),"sid",}),([]),}),"query_classification":({({"string",}),({}),([]),}),"beginning":({({"int",}),({({"object",}),"player",({"int",}),"time",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["CURE":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/ingested/banana_curse.c"
+last_changed 962122404

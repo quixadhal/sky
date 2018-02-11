@@ -1,0 +1,2 @@
+#/handlers/mailer.c
+folder_names ({"inbox","received",})

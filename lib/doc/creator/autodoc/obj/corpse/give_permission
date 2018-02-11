@@ -1,0 +1,33 @@
+.DT
+give_permission
+$MUDNAME$ Creator Help
+give_permission
+
+.SH Name
+.SP 5 5
+give_permission -  This method adds a person to the array of people we are allowing to take things from our corpse.
+.EP
+
+.SH Syntax
+.SI 5
+void give_permission(string who)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^who%^RESET%^ - the name of the person to permit
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds a person to the array of people we are
+allowing to take things from our corpse.
+.EP
+

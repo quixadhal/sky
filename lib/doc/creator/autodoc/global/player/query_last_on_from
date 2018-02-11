@@ -1,0 +1,32 @@
+.DT
+query_last_on_from
+$MUDNAME$ Creator Help
+query_last_on_from
+
+.SH Name
+.SP 5 5
+query_last_on_from -  This method returns the ip from which the player last logged on.
+.EP
+
+.SH Syntax
+.SI 5
+string query_last_on_from()
+.EI
+
+.SH Returns
+.SI 5
+the ip address from which they last logged on
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the ip from which the player last logged on.
+.EP
+

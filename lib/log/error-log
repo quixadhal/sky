@@ -1,0 +1,73 @@
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/global/player/events.c line 1785: Undefined variable 'colour' before  colour_event( verb,
+/global/player/events.c line 1785: Illegal lvalue before  colour_event( verb,
+/secure/handlers/intermud.c line 74: Too few arguments to localtime before ;
+/secure/handlers/intermud.c line 75: Undefined variable 'hour' before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 75: Illegal lvalue before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 76: Undefined variable 'minute' before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 76: Illegal lvalue before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 74: Too few arguments to localtime before ;
+/secure/handlers/intermud.c line 75: Undefined variable 'hour' before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 75: Illegal lvalue before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 76: Undefined variable 'minute' before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 76: Illegal lvalue before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 75: Undefined variable 'hour' before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 75: Illegal lvalue before  "" + the_time[LT_HO
+/secure/handlers/intermud.c line 76: Undefined variable 'minute' before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 76: Illegal lvalue before  "" + the_time[LT_MI
+/secure/handlers/intermud.c line 79: Undefined variable 'GMTOFF' before  + ")";
+/secure/handlers/intermud.c line 197: Undefined function save_me before ;
+/secure/handlers/intermud.c line 231: Undefined function getColorSpeakerName before ;
+/secure/handlers/intermud.c line 240: Undefined function getColorSpeakerName before ;
+/global/player/events.c line 1785: Reserved type name unexpected. before ;
+/global/player/events.c line 1785: syntax error before ;
+/global/player/events.c line 1789: Illegal LHS before the end of line
+/global/player/events.c line 1790: Undefined variable 'the_chan' before  INTERMUD_H->getColo
+/global/player/events.c line 1790: Illegal lvalue before  INTERMUD_H->getColo
+/global/player/events.c line 1790: Undefined variable 'verb' before  "<", ">");
+/global/player/events.c line 1795: Undefined variable 'indent_width' before  6 + strlen(verb) + 
+/global/player/events.c line 1795: Illegal lvalue before  6 + strlen(verb) + 
+/secure/handlers/intermud.c line 56: Type of returned value doesn't match function return type ( int vs void ) before the end of line
+/secure/handlers/intermud.c line 240: Undefined variable 'array' before , v;
+/secure/handlers/intermud.c line 240: syntax error before , v;
+/secure/handlers/intermud.c line 242: Illegal LHS before the end of line
+/secure/handlers/intermud.c line 243: Undefined variable 'v' before  values(chatters);
+/secure/handlers/intermud.c line 243: Illegal lvalue before  values(chatters);
+/secure/handlers/intermud.c line 244: Undefined variable 'm' before  ([]);
+/secure/handlers/intermud.c line 240: Undefined variable 'array' before , v;
+/secure/handlers/intermud.c line 240: syntax error before , v;
+/secure/handlers/intermud.c line 242: Illegal LHS before the end of line
+/secure/handlers/intermud.c line 243: Undefined variable 'v' before  values(chatters);
+/secure/handlers/intermud.c line 243: Illegal lvalue before  values(chatters);
+/secure/handlers/intermud.c line 244: Undefined variable 'm' before  ([]);
+/secure/handlers/intermud.c line 245: Bad assignment ( mixed * vs mapping ). before the end of line
+/secure/handlers/intermud.c line 251: Type of returned value doesn't match function return type ( mixed * vs mapping ) before the end of line
+/secure/handlers/intermud.c line 259: Undefined variable 'array' before ;
+/secure/handlers/intermud.c line 259: syntax error before ;
+/secure/handlers/intermud.c line 260: Illegal LHS before the end of line
+/secure/handlers/intermud.c line 261: Reserved type name unexpected. before ;
+/secure/handlers/intermud.c line 259: Undefined variable 'array' before ;
+/secure/handlers/intermud.c line 259: syntax error before ;
+/secure/handlers/intermud.c line 260: Illegal LHS before the end of line
+/secure/handlers/intermud.c line 261: Reserved type name unexpected. before ;
+/secure/handlers/intermud.c line 261: syntax error before ;
+/secure/handlers/intermud.c line 265: Undefined variable 'who' before  "@")[0]);
+/secure/handlers/intermud.c line 259: Undefined variable 'array' before ;
+/secure/handlers/intermud.c line 259: syntax error before ;
+/secure/handlers/intermud.c line 260: Illegal LHS before the end of line
+/secure/handlers/intermud.c line 261: Reserved type name unexpected. before ;
+/secure/handlers/intermud.c line 261: syntax error before ;
+/secure/handlers/intermud.c line 265: Undefined variable 'who' before  "@")[0]);
+/secure/handlers/intermud.c line 288: Undefined function wrap before , "\n");
+/secure/handlers/intermud.c line 289: Undefined function fix_string before the end of line
+/secure/handlers/intermud.c line 264: Undefined variable '_cur_term' before ;
+/secure/handlers/intermud.c line 366: Undefined function fix_string before ;

@@ -1,0 +1,37 @@
+.DT
+query_dirs
+$MUDNAME$ Creator Help
+query_dirs
+
+.SH Name
+.SP 5 5
+query_dirs -  This method returns the list of dirs associated with this creator.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_dirs(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator to look up the directories for
+.EI
+
+.SH Returns
+.SI 5
+the array of directories
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the list of dirs associated with this creator.
+.EP
+

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["calc_personal_temp":({({"int",}),({}),([]),}),"query_temp_str":({({"string",}),({}),([]),}),"adjust_personal_temp":({({"void",}),({({"int",}),"i",}),([]),}),"query_personal_temp":({({"int",}),({}),([]),}),"query_wetness":({({"int",}),({}),([]),}),"add_wetness":({({"void",}),({({"int",}),"arg",}),([]),}),"set_personal_temp":({({"void",}),({({"int",}),"i",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Your very own personal weather...",}),])
+define_docs (["COMFORTABLE":([]),])
+includes (["/include/clothing.h":962428284,"/include/weather.h":986801087,])
+class_docs ([])
+file_name "/global/player/pweath.c"
+last_changed 1031079879

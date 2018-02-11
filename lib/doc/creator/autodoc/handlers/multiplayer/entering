@@ -1,0 +1,41 @@
+.DT
+entering
+$MUDNAME$ Creator Help
+entering
+
+.SH Name
+.SP 5 5
+entering -  Called by the login handler.
+.EP
+
+.SH Syntax
+.SI 5
+void entering(string p_name,
+string type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^p_name%^RESET%^ - the name being checked
+%^BOLD%^type%^RESET%^ - the type of login call
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/multiplayer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Called by the login handler.  Checks to see if one of the
+other multi players are on and sends out an inform if they
+logged on from the same ip address as someone else.
+.EP
+
+.SH See also
+.SP 5 5
+/handlers/login_handler.c
+
+.EP
+

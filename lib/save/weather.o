@@ -1,6 +1,6 @@
 #/handlers/weather.c
-pattern ({21,4,28,})
-current ({17,19,8,})
+pattern ({16,-18,5,})
+current ({17,-3,15,})
 variance ({10,75,20,})
 mooncycle 4
-moonupdate 1052467137
+moonupdate 1518316696

@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["ReturnPatterns":({({"mixed",}),({({"class","command",}),"cmd",({"string","*",}),"path",}),([]),}),"GetCommand":({({"int",}),({({"class","command",}),"cmd",({"string","*",}),"path",}),([]),}),"strncmp":({({"int",}),({({"string",}),"s1",({"string",}),"s2",({"int",}),"len",}),([]),}),"HandleCommandLine":({({"void",}),({({"class","command",}),"cmd",}),([]),}),"GetCommands":({({"varargs","string","*",}),({({"string",}),"path",}),([]),}),"HandleStars":({({"int",}),({({"class","command",}),"cmd",}),([]),}),"eventRehash":({({"void",}),({({"mixed",}),"paths",}),([]),}),"eventGuildRaceRehash":({({"void",}),({}),([]),}),"IsGRCommand":({({"int",}),({({"string",}),"cmd",}),([]),}),"GetPaths":({({"varargs","string","*",}),({({"string",}),"cmd",}),([]),}),"GetCommandPatterns":({({"mixed","*",}),({({"string",}),"cmd_name",({"string","*",}),"path",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"    /daemon/command.c     from the Nightmare IVr1 Object Library     a new commands daemon, much faster than the old     created by Descartes of Borg 940119     Hacked for Discworld by Turrican 9-11-95",}),])
+define_docs ([])
+includes (["/include/command.h":1010295178,"/include/user_parser.h":962428284,])
+class_docs ([])
+file_name "/secure/command.c"
+last_changed 1200761934

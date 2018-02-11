@@ -1,0 +1,50 @@
+.DT
+query_message
+$MUDNAME$ Creator Help
+query_message
+
+.SH Name
+.SP 5 5
+query_message -  This method gets the attack messages for the weapon attacks.
+.EP
+
+.SH Syntax
+.SI 5
+class message_data query_message(int dam,
+string type,
+object him,
+object me,
+string name,
+object wep,
+string area)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^dam%^RESET%^ - the damage of the attack
+%^BOLD%^type%^RESET%^ - the attack type ( either sharp, pierce or blunt )
+%^BOLD%^him%^RESET%^ - the target of the attack
+%^BOLD%^me%^RESET%^ - the attacker
+%^BOLD%^name%^RESET%^ - the attack name
+%^BOLD%^wep%^RESET%^ - the weapon attacked with
+.EI
+
+.SH Returns
+.SI 5
+a class of three elements - attacker, defender and others
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/attack_messages.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method gets the attack messages for the weapon attacks.
+If an attack with the specified name doesn't exist in the
+weapon, it will look for the message in the handler.
+.EP
+

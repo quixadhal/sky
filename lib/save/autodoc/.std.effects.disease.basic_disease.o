@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_classification":({({"void",}),({({"string",}),"str",}),([]),}),"query_name":({({"string",}),({}),([]),}),"set_name":({({"void",}),({({"string",}),"str",}),([]),}),"cure":({({"int",}),({({"object",}),"person",({"string",}),"cure_classification",({"int",}),"power",({"int",}),"enum",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Basic file meant to be inherited by all diseases.Very much a work in progressIf you change this file, remember to update/doc/creator/files/std.effects.disease.basic_disease as well",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/basic_disease.c"
+last_changed 1056961079

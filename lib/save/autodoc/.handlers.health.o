@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["monitor_points":({({"void",}),({({"object",}),"player",({"int",}),"charge",}),(["main":({"This method prints out the health and gp points during combat,if the player so desires. Moved to here from the combat effect.",}),"see":({"query_monitor",}),"param":({"player the object recieving the monitor message","charge non-zero to charge the player gp points for the message",}),]),}),"health_string":({({"varargs","string",}),({({"object",}),"who",({"int",}),"full",}),(["main":({"This method returns the health string of the creature.It is used in extra_look in living creatures and in the 'health' command.",}),"param":({"who the creature to get the health string for","full whether or not to returns the full (coloured) health string",}),"return":({"the health string",}),]),}),"do_attack_checks":({({"object","*",}),({({"object","*",}),"things",({"int",}),"attack",}),(["main":({"This method does all the checks required for anyaggressive commands.  If the attack argument is 0,then combat will not be initiated, if 1, then thetargets will be attacked.",}),"param":({"things the things to test","attack if this is 0, then combat will not beinitiated, if 1, then the things that pass the checkswill be attacked",}),]),}),"register_monitor":({({"void",}),({({"object",}),"ob",({"int",}),"charge",}),(["main":({"This method is used by combat to display the monitor afterall heartbeats have finished.",}),"param":({"ob the object to print the monitor to","charge non-zero to charge the player gp points for the message",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the health handler.Spits out health strings for livings and a bit fancierstrings for the health command.  Also deals withattacking checks and prints the monitor.",}),"author":({"Sandoz",}),])
+define_docs (["RED":([]),"RES":([]),"H_NAME":([]),"CYAN":([]),"YELL":([]),])
+includes (["/include/player.h":1036911799,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/handlers/health.c"
+last_changed 1200761933

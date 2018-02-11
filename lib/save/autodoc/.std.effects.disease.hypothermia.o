@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["stat_adjusts":({({"void",}),({({"object",}),"player",}),([]),}),"change_index":({({"void",}),({({"object",}),"player",({"int",}),"index",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"disease.hypothermia\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"disease.hypothermia",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/hypothermia.c"
+last_changed 962122405

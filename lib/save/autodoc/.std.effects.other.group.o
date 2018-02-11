@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["end":({({"void",}),({({"object",}),"player",({"string",}),"args",({"int",}),"sid",}),([]),}),"survive_death":({({"int",}),({}),([]),}),"merge_effect":({({"void",}),({({"object",}),"player",({"string",}),"args",({"int",}),"sid",}),([]),}),"query_indefinite":({({"int",}),({}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"string",}),"args",({"int",}),"sid",}),([]),}),"beginning":({({"void",}),({({"object",}),"player",({"string",}),"args",({"int",}),"sid",}),([]),}),"query_classification":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect added to a living when he becomesa member of a group.<p>The argument should be a string designating the name of thegroup.",}),"see":({"help::effects",}),"classification":({"player.group",}),])
+define_docs ([])
+includes (["/include/command.h":1010295178,"/include/effect.h":962428284,"/include/group_handler.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/group.c"
+last_changed 962122399

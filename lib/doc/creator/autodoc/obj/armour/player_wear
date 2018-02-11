@@ -1,0 +1,28 @@
+.DT
+player_wear
+$MUDNAME$ Creator Help
+player_wear
+
+.SH Name
+.SP 5 5
+player_wear -  This function is called on an object and causes it to be worn if it can be by it's environment(), i.
+.EP
+
+.SH Syntax
+.SI 5
+void player_wear()
+.EI
+
+.SH Defined in
+.SI 5
+/obj/armour.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function is called on an object and causes it to be worn
+if it can be by it's environment(), i.e the player carrying it.
+
+.EP
+

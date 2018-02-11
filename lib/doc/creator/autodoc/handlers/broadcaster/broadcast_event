@@ -1,0 +1,48 @@
+.DT
+broadcast_event
+$MUDNAME$ Creator Help
+broadcast_event
+
+.SH Name
+.SP 5 5
+broadcast_event -  Sends an event out to all the things.
+.EP
+
+.SH Syntax
+.SI 5
+void broadcast_event(object * things,
+int * centre,
+mixed msg,
+int range,
+int inside,
+int underwater)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^things%^RESET%^ - things that get told about it
+%^BOLD%^centre%^RESET%^ - coords where event occurs
+%^BOLD%^msg%^RESET%^ - the message to broadcast, if
+the message is an array, then the first element
+of the array will be the message told to people
+outdoors and the second for people indoors,
+if it's a string, it will be used for all areas.
+%^BOLD%^range%^RESET%^ - range of telling in room units
+%^BOLD%^inside%^RESET%^ - tell things if indoors
+%^BOLD%^underwater%^RESET%^ - tell things if underwater
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/broadcaster.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Sends an event out to all the things.  It checks to make sure they
+can hear the event and all that stuff.
+
+.EP
+

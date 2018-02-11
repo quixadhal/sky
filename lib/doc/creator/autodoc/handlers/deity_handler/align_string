@@ -1,0 +1,38 @@
+.DT
+align_string
+$MUDNAME$ Creator Help
+align_string
+
+.SH Name
+.SP 5 5
+align_string -  This method gives a string represtentation of the alignment level.
+.EP
+
+.SH Syntax
+.SI 5
+string align_string(int alignment)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^alignment%^RESET%^ - the alignment to return
+.EI
+
+.SH Returns
+.SI 5
+alignment string
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method gives a string represtentation of the
+alignment level.
+.EP
+

@@ -1,0 +1,37 @@
+.DT
+query_enter_commands
+$MUDNAME$ Creator Help
+query_enter_commands
+
+.SH Name
+.SP 5 5
+query_enter_commands -  This method returns the current array of enter commands.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_enter_commands()
+.EI
+
+.SH Returns
+.SI 5
+the current array of enter commands
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the current array of enter commands.
+.EP
+
+.SH See also
+.SP 5 5
+reset_enter_commands(), add_enter_commands()
+
+.EP
+

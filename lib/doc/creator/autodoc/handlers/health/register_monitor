@@ -1,0 +1,35 @@
+.DT
+register_monitor
+$MUDNAME$ Creator Help
+register_monitor
+
+.SH Name
+.SP 5 5
+register_monitor -  This method is used by combat to display the monitor after all heartbeats have finished.
+.EP
+
+.SH Syntax
+.SI 5
+void register_monitor(object ob,
+int charge)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object to print the monitor to
+%^BOLD%^charge%^RESET%^ - non-zero to charge the player gp points for the message
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/health.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used by combat to display the monitor after
+all heartbeats have finished.
+.EP
+

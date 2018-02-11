@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["shuffle":({({"mixed",}),({({"mixed",}),"arr",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This method randomizes an array.  It places all the elements of anarray back in random order.",}),"see":({"roll_MdN()","efun::random()",}),"param":({"args the array to shuffle",}),"return":({"the randomized array",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/simul_efun/shuffle.c"
+last_changed 1034865196

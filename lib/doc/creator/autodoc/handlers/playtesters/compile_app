@@ -1,0 +1,42 @@
+.DT
+compile_app
+$MUDNAME$ Creator Help
+compile_app
+
+.SH Name
+.SP 5 5
+compile_app -  This method makes a nice string out of the PT application data.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string compile_app(class application_data data,
+int cols,
+int flag)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^data%^RESET%^ - the class to process
+%^BOLD%^cols%^RESET%^ - the cols to wrap at
+%^BOLD%^flag%^RESET%^ - if flag is set, the line about whose app
+it is will not be added
+.EI
+
+.SH Returns
+.SI 5
+the application in a nice string format
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method makes a nice string out of the PT application data.
+.EP
+

@@ -1,0 +1,33 @@
+.DT
+query_permitted
+$MUDNAME$ Creator Help
+query_permitted
+
+.SH Name
+.SP 5 5
+query_permitted -  This method returns the array of people who are permitted to take things from our corpse.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_permitted()
+.EI
+
+.SH Returns
+.SI 5
+people permitted to take things from our corpse
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the array of people who are
+permitted to take things from our corpse.
+.EP
+

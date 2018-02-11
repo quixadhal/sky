@@ -1,0 +1,37 @@
+.DT
+remove_dir
+$MUDNAME$ Creator Help
+remove_dir
+
+.SH Name
+.SP 5 5
+remove_dir -  This method will remove a directory from the list that a player checks.
+.EP
+
+.SH Syntax
+.SI 5
+int remove_dir(string word,
+string dir,
+int recursive)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the creator to remove the directory from
+%^BOLD%^dir%^RESET%^ - the directory to remove
+%^BOLD%^recursive%^RESET%^ - to recursively remove them
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method will remove a directory from the list that a player
+checks.
+.EP
+

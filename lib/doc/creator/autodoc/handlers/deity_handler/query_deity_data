@@ -1,0 +1,38 @@
+.DT
+query_deity_data
+$MUDNAME$ Creator Help
+query_deity_data
+
+.SH Name
+.SP 5 5
+query_deity_data -  This method returns a string containing all the vital information on a deity.
+.EP
+
+.SH Syntax
+.SI 5
+string query_deity_data(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity to get the data for
+.EI
+
+.SH Returns
+.SI 5
+vital info about a deity
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns a string containing all the vital information
+on a deity.
+.EP
+

@@ -1,0 +1,34 @@
+.DT
+event_write
+$MUDNAME$ Creator Help
+event_write
+
+.SH Name
+.SP 5 5
+event_write -  This method is called by the simul_efun 'write'.
+.EP
+
+.SH Syntax
+.SI 5
+void event_write(object caller,
+string str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^caller%^RESET%^ - the calling object
+%^BOLD%^str%^RESET%^ - the string to write
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is called by the simul_efun 'write'.
+.EP
+

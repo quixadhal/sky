@@ -1,0 +1,32 @@
+.DT
+query_spells
+$MUDNAME$ Creator Help
+query_spells
+
+.SH Name
+.SP 5 5
+query_spells -  This method returns the spells mapping of the living object.
+.EP
+
+.SH Syntax
+.SI 5
+mixed query_spells()
+.EI
+
+.SH Returns
+.SI 5
+the spells mapping
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/spells.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the spells mapping of the living object.
+.EP
+

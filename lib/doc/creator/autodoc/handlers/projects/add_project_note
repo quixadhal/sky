@@ -1,0 +1,45 @@
+.DT
+add_project_note
+$MUDNAME$ Creator Help
+add_project_note
+
+.SH Name
+.SP 5 5
+add_project_note -  Add a note to a project.
+.EP
+
+.SH Syntax
+.SI 5
+int add_project_note(string domain,
+int pid,
+string author,
+string note)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^pid%^RESET%^ - The id of the project.
+%^BOLD%^author%^RESET%^ - The author of the note.
+%^BOLD%^note%^RESET%^ - The note to be added.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Add a note to a project.
+
+.EP
+

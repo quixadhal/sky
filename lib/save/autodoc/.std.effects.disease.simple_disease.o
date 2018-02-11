@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["set_infection_check":({({"void",}),({({"function",}),"f",}),([]),}),"set_infection_chance":({({"void",}),({({"int",}),"i",}),([]),}),"query_cure_rate":({({"int",}),({}),([]),}),"test_remove":({({"int",}),({({}),"object",({}),"int",({}),"int",({}),"int",}),([]),}),"set_cure_rate":({({"void",}),({({"int",}),"i",}),([]),}),"set_shadow_ob":({({"void",}),({({"string",}),"str",}),([]),}),"query_infection_chance":({({"int",}),({}),([]),}),"disease_tick":({({"void",}),({({"object",}),"person",({"int",}),"arg",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effects/disease/basic_disease":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"disease.hypothermia\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"disease.hypothermia",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,"/include/disease.h":962428284,])
+class_docs ([])
+file_name "/std/effects/disease/simple_disease.c"
+last_changed 1056962885

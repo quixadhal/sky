@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_money":({({"int",}),({({"string",}),"type",}),(["main":({"This method returns the amount of type of money there is in the array.",}),"param":({"type the type of money to check",}),"return":({"the number of coins of that type",}),]),}),"query_number_coins":({({"int",}),({}),(["main":({"This method returns the number of coins in the object.",}),"return":({"the number of coins",}),]),}),"merge_coins":({({"object",}),({}),(["main":({"This method merges two coin object together.  Or attempts to anyway.This will occur whenever a coin object moves.",}),"return":({"the merged coin object",}),]),}),"check_adjectives":({({"void",}),({}),(["main":({"This method goes through the coins and sets up all the adjectivesand plurals it needs to.",}),]),}),"query_merger":({({"int",}),({}),([]),}),"fixup_money_weight":({({"void",}),({}),(["main":({"This method fixes up the weight of the money object to be what it shouldbe.",}),]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs ([])
+includes (["/include/obj_parser.h":1049992949,"/include/move_failures.h":962428284,"/include/money.h":1049974076,])
+class_docs ([])
+file_name "/obj/money.c"
+last_changed 1057832628

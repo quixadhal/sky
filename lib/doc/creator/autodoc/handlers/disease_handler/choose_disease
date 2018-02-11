@@ -1,0 +1,29 @@
+.DT
+choose_disease
+$MUDNAME$ Creator Help
+choose_disease
+
+.SH Name
+.SP 5 5
+choose_disease -  This method calculates a mapping of the chances for each particular disease occuring.
+.EP
+
+.SH Syntax
+.SI 5
+string choose_disease()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/disease_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method calculates a mapping of the chances for each particular
+disease occuring.
+It then chooses the actual disease.
+
+.EP
+

@@ -1,0 +1,35 @@
+.DT
+check_args
+$MUDNAME$ Creator Help
+check_args
+
+.SH Name
+.SP 5 5
+check_args -  Checks to see if valid arguments for the spell have been entered.
+.EP
+
+.SH Syntax
+.SI 5
+mixed * check_args(object caster,
+mixed * args)
+.EI
+
+.SH Returns
+.SI 5
+The new array of arguments, or 0 for failure due to incorrect args
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Checks to see if valid arguments for the spell have
+been entered. Should be overloaded by inheriting
+objects to perform proper checking.
+.EP
+

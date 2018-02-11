@@ -1,0 +1,38 @@
+.DT
+event_creator_tell
+$MUDNAME$ Creator Help
+event_creator_tell
+
+.SH Name
+.SP 5 5
+event_creator_tell -  This event is generated when a creator tell is done.
+.EP
+
+.SH Syntax
+.SI 5
+void event_creator_tell(object ob,
+string start,
+string mess,
+int forced)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the object generating the event
+%^BOLD%^start%^RESET%^ - the start bit
+%^BOLD%^mess%^RESET%^ - the message bit
+%^BOLD%^forced%^RESET%^ - if it is forced to occur
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player/events.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This event is generated when a creator tell is done.
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["domain_file":({({"mixed",}),({({"mixed",}),"bing",}),([]),}),"creator_file":({({"varargs","mixed",}),({({"string",}),"file",({"int",}),"author",}),([]),}),"author_file":({({"mixed",}),({({"mixed",}),"bing",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/creator_file.c"
+last_changed 1020020215

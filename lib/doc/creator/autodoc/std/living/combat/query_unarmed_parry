@@ -1,0 +1,37 @@
+.DT
+query_unarmed_parry
+$MUDNAME$ Creator Help
+query_unarmed_parry
+
+.SH Name
+.SP 5 5
+query_unarmed_parry -  This returns the current unarmed parry to use in combat.
+.EP
+
+.SH Syntax
+.SI 5
+int query_unarmed_parry()
+.EI
+
+.SH Returns
+.SI 5
+the current combat unarmed parry
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This returns the current unarmed parry to use in combat.
+.EP
+
+.SH See also
+.SP 5 5
+query_tactics()
+
+.EP
+

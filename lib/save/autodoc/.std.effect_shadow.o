@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["changed":({"Changed to use the shadow handler to recycle shadow.- Sandoz, 3rd September 2002.",}),"main":({"This is the effect shadow inherit.",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/effect_shadow.c"
+last_changed 1033018217

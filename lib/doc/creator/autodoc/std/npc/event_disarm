@@ -1,0 +1,37 @@
+.DT
+event_disarm
+$MUDNAME$ Creator Help
+event_disarm
+
+.SH Name
+.SP 5 5
+event_disarm -  This function makes the more intelligent NPCs pick up their weapons after being disarmed.
+.EP
+
+.SH Syntax
+.SI 5
+void event_disarm(object disarmer,
+object weapon)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^disarmer%^RESET%^ - the person who disarmed us
+%^BOLD%^weapon%^RESET%^ - the weapon that was disarmed
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This function makes the more intelligent NPCs pick up their
+weapons after being disarmed.
+It can be overwritten if you don't want the default disarm
+response to work for your NPC.
+.EP
+

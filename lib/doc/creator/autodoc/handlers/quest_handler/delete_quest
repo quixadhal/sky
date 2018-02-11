@@ -1,0 +1,37 @@
+.DT
+delete_quest
+$MUDNAME$ Creator Help
+delete_quest
+
+.SH Name
+.SP 5 5
+delete_quest -  This method removes the given quest from the system.
+.EP
+
+.SH Syntax
+.SI 5
+int delete_quest(string name)
+.EI
+
+.SH Returns
+.SI 5
+0 on failure, 1 on success
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/quest_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes the given quest from the system.
+.EP
+
+.SH See also
+.SP 5 5
+name the name of the quest to remove, add_quest()
+
+.EP
+

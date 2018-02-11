@@ -1,0 +1,38 @@
+.DT
+query_criminals
+$MUDNAME$ Creator Help
+query_criminals
+
+.SH Name
+.SP 5 5
+query_criminals -  This method returns all the criminals in the specified place.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_criminals(string place_name)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^place_name%^RESET%^ - the name of the place to get the
+criminals' names for
+.EI
+
+.SH Returns
+.SI 5
+all current criminals' names
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/crime_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns all the criminals in the specified place.
+.EP
+

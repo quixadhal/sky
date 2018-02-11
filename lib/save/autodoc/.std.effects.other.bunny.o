@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classificationof \"other.bunny\".<p>",}),"author":({"Turrican",}),"see":({"help::effects",}),"classification":({"other.bunny",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/player.h":1036911799,"/include/effect.h":962428284,"/include/broadcaster.h":962756770,"/std/effects/other/path.h":962122400,"/include/playtesters.h":1020949410,])
+class_docs ([])
+file_name "/std/effects/other/bunny.c"
+last_changed 1200761934

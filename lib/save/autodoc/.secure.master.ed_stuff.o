@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["save_ed_setup":({({"int",}),({({"object",}),"wiz",({"int",}),"setup",}),([]),}),"get_save_file_name":({({"string",}),({({"string",}),"file",({"object",}),"who",}),([]),}),"retrieve_ed_setup":({({"int",}),({({"object",}),"wiz",}),([]),}),"make_path_absolute":({({"string",}),({({"string",}),"str",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/secure/master/ed_stuff.c"
+last_changed 998744992

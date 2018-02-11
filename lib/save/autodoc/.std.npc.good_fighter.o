@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_special":({({"void",}),({}),([]),}),"add_actions":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Inherit file used to make npc's use specials.Currently no method to stop npc's using all specials, besidesover-riding this file, undef'ing specials, and defining themto the commands you want to use.Shiannar, 22/07/01.",}),])
+define_docs (["SPECIAL_CHANCE":([]),"SPECIAL_COMMANDS":([]),"SPECIALS":([]),])
+includes ([])
+class_docs ([])
+file_name "/std/npc/good_fighter.c"
+last_changed 995727814

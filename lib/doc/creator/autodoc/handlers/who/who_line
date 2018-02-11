@@ -1,0 +1,42 @@
+.DT
+who_line
+$MUDNAME$ Creator Help
+who_line
+
+.SH Name
+.SP 5 5
+who_line -  This method returns the line used for each player in the who command.
+.EP
+
+.SH Syntax
+.SI 5
+string who_line(object ob,
+int cre,
+int width)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the player to show
+%^BOLD%^cre%^RESET%^ - are we a cre
+%^BOLD%^width%^RESET%^ - the width of the line
+
+.EI
+
+.SH Returns
+.SI 5
+the who line
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/who.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the line used for each player in the who
+command.
+.EP
+

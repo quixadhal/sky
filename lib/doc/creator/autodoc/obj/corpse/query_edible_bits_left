@@ -1,0 +1,32 @@
+.DT
+query_edible_bits_left
+$MUDNAME$ Creator Help
+query_edible_bits_left
+
+.SH Name
+.SP 5 5
+query_edible_bits_left -  This method returns the edible bits that are still in the corpse.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_edible_bits_left()
+.EI
+
+.SH Returns
+.SI 5
+the edible bits still in the corpse
+
+.EI
+
+.SH Defined in
+.SI 5
+/obj/corpse.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the edible bits that are still in the corpse.
+.EP
+

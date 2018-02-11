@@ -1,0 +1,35 @@
+.DT
+who_string
+$MUDNAME$ Creator Help
+who_string
+
+.SH Name
+.SP 5 5
+who_string -  This method returns the string used in the who command.
+.EP
+
+.SH Syntax
+.SI 5
+string who_string(int width,
+int cre,
+int verbose,
+string name)
+.EI
+
+.SH Returns
+.SI 5
+the line for the who line
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/who.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the string used in the who command.
+.EP
+

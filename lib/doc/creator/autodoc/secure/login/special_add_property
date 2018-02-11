@@ -1,0 +1,42 @@
+.DT
+special_add_property
+$MUDNAME$ Creator Help
+special_add_property
+
+.SH Name
+.SP 5 5
+special_add_property -  This method allows you to add properties onto players who are not currently logged on.
+.EP
+
+.SH Syntax
+.SI 5
+int special_add_property(string pname,
+string prop,
+mixed val)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^pname%^RESET%^ - name of player to change
+%^BOLD%^prop%^RESET%^ - the property to change
+%^BOLD%^val%^RESET%^ - the new value for it
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/login.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method allows you to add properties onto players who are not
+currently logged on.
+.EP
+

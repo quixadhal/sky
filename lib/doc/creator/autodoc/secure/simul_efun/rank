@@ -1,0 +1,42 @@
+.DT
+rank
+$MUDNAME$ Creator Help
+rank
+
+.SH Name
+.SP 5 5
+rank -  This method returns the rank level of the player.
+.EP
+
+.SH Syntax
+.SI 5
+int rank(mixed person)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^person%^RESET%^ - the player to get the rank for
+.EI
+
+.SH Returns
+.SI 5
+the rank of the player as defined in rank.h
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the rank level of the player.
+.EP
+
+.SH See also
+.SP 5 5
+adminp, lordp, seniorp, creatorp, playtesterp, liaisonp
+
+.EP
+

@@ -1,0 +1,32 @@
+.DT
+query_scabbards
+$MUDNAME$ Creator Help
+query_scabbards
+
+.SH Name
+.SP 5 5
+query_scabbards -  Returns the current list of known scabbards.
+.EP
+
+.SH Syntax
+.SI 5
+string * query_scabbards()
+.EI
+
+.SH Returns
+.SI 5
+the scabbards array
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Returns the current list of known scabbards.
+.EP
+

@@ -1,0 +1,27 @@
+.DT
+query_lockdowns
+$MUDNAME$ Creator Help
+query_lockdowns
+
+.SH Name
+.SP 5 5
+query_lockdowns -  This method prints all the locked down sites.
+.EP
+
+.SH Syntax
+.SI 5
+void query_lockdowns()
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/login_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method prints all the locked down sites.
+
+.EP
+

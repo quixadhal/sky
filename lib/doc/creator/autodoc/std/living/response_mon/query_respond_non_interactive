@@ -1,0 +1,32 @@
+.DT
+query_respond_non_interactive
+$MUDNAME$ Creator Help
+query_respond_non_interactive
+
+.SH Name
+.SP 5 5
+query_respond_non_interactive -  This method returns whether or not we should respond to other NPCs.
+.EP
+
+.SH Syntax
+.SI 5
+int query_respond_non_interactive()
+.EI
+
+.SH Returns
+.SI 5
+1 if we should respond to other NPCs, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/response_mon.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not we should respond to other NPCs.
+.EP
+

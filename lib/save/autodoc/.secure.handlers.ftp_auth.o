@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits (["/net/inherit/server":({}),])
+main_docs (["ignore":({"yes ",}),])
+define_docs (["MAX_LIFE":([]),])
+includes (["/secure/include/socket_errors.h":1200761934,"/secure/include/network.h":1027443840,])
+class_docs (["ftp_session":({0,({({"fd",({"int",}),}),({"token",({"string",}),}),({"timestamp",({"int",}),}),({"user",({"string",}),}),}),([]),}),])
+file_name "/secure/handlers/ftp_auth.c"
+last_changed 1021623564

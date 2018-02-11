@@ -1,0 +1,27 @@
+.DT
+set_ritual
+$MUDNAME$ Creator Help
+set_ritual
+
+.SH Name
+.SP 5 5
+set_ritual - Sets the ritual array up.
+.EP
+
+.SH Syntax
+.SI 5
+void set_ritual(mixed * _ritual)
+.EI
+
+.SH Defined in
+.SI 5
+/std/effects/magic/magic_spell.c
+.EI
+
+.SH Description
+.SP 5 5
+Sets the ritual array up. The ritual array is the
+array of steps that a spell will take.
+
+.EP
+

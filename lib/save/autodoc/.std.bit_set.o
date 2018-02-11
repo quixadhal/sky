@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["setup_long":({({"void",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/bit":({}),])
+define_docs ([])
+includes (["/include/corpse.h":962428284,"/include/bit.h":962428284,])
+class_docs ([])
+file_name "/std/bit_set.c"
+last_changed 1000719007

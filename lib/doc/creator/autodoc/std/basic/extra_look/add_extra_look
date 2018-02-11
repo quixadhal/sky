@@ -1,0 +1,39 @@
+.DT
+add_extra_look
+$MUDNAME$ Creator Help
+add_extra_look
+
+.SH Name
+.SP 5 5
+add_extra_look -  This method adds an object or function pointer into the list of extra look objects/functions.
+.EP
+
+.SH Syntax
+.SI 5
+void add_extra_look(mixed add)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^add%^RESET%^ - the object or function to add
+.EI
+
+.SH Defined in
+.SI 5
+/std/basic/extra_look.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method adds an object or function pointer into the list of
+extra look objects/functions.  When using function pointers,
+remember that you cannot use remove_extra_look() to remove them.
+.EP
+
+.SH See also
+.SP 5 5
+calc_extra_look(), remove_extra_look()
+
+.EP
+

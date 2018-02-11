@@ -1,0 +1,46 @@
+.DT
+recycle_door
+$MUDNAME$ Creator Help
+recycle_door
+
+.SH Name
+.SP 5 5
+recycle_door -  This method recycles a door object and is used by rooms.
+.EP
+
+.SH Syntax
+.SI 5
+int recycle_door(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the door object to recycle
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully recycled, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/room_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method recycles a door object and is used by rooms.
+It calls reload_object() on the door, removes it from the
+doors array and adds it to the recycled_doors array.
+It can then be re-used by using get_door().
+Only objects whose base_name is DOOR_OBJECT can be recycled.
+.EP
+
+.SH See also
+.SP 5 5
+get_door()
+
+.EP
+

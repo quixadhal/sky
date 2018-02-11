@@ -1,0 +1,33 @@
+.DT
+do_goto
+$MUDNAME$ Creator Help
+do_goto
+
+.SH Name
+.SP 5 5
+do_goto -  This method is used by the PT badge to move PTs from one location to another.
+.EP
+
+.SH Syntax
+.SI 5
+int do_goto(string destination)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^destination%^RESET%^ - the destination to go to
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method is used by the PT badge to move PTs from
+one location to another.
+.EP
+

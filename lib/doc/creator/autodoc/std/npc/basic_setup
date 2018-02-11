@@ -1,0 +1,50 @@
+.DT
+basic_setup
+$MUDNAME$ Creator Help
+basic_setup
+
+.SH Name
+.SP 5 5
+basic_setup -  This method sets up the basic abilities and race of the critter.
+.EP
+
+.SH Syntax
+.SI 5
+void basic_setup(string race,
+int level,
+mixed gender)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^race%^RESET%^ - this is the race of the character.  It should be
+a race that's understood by the /std/race.c
+%^BOLD%^level%^RESET%^ - this is the level of the NPC.  The number is used
+by the race object to set ability scores.
+%^BOLD%^gender%^RESET%^ - this is the gender of the NPC.  It can be either a
+number ( 0 - neuter, 1 - male or 2 - female ) or a string ("neuter",
+"male", "female")
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets up the basic abilities and race of the critter.
+.EP
+
+.SH Example 1
+.SI 5
+basic_setup("human", 200, "male");
+
+.EI
+
+.SH See also
+.SP 5 5
+query_race(), query_level(), query_gender()
+.EP
+

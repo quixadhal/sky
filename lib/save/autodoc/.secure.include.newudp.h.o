@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+define_docs (["HOST_NAME":([]),"PING":([]),"NEW_INETD":([]),"REQUEST":([]),"LOCAL_NAME":([]),"UDP_CMD_DIR":([]),"SYSTEM":([]),"REPLY_TIME_OUT":([]),"HOST_FILE":([]),"PACKET":([]),"INETD_LOG_FILE":([]),"HOST_COMMANDS":([]),"RECIPIENT":([]),"RETRIES":([]),"NAME":([]),"INETD":([]),"TIME_OUT":([]),"QUERY":([]),"DATA":([]),"HOST":([]),"HOST_STATUS":([]),"ID":([]),"LOCAL_UDP_PORT":([]),"HOST_IP":([]),"PACKET_LOSS":([]),"UDP_PORT":([]),"SENDER":([]),"INETD_VERSION":([]),"REPLY":([]),"LOCAL_COMMANDS":([]),"HOST_UDP_PORT":([]),"RESPONSE_TIME":([]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/newudp.h"
+last_changed 1200761934

@@ -1,0 +1,68 @@
+.DT
+set_greeting
+$MUDNAME$ Creator Help
+set_greeting
+
+.SH Name
+.SP 5 5
+set_greeting -  This method sets up the greeting strings to use when someone enters the room the NPC is in.
+.EP
+
+.SH Syntax
+.SI 5
+void set_greeting(mixed str)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^str%^RESET%^ - the greeting or array of greetings to use
+.EI
+
+.SH Defined in
+.SI 5
+/std/npc.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets up the greeting strings to use when
+someone enters the room the NPC is in.
+This is useful for shopkeepers and more unique NPCs.
+$ob$ in greeting strings will be replaced with
+the people that are being greeted.
+
+To use a greeting in form of a soul command, please
+use an "@" in front of the greeting string. Soul greetings
+will be called on each person individually, and it is
+possible to set up random souls by separating different
+soul commands by a ":" in the greeting string (see example).
+
+It is also possible to use a function instead of a string
+greeting.  The function can either be a function
+pointer or a string of the following format -
+"#file_name:function", and will then be called with
+the following arguments - the thing (object) doing
+the greeting, and the array of objects to greet.
+
+NOTE : The NPC will only greet those livings he can see,
+and that are not ghosts or otherwise dead.
+
+.EP
+
+.SH Example 1
+.SI 5
+set_greeting( ({"Greetings, $ob$!", (: do_greet :) }) );
+.EI
+
+.SH Example 2
+.SI 5
+set_greeting( ({"'Hello $ob$!", "#"+PUB+"pub:do_greet"}) );
+.EI
+
+.SH Example 3
+.SI 5
+set_greeting("@salute $ob$:bow $ob$:bing $ob$");
+
+.EI
+

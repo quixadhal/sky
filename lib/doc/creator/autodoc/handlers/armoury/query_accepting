@@ -1,0 +1,38 @@
+.DT
+query_accepting
+$MUDNAME$ Creator Help
+query_accepting
+
+.SH Name
+.SP 5 5
+query_accepting -  This method returns whether or not the armoury is currently accepting the specified item for recycling.
+.EP
+
+.SH Syntax
+.SI 5
+int query_accepting(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the name of the object to check
+.EI
+
+.SH Returns
+.SI 5
+1 if we are currently accepting the item, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns whether or not the armoury is currently accepting
+the specified item for recycling.
+.EP
+

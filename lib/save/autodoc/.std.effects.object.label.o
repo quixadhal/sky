@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["create_store":({({"object",}),({({"mapping",}),"map",({"object",}),"player",}),(["main":({"Create the storage container for the labels.",}),"return":({"the storage container",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"object.label\".<p>The arguement is the storage container.  It is either the object itself(when the player is running) or the mapping of the dynamic loadingof the container (when the player logs on/off).",}),"see":({"help::effects",}),"classification":({"object.label",}),])
+define_docs ([])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/object/label.c"
+last_changed 984361859

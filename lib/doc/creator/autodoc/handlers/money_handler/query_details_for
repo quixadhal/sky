@@ -1,0 +1,51 @@
+.DT
+query_details_for
+$MUDNAME$ Creator Help
+query_details_for
+
+.SH Name
+.SP 5 5
+query_details_for -  This method returns the details for a specified type of money.
+.EP
+
+.SH Syntax
+.SI 5
+class money_data query_details_for(string type)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^type%^RESET%^ - the money type to get the details for
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/money_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the details for a specified type of money.
+It will return a class of the form:
+
+.EP
+.SP 5 5
+({ forward short, reverse short,
+.EP
+.SP 5 5
+   forward long, reverse long, composition,
+.EP
+.SP 5 5
+   plural, adjectives, weight })
+.EP
+.SP 5 5
+
+.EP
+
+.SH See also
+.SP 5 5
+/include/money.h
+
+.EP
+

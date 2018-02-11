@@ -1,0 +1,37 @@
+.DT
+query_singing
+$MUDNAME$ Creator Help
+query_singing
+
+.SH Name
+.SP 5 5
+query_singing -  This method queries if the NPC is currently singing or not.
+.EP
+
+.SH Syntax
+.SI 5
+int query_singing()
+.EI
+
+.SH Returns
+.SI 5
+the amount of lines of song left to sing
+.EI
+
+.SH Defined in
+.SI 5
+/std/npcs/singer.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries if the NPC is currently singing or not.
+.EP
+
+.SH See also
+.SP 5 5
+query_songs(), query_current_song()
+
+.EP
+

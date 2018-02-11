@@ -1,0 +1,37 @@
+.DT
+print_event
+$MUDNAME$ Creator Help
+print_event
+
+.SH Name
+.SP 5 5
+print_event -  Print all entries from the given player's dossier with the given event type.
+.EP
+
+.SH Syntax
+.SI 5
+void print_event(object source,
+string player,
+string event)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^source%^RESET%^ - the creator who requested the report
+%^BOLD%^player%^RESET%^ - the name of the player
+%^BOLD%^event%^RESET%^ - the name of the event
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playerinfo.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Print all entries from the given player's dossier with the given event
+type.
+.EP
+

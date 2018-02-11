@@ -1,0 +1,40 @@
+.DT
+add_currency
+$MUDNAME$ Creator Help
+add_currency
+
+.SH Name
+.SP 5 5
+add_currency -  Adds an amount of money in the roundest amount of change to the living.
+.EP
+
+.SH Syntax
+.SI 5
+varargs int add_currency(int amt,
+string location)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^amt%^RESET%^ - the amount of money to add
+%^BOLD%^location%^RESET%^ - the area to use for the currency
+.EI
+
+.SH Returns
+.SI 5
+integer success
+
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/money.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Adds an amount of money in the roundest amount of change to
+the living.
+.EP
+

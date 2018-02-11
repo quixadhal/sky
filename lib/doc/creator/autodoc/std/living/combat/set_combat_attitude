@@ -1,0 +1,37 @@
+.DT
+set_combat_attitude
+$MUDNAME$ Creator Help
+set_combat_attitude
+
+.SH Name
+.SP 5 5
+set_combat_attitude -  This sets the current attitude to use in combat.
+.EP
+
+.SH Syntax
+.SI 5
+void set_combat_attitude(string attitude)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^attitude%^RESET%^ - the new combat attitude
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/combat.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This sets the current attitude to use in combat.
+.EP
+
+.SH See also
+.SP 5 5
+query_tactics()
+
+.EP
+

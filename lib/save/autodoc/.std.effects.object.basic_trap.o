@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_indefinite":({({"int",}),({}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classification of \"object.trap.basic\".<p>No arguments.<p>This effect has a shadow associated with it. It is a basic trap for acontainer.",}),"see":({"help::effects",}),"classification":({"object.trap.basic",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/std/effects/object/path.h":984361859,])
+class_docs ([])
+file_name "/std/effects/object/basic_trap.c"
+last_changed 1200761934

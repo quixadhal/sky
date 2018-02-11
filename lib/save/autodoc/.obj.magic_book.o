@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["build_order":({({"int","*",}),({({"int",}),"num",}),([]),}),"query_binding_force":({({"int",}),({}),([]),}),"do_tear":({({"int",}),({({"int",}),"number",}),([]),}),"book_do_config":({({"void",}),({({"mixed","*",}),"config",}),([]),}),"name_from_spell":({({"string",}),({({"mixed","*",}),"spell",}),([]),}),"reorder":({({"int","*",}),({({"int","*",}),"order",}),([]),}),])
+protected_functions ([])
+inherits (["/std/book":({}),])
+define_docs (["MAX(a,b)":([]),"MIN(a,b)":([]),])
+includes ([])
+class_docs ([])
+file_name "/obj/magic_book.c"
+last_changed 1026879995

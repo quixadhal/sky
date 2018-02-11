@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_underwater_damage":({({"void",}),({}),([]),}),"query_water_breathing":({({"int",}),({}),([]),}),"move":({({"int",}),({({"object",}),"ob",({"string",}),"s1",({"string",}),"s2",}),([]),}),])
+protected_functions ([])
+inherits (["/std/effect_shadow":({}),])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"potion.alteration.female\".<p>Describe the arguments in here.",}),"see":({"help::effects",}),"classification":({"potion.alteration.female",}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/effects/other/fish_effect_shadow.c"
+last_changed 962122400

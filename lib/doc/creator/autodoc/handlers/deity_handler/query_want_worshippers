@@ -1,0 +1,37 @@
+.DT
+query_want_worshippers
+$MUDNAME$ Creator Help
+query_want_worshippers
+
+.SH Name
+.SP 5 5
+query_want_worshippers -  This method tells if the deity wants worshippers or not.
+.EP
+
+.SH Syntax
+.SI 5
+int query_want_worshippers(string deity)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the deity to check
+.EI
+
+.SH Returns
+.SI 5
+1 if the deity wants worshippers, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method tells if the deity wants worshippers or not.
+.EP
+

@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["get_plant_long":({({"string",}),({}),([]),}),"set_plant_desc":({({"void",}),({({"string",}),"desc",}),([]),}),"set_plant_type":({({"void",}),({({"string",}),"type",}),([]),}),"set_plant":({({"void",}),({({"string",}),"name",}),([]),}),"get_plant_short":({({"string",}),({}),([]),}),])
+protected_functions ([])
+inherits (["/std/object":({}),])
+define_docs ([])
+includes ([])
+class_docs ([])
+file_name "/std/plant.c"
+last_changed 1000719294

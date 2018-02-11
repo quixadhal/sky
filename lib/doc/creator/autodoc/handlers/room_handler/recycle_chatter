@@ -1,0 +1,46 @@
+.DT
+recycle_chatter
+$MUDNAME$ Creator Help
+recycle_chatter
+
+.SH Name
+.SP 5 5
+recycle_chatter -  This method recycles a chatter object and is used by rooms.
+.EP
+
+.SH Syntax
+.SI 5
+int recycle_chatter(object ob)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^ob%^RESET%^ - the chatter object to recycle
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully recycled, 0 if not
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/room_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method recycles a chatter object and is used by rooms.
+It calls reload_object() on the chatter, removes it from the
+chatters array and adds it to the recycled_chatters array.
+It can then be re-used by using get_chatter().
+Only objects whose base_name is CHATTER_OBJECT can be recycled.
+.EP
+
+.SH See also
+.SP 5 5
+get_chatter()
+
+.EP
+

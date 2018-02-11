@@ -1,0 +1,37 @@
+.DT
+query_player_cont_data
+$MUDNAME$ Creator Help
+query_player_cont_data
+
+.SH Name
+.SP 5 5
+query_player_cont_data -  This method queries the data for the given player.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_player_cont_data(string player)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^player%^RESET%^ - the player to get the contemplating data for
+.EI
+
+.SH Returns
+.SI 5
+the contemplating data for the given player
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries the data for the given player.
+.EP
+

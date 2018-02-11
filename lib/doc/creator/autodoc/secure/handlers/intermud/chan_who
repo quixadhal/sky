@@ -1,0 +1,40 @@
+.DT
+chan_who
+$MUDNAME$ Creator Help
+chan_who
+
+.SH Name
+.SP 5 5
+chan_who -  This method queries who are listening to the specified intermud channel.
+.EP
+
+.SH Syntax
+.SI 5
+int chan_who(string channel,
+string mud)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^channel%^RESET%^ - the channel to get the who list for
+%^BOLD%^mud%^RESET%^ - the
+.EI
+
+.SH Returns
+.SI 5
+1 upon success, 0 upon failure
+
+.EI
+
+.SH Defined in
+.SI 5
+/secure/handlers/intermud.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries who are listening to the specified
+intermud channel.
+.EP
+

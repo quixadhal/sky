@@ -1,0 +1,43 @@
+.DT
+no_use_doors
+$MUDNAME$ Creator Help
+no_use_doors
+
+.SH Name
+.SP 5 5
+no_use_doors -  This method returns 1 if the creature shouldn't be able to use closed doors.
+.EP
+
+.SH Syntax
+.SI 5
+int no_use_doors()
+.EI
+
+.SH Returns
+.SI 5
+0 means creature is free to move through closed doors,
+1 that it cannot.
+.EI
+
+.SH Defined in
+.SI 5
+/std/living/living.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns 1 if the creature shouldn't be able to use
+closed doors.
+By default, any creature is able to move through closed doors
+by opening them, so the default value is 0.
+If you shadow this method, including a message about why the
+player cannot move in a particular direction, is a good idea.
+.EP
+
+.SH See also
+.SP 5 5
+cannot_walk, exit_command
+
+.EP
+

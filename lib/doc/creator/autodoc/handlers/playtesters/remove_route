@@ -1,0 +1,39 @@
+.DT
+remove_route
+$MUDNAME$ Creator Help
+remove_route
+
+.SH Name
+.SP 5 5
+remove_route -  This method removes a transit route from the handler.
+.EP
+
+.SH Syntax
+.SI 5
+int remove_route(string start,
+string dest)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^start%^RESET%^ - the starting location of the route to remove
+%^BOLD%^dest%^RESET%^ - the destination file name of the route to remove
+.EI
+
+.SH Returns
+.SI 5
+1 if successfully removed, 0 if destination didn't exist
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/playtesters.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method removes a transit route from the handler.
+.EP
+

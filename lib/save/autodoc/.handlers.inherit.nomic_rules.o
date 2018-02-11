@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["query_nomic_rule":({({"class","nomic_rule",}),({({"string",}),"area",({"int",}),"id",}),(["main":({"This method returns a nomic rule for the specified area.",}),"param":({"area the area to get the rule in","id the id of the rule to match",}),"return":({"0 if failed, the class if succeeded",}),]),}),"remove_nomic_rule":({({"int",}),({({"string",}),"area",({"int",}),"id",}),(["main":({"This method removes a nomic rule from the system.",}),"param":({"area the area the rule is removed in","id the id of the rule to remove",}),"return":({"the status of the removal, NOMIC_ERROR on fai;l",}),]),}),"query_all_nomic_rules":({({"class","nomic_rule","*",}),({({"string",}),"area",}),(["main":({"This method returns all the nomic rules for the area.",}),"param":({"area the area to get the rule sin",}),"return":({"all the rules",}),]),}),"create_area":({({"int",}),({({"string",}),"area",}),(["main":({"This method creates an new nomic area.",}),"param":({"area the new nomic area name",}),"return":({"1 on success, 0 on failure",}),]),}),"add_nomic_rule":({({"int",}),({({"string",}),"area",({"int",}),"type",({"string",}),"creator",({"string",}),"text",}),(["main":({"This method adds a nomic rule into the system.",}),"param":({"area the area the rule is added in","type the type of rule to add","creator the person that created the rule","text the text associated with the rule",}),"return":({"the new number of the rule, NOMIC_ERROR on fai;l",}),]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This handler deals with all the nomic rules for councils.",}),"started":({"Fri Jun 23 19:51:04 PDT 2000",}),"author":({"Pinkfish",}),])
+define_docs ([])
+includes (["/include/nomic_system.h":962428284,])
+class_docs ([])
+file_name "/handlers/inherit/nomic_rules.c"
+last_changed 962428385

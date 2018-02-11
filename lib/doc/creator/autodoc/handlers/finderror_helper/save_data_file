@@ -1,0 +1,33 @@
+.DT
+save_data_file
+$MUDNAME$ Creator Help
+save_data_file
+
+.SH Name
+.SP 5 5
+save_data_file -  The methods saves the information stored into the error information in their directory.
+.EP
+
+.SH Syntax
+.SI 5
+void save_data_file(string word)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^word%^RESET%^ - the player name to save the data for
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/finderror_helper.c
+.EI
+
+.SH Description
+.SP 5 5
+
+The methods saves the information stored into the error information
+in their directory.
+.EP
+

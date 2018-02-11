@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions ([])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"The index corresponding to the skill name in the skill array. ",}),])
+define_docs (["SKILL_NAM":([]),"SKILL_ARR_SIZE":(["main":({"The size of the skill array. ",}),]),"STD_SKILLS":([]),"SKILL_LVL":(["main":({"The index corresponding to the skill level in the skill array. ",}),]),"SKILL_EXP":(["main":({"The index corresponding to the skill exp in the skill array. ",}),]),"SKILL_BIT":(["main":({"The index corresponding to the array of sub skills in the skill array. ",}),]),"SKILL_MAX_TEACH":(["main":({"The maximum level that you can teach someone else too. ",}),]),])
+includes ([])
+class_docs ([])
+file_name "/secure/include/skills2.h"
+last_changed 994199788

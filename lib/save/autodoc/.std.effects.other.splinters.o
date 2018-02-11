@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["splinters_long":({({"string",}),({({"object",}),"player",}),([]),}),"make_handicap":({({"int",}),({({"object",}),"player",({"mixed","*",}),"args",}),([]),}),"fester":({({"void",}),({({"object",}),"player",({"string","*",}),"which",}),([]),}),"restart":({({"void",}),({({"object",}),"player",({"mixed","*",}),"args",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This is the effect skelton docs.  This effecthas a classification of \"body.damage.skin.splinters\".<p>Describe the arguments in here.<p>This effect has a shadow associated with it.",}),"see":({"help::effects",}),"classification":({"body.damage.skin.splinters",}),])
+define_docs (["SHADOWS":([]),"PATH":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/other/path.h":962122400,])
+class_docs ([])
+file_name "/std/effects/other/splinters.c"
+last_changed 962122400

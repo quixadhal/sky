@@ -1,0 +1,39 @@
+.DT
+set_al_upper
+$MUDNAME$ Creator Help
+set_al_upper
+
+.SH Name
+.SP 5 5
+set_al_upper -  This method sets the upper alignment limit for the given deity.
+.EP
+
+.SH Syntax
+.SI 5
+int set_al_upper(string deity,
+int number)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+.EI
+
+.SH Returns
+.SI 5
+the upper alignment limit
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method sets the upper alignment limit for the
+given deity.
+.EP
+

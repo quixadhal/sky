@@ -1,0 +1,43 @@
+.DT
+create_project
+$MUDNAME$ Creator Help
+create_project
+
+.SH Name
+.SP 5 5
+create_project -  Create a new project.
+.EP
+
+.SH Syntax
+.SI 5
+int create_project(string domain,
+string name,
+string desc)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^domain%^RESET%^ - The domain this project belongs in.
+%^BOLD%^name%^RESET%^ - The name of the project.
+%^BOLD%^description%^RESET%^ - A description of the project.
+
+.EI
+
+.SH Returns
+.SI 5
+int
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/projects.c
+.EI
+
+.SH Description
+.SP 5 5
+
+Create a new project.
+
+.EP
+

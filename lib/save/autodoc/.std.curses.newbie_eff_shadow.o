@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["do_say":({({"int",}),({({"string",}),"str",}),([]),}),"do_loud_say":({({"int",}),({({"string",}),"str",}),([]),}),"do_emote_all":({({"int",}),({({"string",}),"str",}),([]),}),"do_whisper":({({"int",}),({({"string",}),"str",}),([]),}),"do_echo_to":({({"int",}),({({"string",}),"str",}),([]),}),"do_tell":({({"int",}),({({"string",}),"str",}),([]),}),"remove_effect_shadow":({({"void",}),({({"int",}),"i",}),([]),}),"do_shout":({({"int",}),({({"string",}),"str",}),([]),}),"do_emote":({({"int",}),({({"string",}),"str",}),([]),}),"do_talk":({({"int",}),({({"string",}),"str",}),([]),}),"do_echo":({({"int",}),({({"string",}),"str",}),([]),}),])
+protected_functions (["newbie_emote":({({"string",}),({({"string",}),"str",}),([]),}),"newbie":({({"string",}),({({"string",}),"str",}),([]),}),])
+inherits (["/std/effect_shadow":({}),])
+define_docs (["MY_NAME":([]),])
+includes ([])
+class_docs ([])
+file_name "/std/curses/newbie_eff_shadow.c"
+last_changed 1200761934

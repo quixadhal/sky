@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["restart":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"This effect has a classificationof \"pie.cream\".<p>",}),"author":({"Wonko",}),"see":({"help::effects",}),"classification":({"pie.cream",}),])
+define_docs (["AUDIENCE":([]),"PLYROBJE":([]),"PLYRPRON":([]),"PLYRPOSS":([]),"TO":([]),"PLYRNAME":([]),])
+includes (["/include/effect.h":962428284,])
+class_docs ([])
+file_name "/std/effects/other/frog.c"
+last_changed 962122399

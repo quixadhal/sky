@@ -1,0 +1,33 @@
+.DT
+query_travellers
+$MUDNAME$ Creator Help
+query_travellers
+
+.SH Name
+.SP 5 5
+query_travellers -  This method returns the mapping of all travelling NPCs and their related data.
+.EP
+
+.SH Syntax
+.SI 5
+mapping query_travellers()
+.EI
+
+.SH Returns
+.SI 5
+a mapping of all travelling NPCs and their data
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/wander_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method returns the mapping of all travelling NPCs
+and their related data.
+.EP
+

@@ -1,0 +1,42 @@
+.DT
+get_guttered
+$MUDNAME$ Creator Help
+get_guttered
+
+.SH Name
+.SP 5 5
+get_guttered -  This method gets a guttered item from the armoury.
+.EP
+
+.SH Syntax
+.SI 5
+object get_guttered(int percent)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^percent%^RESET%^ - the percentage condition the item should be in
+.EI
+
+.SH Returns
+.SI 5
+a guttered object or 0 if there are none
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/armoury.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method gets a guttered item from the armoury.
+This is used by the search function in city rooms,
+and returns a random smaller item from the armoury's
+recycled items list.  The condition percentage should
+not be set too high for guttered items, and has been
+capped at 50% for that very reason.
+.EP
+

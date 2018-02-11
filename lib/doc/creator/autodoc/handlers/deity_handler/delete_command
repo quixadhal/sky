@@ -1,0 +1,39 @@
+.DT
+delete_command
+$MUDNAME$ Creator Help
+delete_command
+
+.SH Name
+.SP 5 5
+delete_command -  This method deletes a command to be given to the worshippers.
+.EP
+
+.SH Syntax
+.SI 5
+int delete_command(string deity,
+string command)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^deity%^RESET%^ - the name of the deity
+%^BOLD%^command%^RESET%^ - the name of the command to delete
+.EI
+
+.SH Returns
+.SI 5
+1 if success, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/handlers/deity_handler.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method deletes a command to be given to the worshippers.
+.EP
+

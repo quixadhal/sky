@@ -1,0 +1,4 @@
+#/handlers/nroff.c
+nroffed_file ({0,2,7,"%^BOLD%^sprintf","Seattle-sky driver help","sprintf%^RESET%^","",8,"Name",7,5,"sprintf() - formatted output conversion","",8,"Synopsis",7,5,"string sprintf( string format, ... );","",8,"Description",3,5,5,"sprintf() behaves exactly like printf(), but it returns the formatted string instead of writing it to the user.  See the printf() manual page for the formats that are possible. ","",8,"See also",7,5,"printf(), sscanf()","",})
+nroffed_file_name "/doc/driver/efuns/strings/sprintf"
+modified_time 1518040847

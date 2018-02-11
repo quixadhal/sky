@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["add_privilege":({({"string",}),({({"string",}),"privilege",({"string",}),"privileged",}),([]),}),"dwep":({({"nomask","void",}),({}),([]),}),"add_privilege_type":({({"string",}),({({"string",}),"privilege",}),([]),}),"save_me":({({"void",}),({}),([]),}),"query_privileges":({({"string","*",}),({({"string",}),"privileged",}),([]),}),"remove_privilege_type":({({"string",}),({({"string",}),"privilege",}),([]),}),"query_privilege_types":({({"string","*",}),({}),([]),}),"remove_privilege":({({"string",}),({({"string",}),"privilege",({"string",}),"privileged",}),([]),}),"query_privilege":({({"int",}),({({"string",}),"privilege",({"string",}),"privileged",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["SAVE_FILE":([]),"SECURITY":([]),])
+includes (["/secure/include/access.h":970974412,])
+class_docs ([])
+file_name "/secure/handlers/privilege.c"
+last_changed 1027152278

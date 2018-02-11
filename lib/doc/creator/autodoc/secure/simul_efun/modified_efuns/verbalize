@@ -1,0 +1,53 @@
+.DT
+verbalize
+$MUDNAME$ Creator Help
+verbalize
+
+.SH Name
+.SP 5 5
+verbalize -  This method does $V$0=verbs,verb$V$ expansion on a word.
+.EP
+
+.SH Syntax
+.SI 5
+varargs string verbalize(string verb,
+string single)
+.EI
+
+.SH Parameters
+.SI 5
+%^BOLD%^verb%^RESET%^ - the verb to do the expansion on
+%^BOLD%^single%^RESET%^ - the optional singular argument
+.EI
+
+.SH Returns
+.SI 5
+$V$0=verbs,verb$V$ expanded verb
+.EI
+
+.SH Defined in
+.SI 5
+/secure/simul_efun/modified_efuns.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method does $V$0=verbs,verb$V$ expansion on a word.
+It does this by pluralizing the verb used.
+If the optional single person argument is supplied,
+then that is used for the single person version of the
+word, and the verb argument is used for multiple people.
+.EP
+
+.SH Example 1
+.SI 5
+verbalize("their", "his") returns $V$0=his,their+"$V$
+.EI
+
+.SH Example 2
+.SI 5
+verbalize("run") returns $V$0=runs,run+"$V$
+
+.EI
+

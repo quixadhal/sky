@@ -1,0 +1,9 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["check_effect":({({"int",}),({({"object",}),"thing",}),([]),}),"test_worn":({({"void",}),({({"object",}),"player",}),([]),}),"merge_effect":({({"void",}),({({"object",}),"player",}),([]),}),"query_classification":({({"string",}),({}),([]),}),"end":({({"void",}),({({"object",}),"player",}),([]),}),"query_shadow_ob":({({"string",}),({}),([]),}),"beginning":({({"void",}),({({"object",}),"player",}),([]),}),])
+protected_functions ([])
+inherits ([])
+define_docs (["SHADOWS":([]),"PATH":([]),"HUMAN":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/attached/path.h":962122403,])
+class_docs ([])
+file_name "/std/effects/attached/tabard_eff.c"
+last_changed 962122403

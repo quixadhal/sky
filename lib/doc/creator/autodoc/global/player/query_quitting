@@ -1,0 +1,33 @@
+.DT
+query_quitting
+$MUDNAME$ Creator Help
+query_quitting
+
+.SH Name
+.SP 5 5
+query_quitting -  This method queries whether or not the player is in the middle of quitting.
+.EP
+
+.SH Syntax
+.SI 5
+int query_quitting()
+.EI
+
+.SH Returns
+.SI 5
+1 if we are quitting, 0 if not
+
+.EI
+
+.SH Defined in
+.SI 5
+/global/player.c
+.EI
+
+.SH Description
+.SP 5 5
+
+This method queries whether or not the player is in the
+middle of quitting.
+.EP
+

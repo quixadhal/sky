@@ -1,0 +1,10 @@
+#/secure/handlers/autodoc/autodoc_file.c
+public_functions (["wretch":({({"void",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),"restart":({({"int",}),({({"object",}),"player",({"int",}),"time",({"int",}),"id",}),([]),}),])
+protected_functions ([])
+inherits ([])
+main_docs (["main":({"Modified by Venom for the use of the ORNATE WARHAMMER.22/11/97This is the effect skelton docs.  This effecthas a classification of \"body.poison.warhammer\".<p>Describe the arguments in here.<p>This effect has no shadow associated with it.",}),"see":({"help::effects",}),"classification":({"body.poison",}),])
+define_docs (["SHADOWS":([]),])
+includes (["/include/effect.h":962428284,"/std/effects/poisons/path.h":962122405,])
+class_docs ([])
+file_name "/std/effects/poisons/ornate_warhammer_effect.c"
+last_changed 962122405
