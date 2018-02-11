@@ -1,0 +1,2 @@
+SRC=uids.c math.c develop.c contrib.c sockets.c dwlib.c 
+OBJ=uids.$(O) math.$(O) develop.$(O) contrib.$(O) sockets.$(O) dwlib.$(O) 
