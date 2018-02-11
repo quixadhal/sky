@@ -28,8 +28,23 @@ private void register_channels() {
     if( creatorp(TO) ) {
         string name;
 
-        channels += ({"cre", "intercre", "intergossip", "nipples",
-                      "killers", "nscre", "nschat", "skylib"});
+        channels += ({
+                "cre",
+                "nipples",
+                "killers",
+                "nschat",
+                "nscre",
+
+                "dchat",
+                "discworld-chat",
+                "ds",
+                "free_speech",
+                "intercre",
+                "intergossip",
+                "skylib",
+                "url",
+                "wileymud",
+                });
 
         if( lordp(TO) )
             channels += ({"lord"});

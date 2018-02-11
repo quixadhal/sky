@@ -1766,13 +1766,14 @@ void event_creator_tell( object ob, string start, string mess, int forced ) {
 
 void event_chat( object ob, string caller, string verb, string text,
                  int emote, int force ) {
-    string hdr;
     object person;
+    string hdr;
+    string the_time;
+    string the_chan;
+    string the_fool;
+    int indent_width;
 
     person = find_player( lower_case(caller) );
-
-    hdr = ( emote ? "("+verb+") "+caller+" " :
-      "("+( force ? "forced-" : "")+verb+") "+caller+": ");
 
     if( !force ) {
         if( TO->check_earmuffs("chat-channels") ||
@@ -1784,9 +1785,17 @@ void event_chat( object ob, string caller, string verb, string text,
                 return;
     }
 
-    efun::tell_object( ob, fix_string( replace( colour_event(
-        verb, "%^CYAN%^"), "%^", "%%^")+"%s%s%%^RESET%%^\n",
-        cols, strlen(verb)+2, hdr, text ) );
+    the_time = INTERMUD_H->getColorDayTime();
+    the_chan = INTERMUD_H->getColorChannelName(verb, (force ? "[forced-" : "["), "]");
+    the_fool = INTERMUD_H->getColorSpeakerName(caller, "", (emote ? "" : ":"));
+
+    // HH:MM <channel> speaker: message
+    hdr = implode( ({ the_time, the_chan, the_fool, "" }), " ");
+    //indent_width = 6 + strlen(verb) + 3 + strlen(caller) + 2;
+    //indent_width = 6 + strlen(verb) + 3;
+    indent_width = 6;
+
+    efun::tell_object(ob, fix_string( "%s%s%%^RESET%%^\n", cols, indent_width, hdr, text ));
 
 } /* event_chat() */
 

@@ -43,6 +43,302 @@ class intermud config;
 private void save_me();
 mixed *packet_allocate(string);
 
+#include "/include/localtime.h"
+
+int use_gmt = 0;
+
+int toggle_gmt() {
+    if( use_gmt == 1 ) {
+        use_gmt = 0;
+    } else {
+        use_gmt = 1;
+    }
+    return use_gmt;
+}
+
+nosave mapping hour_colors = ([
+        "00" : "%^BOLD%^BLACK%^",
+        "01" : "%^BOLD%^BLACK%^",
+        "02" : "%^BOLD%^BLACK%^",
+        "03" : "%^BOLD%^BLACK%^",
+        "04" : "%^RED%^",
+        "05" : "%^RED%^",
+        "06" : "%^ORANGE%^",
+        "07" : "%^ORANGE%^",
+        "08" : "%^YELLOW%^",
+        "09" : "%^YELLOW%^",
+        "10" : "%^GREEN%^",
+        "11" : "%^GREEN%^",
+        "12" : "%^BOLD%^GREEN%^",
+        "13" : "%^BOLD%^GREEN%^",
+        "14" : "%^BOLD%^WHITE%^",
+        "15" : "%^BOLD%^WHITE%^",
+        "16" : "%^BOLD%^CYAN%^",
+        "17" : "%^BOLD%^CYAN%^",
+        "18" : "%^CYAN%^",
+        "19" : "%^CYAN%^",
+        "20" : "%^BOLD%^BLUE%^",
+        "21" : "%^BOLD%^BLUE%^",
+        "22" : "%^BLUE%^",
+        "23" : "%^BLUE%^",
+        ]);
+
+// Get an hour::minute timestamp
+varargs string getDayTime(string this_time) {
+    mixed *the_time;
+
+    if(undefinedp(this_time)) {
+        the_time = localtime(time());
+        // LT_GMTOFF is the offset in seconds you need to add to get GMT.
+        if(use_gmt && the_time[LT_GMTOFF] != 0) {
+            the_time = localtime(time() + the_time[LT_GMTOFF]);
+        }
+        this_time = sprintf("%02d:%02d", the_time[LT_HOUR], the_time[LT_MIN]);
+    }
+    return this_time;
+}
+
+// Get an hour:minute timestamp with daytime color.
+varargs string getColorDayTime(string prefix, string suffix, string this_time) {
+    string hour = "";
+    string minute = "";
+
+    if(undefinedp(prefix)) prefix = "";
+    if(undefinedp(suffix)) suffix = "";
+
+    this_time = getDayTime(this_time);
+    hour = this_time[0..1];
+    minute = this_time[3..4];
+
+    return hour_colors[hour] + prefix + hour + ":" + minute + suffix + "%^RESET%^";
+}
+
+nosave mapping channel_colors = ([
+        "admin"             : "%^BOLD%^MAGENTA%^",
+        // chat
+        "cre"               : "%^BOLD%^GREEN%^",
+        "dchat"             : "%^CYAN%^",
+        "ds"                : "%^YELLOW%^",
+        "discworld-chat"    : "%^BOLD%^WHITE%^",
+        "free_speech"       : "%^BOLD%^RED%^",
+        "intercre"          : "%^ORANGE%^",
+        "intergossip"       : "%^GREEN%^",
+        // killers
+        // learning
+        // liason
+        // lord
+        // mudlib
+        // newbie
+        // nipples
+        // nschat
+        // nscre
+        // playtesters
+        // sage
+        // senior
+        // singing
+        "skylib"            : "%^BOLD%^MAGENTA%^",
+        "url"               : "%^BOLD%^WHITE%^",
+        "wileymud"          : "%^YELLOW%^",
+
+        "default"           : "%^BOLD%^BLUE%^",
+        ]);
+
+string getChannelColor(string ch) {
+    if(member_array(lower_case(ch), keys(channel_colors)) >= 0)
+        // If we have a color defined for this channel, use it!
+        return channel_colors[lower_case(ch)];
+    else
+        return channel_colors["default"];
+}
+
+varargs string getColorChannelName(string ch, string prefix, string suffix) {
+    string the_color;
+
+    if(undefinedp(prefix)) prefix = "";
+    if(undefinedp(suffix)) suffix = "";
+    the_color = getChannelColor(ch);
+
+    return the_color + prefix + ch + suffix + "%^RESET%^";
+}
+
+nosave string* chat_colors = ({
+            "%^RED%^",
+            "%^GREEN%^",
+            "%^ORANGE%^",
+            "%^BLUE%^",
+            "%^MAGENTA%^",
+            "%^CYAN%^",
+            "%^BOLD%^BLACK%^",
+            "%^BOLD%^RED%^",
+            "%^BOLD%^GREEN%^",
+            "%^YELLOW%^",
+            "%^BOLD%^BLUE%^",
+            "%^BOLD%^MAGENTA%^",
+            "%^BOLD%^CYAN%^",
+            "%^BOLD%^WHITE%^",
+
+            "%^B_RED%^BOLD%^WHITE%^",
+            "%^B_GREEN%^BOLD%^WHITE%^",
+            "%^B_BLUE%^BOLD%^WHITE%^",
+            "%^B_MAGENTA%^BOLD%^WHITE%^",
+
+            "%^B_RED%^YELLOW%^",
+            "%^B_GREEN%^YELLOW%^",
+            "%^B_BLUE%^YELLOW%^",
+            "%^B_MAGENTA%^YELLOW%^",
+
+            "%^B_RED%^BLACK%^",
+            "%^B_GREEN%^BLACK%^",
+            "%^B_MAGENTA%^BLACK%^",
+            "%^B_CYAN%^BLACK%^",
+            "%^B_ORANGE%^BLACK%^",
+            "%^B_WHITE%^BLACK%^",
+        });
+
+mapping chatters = ([ ]);
+mapping renamed_chatters = ([ ]);
+int chat_counter = 0;
+
+// Sets a particular user to be a particular color.
+int setSpeakerColor(string who, string color) {
+    string shortwho;
+
+    shortwho = lower_case(explode(who, "@")[0]);
+    if(member_array(shortwho, keys(renamed_chatters)) >= 0) {
+        shortwho = renamed_chatters[shortwho];
+    }
+    if(member_array(shortwho,keys(chatters)) >= 0) {
+        chatters[shortwho] = color;
+        save_me();
+        return 1;
+    }
+    return 0;
+}
+
+// Rename a chatter, putting their old name in a renamed mapping.
+int renameChatter(string who, string to, int keep_source_color) {
+    string shortwho;
+    string shortto;
+
+    shortwho = lower_case(explode(who, "@")[0]);
+    shortto = lower_case(explode(to, "@")[0]);
+    if (member_array(shortwho,keys(chatters)) < 0) {
+        // If the source doesn't exist, there's nothing to do.
+        return 0;
+    }
+    // Copy the source value to the destination and then nuke the source.
+    renamed_chatters[shortwho] = shortto;
+    if(keep_source_color)
+        chatters[shortto] = chatters[shortwho];
+    map_delete( chatters, shortwho);
+    save_me();
+    return 1;
+}
+
+// Figure out what color to make this guy.
+string getSpeakerColor(string who) {
+    string color, shortwho;
+
+    shortwho = lower_case(explode(who, "@")[0]);
+    if(member_array(shortwho, keys(renamed_chatters)) >= 0) {
+        shortwho = renamed_chatters[shortwho];
+    }
+    if (member_array(shortwho,keys(chatters)) >= 0) {
+        color = chatters[shortwho];
+    } else {
+        color = chat_colors[chat_counter % sizeof(chat_colors)];
+        chatters[shortwho] = color;
+        chat_counter++;
+        save_me();
+    }
+    return color;
+}
+
+// Show who is mapped to a particular color.
+mapping mapSpeakerColors() {
+    int i;
+    mixed *k;
+    mixed *v;
+    mixed m;
+    k = keys(chatters);
+    v = values(chatters);
+    m = ([]);
+
+    for(i = 0; i < sizeof(k); i++) {
+        m[v[i]] = undefinedp(m[v[i]]) ? ({ k[i] }) : m[v[i]] + ({ k[i] });
+    }
+
+    return m;
+}
+
+// Output a semi-pretty screen of colors mapped to speaker names.
+varargs string showSpeakerColors(string who) {
+    int i;
+    mapping m;
+    string s = "";
+    mixed *k;
+    int t = 0;
+    int w;
+    string color;
+    string t_name = this_player()->query_term_name() || "dumb";
+    mapping c_map = (mapping)TERM_H->set_term_type(t_name);
+
+    if(!undefinedp(who)) {
+        string shortwho = lower_case(explode(who, "@")[0]);
+        if(member_array(shortwho, keys(renamed_chatters)) >= 0) {
+            shortwho = renamed_chatters[shortwho];
+        }
+        if(member_array(shortwho,keys(chatters)) >= 0) {
+            color = chatters[shortwho];
+        }
+    }
+    //w= this_player()->GetScreen()[0] || 80;
+    w = 80;
+    m = mapSpeakerColors();
+    k = sort_array(keys(m), 1);
+    for(i = 0; i < sizeof(k); i++) {
+        string nk;
+        int c;
+        string * lines;
+        int j;
+
+        if(!undefinedp(color)) {
+            if(k[i] != color) {
+                continue;
+            }
+        }
+        nk = replace_string(k[i], "%^", "");
+        c = sizeof(m[k[i]]);
+        if(undefinedp(color)) {
+            lines = explode( terminal_colour(implode(sort_array(m[k[i]], 1), ", "), c_map, w - 30, 0), "\n");
+            for(j = 1; j < sizeof(lines); j++) {
+                lines[j] = sprintf("%%^RESET%%^%29s%s%s", "", k[i], lines[j]);
+            }
+            s += sprintf("(%4d) %-20s: %s%s%s\n", c, nk, k[i], implode(lines, "\n"), "%^RESET%^");
+        } else {
+            s += sprintf("(%d) %s: %s%s%s\n", c, nk, k[i], implode(sort_array(m[k[i]], 1), ", "), "%^RESET%^");
+        }
+
+        t += c;
+    }
+    if(undefinedp(color)) {
+        s += sprintf("(%4d) Total\n", t);
+    }
+
+    return s;
+}
+
+// Add the speaker's color to their name.
+varargs string getColorSpeakerName(string speaker, string prefix, string suffix) {
+    string the_color;
+
+    if(undefinedp(prefix)) prefix = "";
+    if(undefinedp(suffix)) suffix = "";
+    the_color = getSpeakerColor(speaker);
+
+    return the_color + prefix + speaker + suffix + "%^RESET%^";
+}
+
 private void create() {
     string host;
     int port;
@@ -149,6 +445,13 @@ private void mudlist_reply( mixed *packet ) {
         return;
     }
 
+    // Due to a change in the way mudlist packets are broken up and sent
+    // in chunks by the server, we can't skip id's that are the same
+    // as the last one we saw anymore.
+    //
+    // Change this to < instead of ==, so we still skip OLD packets,
+    // if they somehow appear.
+    //
     if( packet[ S_P + MUDLIST_ID ] == config->mud_list->id )
         return;
 
@@ -293,6 +596,12 @@ protected void client_write_callback( int fd ) {
         startup_req();
     tcp_client::client_write_callback(fd);
 } /* client_write_callback() */
+
+int is_connected() {
+    if( config->connected )
+        return 1;
+    return 0;
+} /* is_connected() */
 
 protected void client_read_callback( int fd, mixed *packet ) {
     tcp_client::client_read_callback( fd, packet );

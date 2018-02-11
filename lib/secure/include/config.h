@@ -40,6 +40,6 @@
 #define CONFIG_DB_ERRORS   "errors"
 
 /** The web address to use for the site. */
-#define CONFIG_WEB_ADDRESS "http://www.divided-sky.com:7303/"
+#define CONFIG_WEB_ADDRESS "https://youtu.be/KzZBxA4OCsY"
 
 #endif /* __SYS__CONFIG */

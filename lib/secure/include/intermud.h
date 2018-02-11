@@ -249,11 +249,17 @@
 ])
 
 #define DEFAULT_CHANNELS ({ \
+  "dchat", \
+  "discworld-chat", \
+  "ds", \
+  "free_speech", \
   "imud_code", \
   "imud_gossip", \
   "nschat", \
   "nscre", \
   "skylib", \
+  "url", \
+  "wileymud", \
 })
 
 #define ROUTER_ERRORS ([ \
